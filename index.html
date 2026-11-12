@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0e1420">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Stock News">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<title>Stock News</title>
+<style>
+:root{color-scheme:dark;--bg:#0e1420;--card:#151d2c;--line:#243047;--text:#e8edf5;--mute:#8d9ab0;--link:#7cb7ff;--hot:#f2b84b}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+body{padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+main{max-width:720px;margin:0 auto;padding:16px}
+h1{font-size:1.6rem;margin:8px 0 0;letter-spacing:-.01em}
+.mute{color:var(--mute);font-size:.85rem;margin:2px 0 14px}
+button,input{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.seg{display:flex;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:3px;margin-bottom:14px}
+.seg button{flex:1;border:0;background:none;padding:10px;border-radius:9px;color:var(--mute);font-weight:600}
+.seg button.on{background:var(--line);color:var(--text)}
+.add{display:flex;gap:8px;margin-bottom:10px}
+.add input,#key{flex:1;min-width:0;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.add button,.btn{background:var(--link);color:#0a1220;border:0;border-radius:10px;padding:10px 16px;font-weight:700}
+#chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.chip{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px 6px 4px 12px;display:flex;gap:6px;align-items:center}
+.chip button{border:0;background:none;color:var(--mute);font-size:1.1rem;line-height:1;padding:2px 6px}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin-bottom:14px}
+summary{cursor:pointer;font-weight:600}
+details p,details ul{color:var(--mute);font-size:.9rem}
+#digest{padding-left:18px;color:var(--text);margin:10px 0 2px}
+#digest li{margin:6px 0}
+#cats{display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;margin-bottom:6px}
+#cats button{flex:none;background:none;border:1px solid var(--line);border-radius:999px;padding:6px 14px;color:var(--mute)}
+#cats button.on{background:var(--text);color:var(--bg);border-color:var(--text);font-weight:600}
+.card{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--line);border-radius:12px;padding:14px;margin:12px 0}
+.card[data-imp="3"]{border-left-color:#5b7099}
+.card[data-imp="4"]{border-left-color:#c99a3d}
+.card[data-imp="5"]{border-left-color:var(--hot)}
+.top{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:.8rem;color:var(--mute)}
+.tk{background:var(--line);border-radius:6px;padding:1px 7px;color:var(--text);font-weight:600}
+.card h2{font-size:1.05rem;line-height:1.35;margin:8px 0 2px}
+.card a{color:var(--text);text-decoration:none}
+.card a:hover{color:var(--link);text-decoration:underline}
+.meta{color:var(--mute);font-size:.82rem;margin:0 0 8px}
+.card p{margin:6px 0}
+.mean{background:#0f1726;border-radius:8px;padding:10px 12px;margin-top:10px;font-size:.92rem}
+.mean b{display:block;color:var(--hot);font-size:.82rem;margin-bottom:2px}
+.empty{color:var(--mute);text-align:center;padding:30px 10px}
+footer{color:var(--mute);font-size:.78rem;margin:24px 0 10px;text-align:center}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<main>
+  <h1>Stock News</h1>
+  <p class="mute" id="upd">Loading…</p>
+
+  <div class="seg">
+    <button id="vAll" class="on">Market</button>
+    <button id="vMine">My stocks</button>
+  </div>
+
+  <section id="mine" hidden>
+    <div class="add">
+      <input id="tk" placeholder="Add a ticker, like AMD" maxlength="6" autocapitalize="characters" autocomplete="off" aria-label="Ticker symbol">
+      <button id="addBtn">Add</button>
+    </div>
+    <div id="chips"></div>
+    <details>
+      <summary>Settings</summary>
+      <p>Stocks outside the default list need your own free Finnhub key (finnhub.io). It stays on this device only.</p>
+      <div class="add"><input id="key" type="password" placeholder="Finnhub key" autocomplete="off" aria-label="Finnhub key"><button class="btn" id="saveKey">Save key</button></div>
+      <p id="cover"></p>
+    </details>
+  </section>
+
+  <details id="digestBox" open>
+    <summary>Today in brief</summary>
+    <ul id="digest"></ul>
+  </details>
+
+  <nav id="cats" aria-label="Categories"></nav>
+  <div id="list"></div>
+
+  <footer>Summaries are AI-written from the linked articles and can be wrong. Open the source before acting. This is not financial advice.</footer>
+</main>
+
+<script>
+const TRUSTED=["reuters","associated press","ap news","bloomberg","cnbc","marketwatch","wall street journal","wsj","barron","financial times","federal reserve"];
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safe=u=>/^https?:\/\//.test(u)?u:"#";
+const trusted=s=>TRUSTED.some(t=>(s||"").toLowerCase().includes(t));
+const store={get(k,d){try{const v=JSON.parse(localStorage.getItem(k));return v??d}catch{return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch{}}};
+
+let data={items:[],universe:[],digest:[],categories:[]},live=[],liveNote="",liveFor="";
+let watch=store.get("watch",[]),key=store.get("fhkey",""),view="all",cat="All";
+
+function ago(sec){const m=Math.max(1,Math.round((Date.now()/1000-sec)/60));if(m<60)return m+"m ago";const h=Math.round(m/60);return h<48?h+"h ago":Math.round(h/24)+"d ago"}
+
+function card(i){
+  const imp=Math.min(5,Math.max(1,Number(i.importance)||2));
+  const tk=(i.tickers||[]).slice(0,4).map(t=>`<span class="tk">${esc(t)}</span>`).join("");
+  return `<article class="card" data-imp="${imp}">
+    <div class="top"><span>${esc(i.category)}</span>${tk}</div>
+    <h2><a href="${esc(safe(i.url))}" target="_blank" rel="noopener noreferrer">${esc(i.headline)}</a></h2>
+    <p class="meta">${esc(i.source)}, ${ago(i.time)}</p>
+    ${i.summary?`<p>${esc(i.summary)}</p>`:""}
+    ${i.meaning?`<div class="mean"><b>What it means for you</b>${esc(i.meaning)}</div>`:""}
+  </article>`;
+}
+
+function base(){
+  if(view==="all")return data.items;
+  return data.items.filter(i=>(i.tickers||[]).some(t=>watch.includes(t))).concat(live);
+}
+
+function render(){
+  const all=base().slice().sort((a,b)=>b.time-a.time);
+  const cats=["All",...new Set(all.map(i=>i.category))];
+  if(!cats.includes(cat))cat="All";
+  $("#cats").innerHTML=cats.map(c=>`<button data-c="${esc(c)}" class="${c===cat?"on":""}">${esc(c)}</button>`).join("");
+  const list=cat==="All"?all:all.filter(i=>i.category===cat);
+  let html=list.map(card).join("");
+  if(!html){
+    html=`<p class="empty">${view==="mine"?(watch.length?"No recent trusted news for your stocks yet.":"Add a ticker above to follow a stock."):"No news yet. The first update can take a few minutes."}</p>`;
+  }
+  $("#list").innerHTML=(liveNote&&view==="mine"?`<p class="empty">${esc(liveNote)}</p>`:"")+html;
+  $("#chips").innerHTML=watch.map(t=>`<span class="chip">${esc(t)}<button data-r="${esc(t)}" aria-label="Remove ${esc(t)}">×</button></span>`).join("");
+  $("#digest").innerHTML=(data.digest||[]).map(d=>`<li>${esc(d)}</li>`).join("")||"<li>Summary will appear after the next update.</li>";
+  $("#cover").textContent="Default coverage: "+(data.universe||[]).join(", ");
+}
+
+async function loadLive(){
+  const extra=watch.filter(t=>!(data.universe||[]).includes(t));
+  const sig=extra.join()+"|"+key;
+  if(sig===liveFor)return;
+  liveFor=sig;live=[];liveNote="";
+  if(!extra.length)return;
+  if(!key){liveNote="To follow "+extra.join(", ")+", add your free Finnhub key in Settings.";return}
+  const d=x=>x.toISOString().slice(0,10),to=new Date(),from=new Date(Date.now()-3*864e5);
+  for(const t of extra){
+    try{
+      const r=await fetch(`https://finnhub.io/api/v1/company-news?symbol=${encodeURIComponent(t)}&from=${d(from)}&to=${d(to)}&token=${encodeURIComponent(key)}`);
+      if(!r.ok)throw 0;
+      (await r.json()).filter(a=>trusted(a.source)).slice(0,6).forEach(a=>live.push({headline:a.headline,source:a.source,url:a.url,time:a.datetime,tickers:[t],category:"Your stocks",summary:(a.summary||"").slice(0,220),meaning:"",importance:2}));
+    }catch{liveNote="Could not load news for "+t+". Check your Finnhub key."}
+  }
+}
+
+function setView(v){
+  view=v;cat="All";
+  $("#vAll").classList.toggle("on",v==="all");
+  $("#vMine").classList.toggle("on",v==="mine");
+  $("#mine").hidden=v!=="mine";
+  $("#digestBox").hidden=v!=="all";
+  render();
+  if(v==="mine")loadLive().then(render);
+}
+
+$("#vAll").onclick=()=>setView("all");
+$("#vMine").onclick=()=>setView("mine");
+$("#cats").onclick=e=>{const c=e.target.dataset.c;if(c){cat=c;render()}};
+$("#chips").onclick=e=>{const t=e.target.dataset.r;if(t){watch=watch.filter(x=>x!==t);store.set("watch",watch);liveFor="";render();loadLive().then(render)}};
+function addTicker(){
+  const t=$("#tk").value.trim().toUpperCase();
+  if(!/^[A-Z][A-Z.\-]{0,5}$/.test(t)||watch.includes(t)||watch.length>=30){$("#tk").value="";return}
+  watch.push(t);store.set("watch",watch);$("#tk").value="";render();loadLive().then(render);
+}
+$("#addBtn").onclick=addTicker;
+$("#tk").onkeydown=e=>{if(e.key==="Enter")addTicker()};
+$("#saveKey").onclick=()=>{key=$("#key").value.trim();store.set("fhkey",key);$("#key").value="";liveFor="";loadLive().then(render)};
+$("#key").placeholder=key?"Key saved (enter a new one to replace)":"Finnhub key";
+
+fetch("news.json?"+Date.now()).then(r=>r.json()).then(d=>{
+  data=d;
+  $("#upd").textContent="Updated "+ago(d.updated);
+  render();
+}).catch(()=>{
+  $("#upd").textContent="No data yet";
+  $("#list").innerHTML='<p class="empty">No news file found. Run the "Update news" workflow on GitHub once.</p>';
+});
+
+if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
+</script>
+</body>
+</html>

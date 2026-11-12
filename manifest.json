@@ -1,0 +1,10 @@
+{
+  "name": "Stock News",
+  "short_name": "Stock News",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0e1420",
+  "theme_color": "#0e1420",
+  "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}]
+}
