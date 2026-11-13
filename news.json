@@ -1,5 +1,5 @@
 {
- "updated": 1794531535,
+ "updated": 1794553066,
  "universe": [
   "AAPL",
   "MSFT",
@@ -36,14 +36,115 @@
   "Markets",
   "Company"
  ],
- "digest": [
-  "Nvidia faces executive changes and investigations as CEO Jensen Huang's departure weighs on the stock and its organizational structure.",
-  "Federal Reserve policy updates, interest rate expectations, and upcoming 2027 meeting schedules are driving bond yield volatility.",
-  "Geopolitical tensions surrounding the U.S. and Iran, alongside pipeline attacks in Saudi Arabia, are impacting oil markets.",
-  "Major technology companies like Microsoft, Amazon, Google, and Cisco are making headlines through deals, earnings beats, and technical outages.",
-  "Personal finance updates include new IRS 401(k) contribution limits for 2027 and discussions around retirement and estate planning."
- ],
+ "digest": [],
  "items": [
+  {
+   "headline": "Why Singapore keeps turning up in the fight over Nvidia chips and China",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-alice-spy-megaspeed-.html",
+   "source": "CNBC",
+   "time": 1794551647,
+   "tickers": [
+    "NVDA"
+   ],
+   "category": "Markets",
+   "summary": "Singapore said it had barred Alice Huang from re-entering the country and that U.S. authorities had provided limited help with its yearlong investigations.",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+   "source": "CNBC",
+   "time": 1794549094,
+   "tickers": [
+    "NVDA"
+   ],
+   "category": "Markets",
+   "summary": "Jensen Huang's resignation added to Nvidia's market woes, with the stock already in a downward slide since early October.",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?",
+   "url": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "time": 1794545160,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "There is already a demographic ‘run’ on Social Security.",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html",
+   "source": "CNBC",
+   "time": 1794542864,
+   "tickers": [
+    "NVDA"
+   ],
+   "category": "Markets",
+   "summary": "The retention of Wachtell, Lipton for the Nvidia probe comes on the heels of the law firm's investigation for the NBA into the Los Angeles Clippers.",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "As Nvidia reels from Huang's affairs, who stands to gain?",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-affairs-amd-broadcom-tsmc.html",
+   "source": "CNBC",
+   "time": 1794542380,
+   "tickers": [
+    "NVDA"
+   ],
+   "category": "Markets",
+   "summary": "That shift comes as Nvidia grapples with the fallout from Huang's resignation, following revelations about his multiple affairs.",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "Oil prices set for second weekly decline as Trump sticks with Iran blockade - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0ZTUUtQbXVySmRXLWtEc2xtZDk5RWkwa29OWlEyQjN3UXVzMkZTYzF3ajVoNkVXZnBnODVRTkN0b1ZwaVk4VE5KOXFqZktYbG1PN1RwdEtwS1ZEb3BBUEkxM2JtUl91NkxCMWpjbmxWV3RScndxMjJUcjh4dEpZM256Nl8tY19iWmp4OExndnRRaXQwdFRpMGRYRDFnNGQ1eEFhNEVrZjZwaW0tamJkLXFYa1I3V1EzbVE?oc=5",
+   "source": "Reuters",
+   "time": 1794538860,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "Oil prices set for second weekly decline as Trump sticks with Iran blockade  Reuters",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "How the Jensen Huang affair changes the outlook for U.S.-China relations",
+   "url": "https://www.cnbc.com/2026/11/13/jensen-huang-nvidia-us-china-relations.html",
+   "source": "CNBC",
+   "time": 1794538595,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "The political climate heading into next week's Trump-Xi summit is drastically different from the last meeting in September.",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "Iran's Guards say they targeted a US early-warning radar in Bahrain - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjhnZVFHWnV4RHpscnFyUjFWOEl5VndNZ0Y4MFdEVlpueUNaeHRPMVdCbjA4Mmktc0tYWnFsZWdZSkd4dFNvTmszUHFWdC15S0pja2ozaTg0R0dOdEY3aDJtenZwREh5dmRvTGVTUkxVUDNjN3huQU1TRTU1bEVBampuYzdsTjJJZ2tBUXQwal85QnRsWDU4OWNvbDVzN0VUR1R0clNkZmpkaXZMaWh5dExSNHRCUQ?oc=5",
+   "source": "Reuters",
+   "time": 1794538260,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "Iran's Guards say they targeted a US early-warning radar in Bahrain  Reuters",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "Dollar near 19-month high on Fed hike bets, yen tests 160 - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdXI2eWRwY1h1QWkxeldEbWhGUmdSYzRrQjZveW9TTm5LekpTdEthSzRRZHI1NlhoQjAwXzdjdVFSU0ItZjA3NFFxTUUxQlNWUzBoRHdtVkhtZ09hVUt2SmNyaFVvRkhOa0VERndHN1EweWdGajFEa050UDNqN1dCTllZamxKS0J1R0FHWXJOU0lweWJDMnV2clZBRVI4YVU4MTFBeg?oc=5",
+   "source": "Reuters",
+   "time": 1794535080,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "Dollar near 19-month high on Fed hike bets, yen tests 160  Reuters",
+   "meaning": "",
+   "importance": 2
+  },
   {
    "headline": "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
    "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
@@ -51,9 +152,9 @@
    "time": 1794528079,
    "tickers": [],
    "category": "Markets",
-   "summary": "Oil prices were mixed following President Donald Trump's comments that no Iran deal is needed because the U.S. controls the Strait.",
-   "meaning": "Changes in oil prices can influence broader market sentiment and energy sector costs, which is useful to keep in mind for long-term portfolio tracking.",
-   "importance": 3
+   "summary": "Oil prices were mixed on Thursday, after the latest comments from President Donald Trump raised worries that an end to the U.S.-Iran war was not in sight.",
+   "meaning": "",
+   "importance": 2
   },
   {
    "headline": "Who can replace Jensen Huang as Nvidia CEO? These four names are buzzing in AI circles.",
@@ -63,10 +164,10 @@
    "tickers": [
     "NVDA"
    ],
-   "category": "Big Tech",
-   "summary": "Nvidia's board is searching for a replacement CEO who possesses a balance of tech vision and business savvy.",
-   "meaning": "Leadership changes at major technology companies can introduce uncertainty regarding future strategy and execution.",
-   "importance": 4
+   "category": "Markets",
+   "summary": "As Nvidia’s board seeks a new CEO, experts say that person will need a rare balance of tech vision and business savvy",
+   "meaning": "",
+   "importance": 2
   },
   {
    "headline": "Opening trading-card packs has become a $2 billion market",
@@ -75,8 +176,8 @@
    "time": 1794523080,
    "tickers": [],
    "category": "Markets",
-   "summary": "Trading-card pack-ripping apps have grown into a $2 billion market, though analysts note risks tied to slot-like payoffs.",
-   "meaning": "This highlights alternative retail trends and consumer spending habits in niche collectible markets.",
+   "summary": "Pack-ripping apps are changing the way people buy and sell cards. But analysts say their “slot-like payoff” raises risks.",
+   "meaning": "",
    "importance": 2
   },
   {
@@ -85,10 +186,10 @@
    "source": "MarketWatch",
    "time": 1794521760,
    "tickers": [],
-   "category": "Fed & Economy",
-   "summary": "Bond yields experienced their largest surge since 2022 amid growing expectations for more Federal Reserve rate hikes.",
-   "meaning": "Shifts in bond yields can affect borrowing costs and broader market valuations across asset classes.",
-   "importance": 4
+   "category": "Markets",
+   "summary": "Fed Chair Warsh’s quiet style of communicating interest-rate policy has led to more volatile markets.",
+   "meaning": "",
+   "importance": 2
   },
   {
    "headline": "Without Jensen Huang, Nvidia's organizational structure isn't 'built to last,' management expert says",
@@ -98,10 +199,10 @@
    "tickers": [
     "NVDA"
    ],
-   "category": "Big Tech",
-   "summary": "A management expert stated that Nvidia's flat organizational structure is not built to last without Jensen Huang.",
-   "meaning": "Internal corporate structure can impact how smoothly a company handles leadership transitions.",
-   "importance": 3
+   "category": "Markets",
+   "summary": "Nvidia's flat management structure could pose challenges for Huang's successor, according to experts.",
+   "meaning": "",
+   "importance": 2
   },
   {
    "headline": "‘He calls my plans a fantasy’: My husband says we can’t afford our $200,000-a-year dream retirement. I think he’s cheap.",
@@ -110,9 +211,9 @@
    "time": 1794520800,
    "tickers": [],
    "category": "Markets",
-   "summary": "A couple debates whether they can afford a $200,000-a-year retirement despite having $2 million saved and a $1.3 million house.",
-   "meaning": "Personal retirement planning discussions underscore the importance of aligning individual savings goals with realistic lifestyle expectations.",
-   "importance": 1
+   "summary": "“We have $2 million saved in our retirement accounts and a house worth $1.3 million.”",
+   "meaning": "",
+   "importance": 2
   },
   {
    "headline": "Am I overpaying for health insurance? How to answer the key question this open-enrollment season.",
@@ -121,9 +222,9 @@
    "time": 1794520500,
    "tickers": [],
    "category": "Markets",
-   "summary": "Financial planners report that more people are carefully reviewing the fine print on health insurance during open-enrollment season.",
-   "meaning": "Understanding health plan details helps manage personal out-of-pocket expenses.",
-   "importance": 1
+   "summary": "More people want to understand the fine print on plans this year, financial planners say.",
+   "meaning": "",
+   "importance": 2
   },
   {
    "headline": "The 10 best stocks for a year-end momentum trade",
@@ -132,8 +233,8 @@
    "time": 1794520200,
    "tickers": [],
    "category": "Markets",
-   "summary": "December is highlighted as a strong month for momentum trading strategies, featuring a list of top stocks.",
-   "meaning": "Momentum strategies focus on short-term price trends, which differ from a steady, long-term buy-and-hold investing style.",
+   "summary": "Why December is the best month of the year for momentum strategies",
+   "meaning": "",
    "importance": 2
   },
   {
@@ -143,9 +244,9 @@
    "time": 1794519000,
    "tickers": [],
    "category": "Markets",
-   "summary": "An individual who inherited $1.4 million is considering asking her husband for a postnuptial agreement.",
-   "meaning": "This is a personal family finance matter involving estate planning and inheritance laws rather than corporate market news.",
-   "importance": 1
+   "summary": "“He has always said he wants his daughter to inherit a chunk of his estate, and I’ve never objected to that.”",
+   "meaning": "",
+   "importance": 2
   },
   {
    "headline": "Cerebras surges 13% after beating on quarterly revenue and announcing Microsoft deal",
@@ -153,14 +254,12 @@
    "source": "CNBC",
    "time": 1794518613,
    "tickers": [
-    "AMZN",
-    "MSFT",
-    "ORCL"
+    "MSFT"
    ],
-   "category": "AI & Chips",
-   "summary": "Cerebras stock surged 13% after beating quarterly revenue expectations and announcing a deal with Microsoft.",
-   "meaning": "Partnerships with major cloud providers can serve as notable growth catalysts for smaller technology firms.",
-   "importance": 3
+   "category": "Markets",
+   "summary": "Cerebras announced a new deal with Microsoft after partnering with major cloud providers Amazon and Oracle.",
+   "meaning": "",
+   "importance": 2
   },
   {
    "headline": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
@@ -168,23 +267,10 @@
    "source": "CNBC",
    "time": 1794518435,
    "tickers": [],
-   "category": "Earnings",
-   "summary": "Cisco beat earnings expectations and projected that its AI infrastructure revenue will double this fiscal year.",
-   "meaning": "Strong financial results and AI revenue growth show how established hardware companies are trying to capture emerging tech demand.",
-   "importance": 3
-  },
-  {
-   "headline": "The S&P 500 is shrugging off Nvidia’s selloff this week. Here’s what’s keeping the rest of the market afloat.",
-   "url": "https://www.marketwatch.com/story/the-s-p-500-is-shrugging-off-nvidias-selloff-heres-whats-keeping-the-rest-of-the-market-afloat-7cdf2f05?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "time": 1794517680,
-   "tickers": [
-    "NVDA"
-   ],
    "category": "Markets",
-   "summary": "The S&P 500 is remaining resilient and shrugging off Nvidia's recent selloff as investors look to other stocks.",
-   "meaning": "A diversified market means investors can watch how strength in other sectors balances out declines in individual mega-cap tech stocks.",
-   "importance": 4
+   "summary": "Cisco is trying to become a bigger player in AI after missing out on the early years of the boom.",
+   "meaning": "",
+   "importance": 2
   },
   {
    "headline": "Microsoft outage hits Outlook. AWS and Google users also report issues",
@@ -195,20 +281,9 @@
     "GOOGL",
     "MSFT"
    ],
-   "category": "Big Tech",
-   "summary": "A Microsoft Outlook outage also brought reported issues for Amazon Web Services and Google users.",
-   "meaning": "Service outages can temporarily disrupt cloud infrastructure operations across major technology providers.",
-   "importance": 2
-  },
-  {
-   "headline": "Trump says ‘we don’t need a deal with Iran’",
-   "url": "https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html",
-   "source": "CNBC",
-   "time": 1794515671,
-   "tickers": [],
-   "category": "Fed & Economy",
-   "summary": "President Trump stated that a deal with Iran is unnecessary and directed Vice President JD Vance to focus on domestic corruption and crime.",
-   "meaning": "Shifts in administration focus and foreign policy statements can influence geopolitical risk and domestic political discussions.",
+   "category": "Markets",
+   "summary": "Amazon Web Services and Google users also reported outages on Thursday",
+   "meaning": "",
    "importance": 2
   },
   {
@@ -217,9 +292,9 @@
    "source": "CNBC",
    "time": 1794515099,
    "tickers": [],
-   "category": "AI & Chips",
-   "summary": "United Airlines will not allow AI agents to book flights, with experts advising that human input remains necessary for critical decisions.",
-   "meaning": "This reflects the current operational and ethical boundaries companies and consumers place on utilizing automation tools.",
+   "category": "Markets",
+   "summary": "AI agents can save you time, but an expert says decisions involving your health, wealth and privacy still need human input.",
+   "meaning": "",
    "importance": 2
   },
   {
@@ -229,9 +304,9 @@
    "time": 1794514701,
    "tickers": [],
    "category": "Markets",
-   "summary": "Yemen's Houthis reported an attack on a pumping station located on Saudi Arabia's East-West oil pipeline.",
-   "meaning": "Attacks on energy infrastructure can introduce supply concerns into global oil markets.",
-   "importance": 3
+   "summary": "Yemen's Houthis say they attacked pumping station on Saudi Arabia's East-West oil pipeline  Reuters",
+   "meaning": "",
+   "importance": 2
   },
   {
    "headline": "Alice Huang tied to Nvidia’s biggest Chinese competitor",
@@ -241,9 +316,9 @@
    "tickers": [
     "NVDA"
    ],
-   "category": "Big Tech",
-   "summary": "Reports link Alice Huang to Nvidia's Chinese competitor and note she owned stakes in companies providing computing power to Huawei.",
-   "meaning": "Ties between industry figures and competing international firms can attract regulatory or public scrutiny.",
+   "category": "Markets",
+   "summary": "The woman with whom Jensen Huang reportedly had a relationship also owned stakes in companies that provided computing power to Huawei, a key Nvidia competitor.",
+   "meaning": "",
    "importance": 2
   },
   {
@@ -254,10 +329,10 @@
    "tickers": [
     "NVDA"
    ],
-   "category": "Big Tech",
-   "summary": "Nvidia stock fell 5% following the departure of CEO Jensen Huang, dividing market professionals on whether to buy the dip or sell.",
-   "meaning": "Sudden executive departures can cause sharp stock price volatility, requiring investors to evaluate their long-term thesis on the company.",
-   "importance": 4
+   "category": "Markets",
+   "summary": "Nvidia stock fell 5% on Thursday following the departure of CEO Jensen Huang. Some see it as a signal to sell, others an opportunity to buy.",
+   "meaning": "",
+   "importance": 2
   },
   {
    "headline": "Who will replace Jensen Huang? Here's our early thoughts on the search for Nvidia's next CEO",
@@ -267,23 +342,10 @@
    "tickers": [
     "NVDA"
    ],
-   "category": "Big Tech",
-   "summary": "An investing club provided early thoughts on the search process for Nvidia's next CEO.",
-   "meaning": "Commentary on executive searches provides insight into how analysts evaluate leadership transitions at major tech firms.",
+   "category": "Markets",
+   "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+   "meaning": "",
    "importance": 2
-  },
-  {
-   "headline": "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation",
-   "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html",
-   "source": "CNBC",
-   "time": 1794513491,
-   "tickers": [
-    "NVDA"
-   ],
-   "category": "Big Tech",
-   "summary": "Nvidia retained Wachtell, Lipton and ex-prosecutor Joon Kim to handle an investigation.",
-   "meaning": "Legal investigations involving top companies can introduce corporate governance concerns and headline risk.",
-   "importance": 3
   },
   {
    "headline": "Donald Trump Jr. exits advisory role at Kalshi prediction market",
@@ -292,9 +354,22 @@
    "time": 1794511178,
    "tickers": [],
    "category": "Markets",
-   "summary": "Donald Trump Jr. has exited his advisory role at the Kalshi prediction market.",
-   "meaning": "Changes in advisory board positions at private prediction platforms offer a look at the personnel involvements of prominent public figures.",
-   "importance": 1
+   "summary": "The president's son will no longer serve as an advisor at Kalshi.",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "Microsoft outage drags on for hours, disrupting Outlook, Teams for thousands - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQWpWeUZnbllhcFk4WktZS0s3T1N6T3k3Vnhhd3pfSE9SWF9iRmRIQUljdHZXN0UtWS1uZS1rbUNZSlVPd1NXLXRtVUVtc3NQNTgxMVFMWjVnT3pPb09EX1g1YUx3WkF2VHk0bUMwWlhkRHdpT0JFRE5SQ3pQRkdmSnpUOHNXLUo1dXNSY3lFdkpSdU5laDdwSlhWRDVnNjBFcUh2Y0FwMXNldE8tSFpPaw?oc=5",
+   "source": "Reuters",
+   "time": 1794508320,
+   "tickers": [
+    "MSFT"
+   ],
+   "category": "Markets",
+   "summary": "Microsoft outage drags on for hours, disrupting Outlook, Teams for thousands  Reuters",
+   "meaning": "",
+   "importance": 2
   },
   {
    "headline": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
@@ -302,20 +377,9 @@
    "source": "Federal Reserve",
    "time": 1794508200,
    "tickers": [],
-   "category": "Fed & Economy",
-   "summary": "The Federal Reserve Board announced pricing updates for bank payment services and check service adjustments effective January 1, 2027.",
-   "meaning": "Administrative updates to Federal Reserve banking services are operational changes that generally do not directly impact retail stock investors.",
-   "importance": 1
-  },
-  {
-   "headline": "Trump says US does not need Iran deal, directs Vance to focus on domestic corruption - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTkdBWnZVWXZqcEFwdWFkTmw5XzVHVndjNzBhdW1GZVFfT2d2OFBzVDlLbC1pdmNvZTY5X01iRE01eGktRlh0b0s2bXJSTm9ZS19CZkdnVzR6bmEzOFJlQjNET2NvTl9yVGZjeHg5SkxVcmZ5UHFkLXcxQ1M3N1dRU3R5R05raV9VOVRsUDRFZE9sT1B6NmZ0ZTA4SFB0TlNYTUNhUHdMWVNKV0tDSmd4d19IRERyblE2QkgxSlpzSQ?oc=5",
-   "source": "Reuters",
-   "time": 1794508013,
-   "tickers": [],
-   "category": "Fed & Economy",
-   "summary": "President Trump reiterated that the US does not need an Iran deal and redirected Vice President Vance's focus to domestic issues.",
-   "meaning": "Reiterated foreign policy statements help signal the administration's current diplomatic and domestic priorities.",
+   "category": "Markets",
+   "summary": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check ",
+   "meaning": "",
    "importance": 2
   },
   {
@@ -324,80 +388,10 @@
    "source": "Reuters",
    "time": 1794507770,
    "tickers": [],
-   "category": "Regulation",
-   "summary": "Two Iranian men were found guilty in the UK of assisting Iranian intelligence.",
-   "meaning": "Legal proceedings regarding international intelligence operations highlight ongoing geopolitical security actions abroad.",
-   "importance": 1
-  },
-  {
-   "headline": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
-   "url": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html",
-   "source": "CNBC",
-   "time": 1794507092,
-   "tickers": [],
-   "category": "Fed & Economy",
-   "summary": "Fed Chair Kevin Warsh announced a policy switch stating that the October 2027 FOMC meeting will not feature an interest rate vote.",
-   "meaning": "Adjustments to central bank meeting schedules and voting procedures help shape expectations for the timing of future monetary policy updates.",
-   "importance": 3
-  },
-  {
-   "headline": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
-   "source": "Federal Reserve",
-   "time": 1794505500,
-   "tickers": [],
-   "category": "Fed & Economy",
-   "summary": "The Federal Reserve released a revised tentative schedule for its FOMC meetings in 2027.",
-   "meaning": "Knowing the calendar for Federal Reserve meetings helps long-term investors track when key economic policy announcements will occur.",
-   "importance": 2
-  },
-  {
-   "headline": "IRS announces 2027 401(k) contribution limits, raises savings cap: What it means for your money",
-   "url": "https://www.cnbc.com/2026/11/12/401k-contribution-limits-2027.html",
-   "source": "CNBC",
-   "time": 1794504194,
-   "tickers": [],
-   "category": "Fed & Economy",
-   "summary": "The IRS announced higher 401(k) contribution limits and savings caps for the year 2027.",
-   "meaning": "Increased contribution limits give retirement savers more room to grow their tax-advantaged accounts over the long term.",
-   "importance": 3
-  },
-  {
-   "headline": "Here's what Colette Kress and Harvey Jones wrote to Nvidia employees",
-   "url": "https://www.cnbc.com/2026/11/12/nvidia-kress-jones-employee-emails.html",
-   "source": "CNBC",
-   "time": 1794503251,
-   "tickers": [
-    "NVDA"
-   ],
-   "category": "Big Tech",
-   "summary": "Interim CEO Colette Kress and board chair Harvey Jones emailed Nvidia employees to express gratitude for their dedication.",
-   "meaning": "Communications from interim leadership signal efforts to maintain stability and morale within a company during a transition period.",
-   "importance": 2
-  },
-  {
-   "headline": "Sitting on big gains in Nvidia? Jim Cramer's advice on what to do next",
-   "url": "https://www.cnbc.com/investingclub/2026/11/12/sitting-on-big-gains-in-nvidia-jim-cramers-advice-on-what-to-do-next.html",
-   "source": "CNBC",
-   "time": 1794502792,
-   "tickers": [
-    "NVDA"
-   ],
-   "category": "Big Tech",
-   "summary": "Jim Cramer shared advice on what investors holding big gains in Nvidia should do next.",
-   "meaning": "Analyst commentary on portfolio gains can prompt investors to reflect on their own risk tolerance and profit-taking strategies.",
-   "importance": 2
-  },
-  {
-   "headline": "Four died in military helicopter crash in eastern Turkey, defence ministry says - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZFRDcndTTjFHZDZsUWgwMnZZWXhNdmtEMjFaQTVVMWk4dTVqMEQwXzE0SXZZLXZXQ3d3dThPQjUyVkxiVmJIZjRMOEFSbC1BNmoyWDJjSERIYjIybEZjazVOTzcxYXNSV2VFTWVlTG5IQmgxMnBkeW9WQTFPTUVZVHRYQm13aDNLelVRalVMX3R5NU1GcFRfVFVma1JNMFpSZHViaW5LOTNsbUlrekpndFFNblVSNTFGd0E?oc=5",
-   "source": "Reuters",
-   "time": 1794502469,
-   "tickers": [],
    "category": "Markets",
-   "summary": "The Turkish defense ministry reported that four people died in a military helicopter crash in eastern Turkey.",
-   "meaning": "This is a tragic military transport accident report that does not directly impact the U.S. stock market or retail investing strategies.",
-   "importance": 1
+   "summary": "Two Iranian men found guilty in UK of assisting Iranian intelligence  Reuters",
+   "meaning": "",
+   "importance": 2
   }
  ]
 }
