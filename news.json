@@ -1,5 +1,5 @@
 {
- "updated": 1794583898,
+ "updated": 1794608023,
  "universe": [
   "AAPL",
   "MSFT",
@@ -36,101 +36,289 @@
   "Markets",
   "Company"
  ],
- "digest": [],
+ "digest": [
+  "Jensen Huang's resignation and ongoing market challenges have caused Nvidia and other chip stocks to suffer significant drops.",
+  "A Federal Reserve survey highlights AI risks as a major threat to the financial system alongside high-flying hyperscalers.",
+  "Anticipation around an upcoming Anthropic IPO is drawing attention from major financial players like Goldman Sachs and impacting assets like Bitcoin.",
+  "Inflation concerns persist as Fed officials like Goolsbee discuss central bank actions and policy divisions arise over energy shocks.",
+  "Political developments and regulatory scrutiny are ramping up, affecting areas from Washington's view on Nvidia to crypto oversight."
+ ],
  "items": [
+  {
+   "headline": "FAA issues nationwide ground stop citing communication issues affecting ‘multiple’ air traffic control facilities",
+   "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+   "source": "CNBC",
+   "time": 1794606910,
+   "tickers": [],
+   "category": "Fed & Economy",
+   "summary": "The Federal Administration issued a nationwide ground stop for safety and extraordinary circumstances.",
+   "meaning": "This operational disruption highlights unexpected safety events that can impact transportation networks and general market sentiment.",
+   "importance": 2
+  },
   {
    "headline": "‘She has a history of financial mismanagement’: My brother cut our sister out of his will. I’ll get everything. Do I tell her?",
    "url": "https://www.marketwatch.com/story/she-has-a-history-of-financial-mismanagement-my-brother-cut-my-sister-out-of-his-will-im-getting-everything-do-i-tell-her-3e537851?mod=mw_rss_topstories",
    "source": "MarketWatch",
-   "time": 1794582900,
+   "time": 1794605520,
+   "tickers": [],
+   "category": "Company",
+   "summary": "A family inheritance dispute involves a brother cutting his sister out of his will due to financial mismanagement.",
+   "meaning": "Personal finance dynamics like estate planning can deeply affect family relationships and future financial security.",
+   "importance": 1
+  },
+  {
+   "headline": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+   "source": "CNBC",
+   "time": 1794605235,
+   "tickers": [
+    "NVDA"
+   ],
+   "category": "AI & Chips",
+   "summary": "Nvidia stock experienced its longest weekly losing streak since 2012 alongside a market value loss of $1.7 trillion and Jensen Huang's resignation.",
+   "meaning": "For long-term investors, extreme volatility in key market leaders like Nvidia can significantly impact broader portfolio values.",
+   "importance": 5
+  },
+  {
+   "headline": "Bitcoin is now below $69,000 and could fall even further if investors cash out to buy into the Anthropic IPO",
+   "url": "https://www.marketwatch.com/story/bitcoin-could-fall-even-further-if-investors-cash-out-to-buy-into-the-anthropic-ipo-5a14f46a?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "time": 1794605160,
    "tickers": [],
    "category": "Markets",
-   "summary": "“I’m torn between respecting my brother’s wishes and being fair to my sister.”",
-   "meaning": "",
+   "summary": "Bitcoin dropped below $69,000 as investors potentially cash out to prepare for the Anthropic IPO.",
+   "meaning": "Capital moving from cryptocurrency into highly anticipated stock offerings shows how new public debuts can shift liquidity across asset classes.",
+   "importance": 3
+  },
+  {
+   "headline": "AI risks are the biggest threat to the financial system, Fed survey finds",
+   "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+   "source": "CNBC",
+   "time": 1794604710,
+   "tickers": [],
+   "category": "AI & Chips",
+   "summary": "A Fed survey found that AI risks represent the biggest threat to the financial system.",
+   "meaning": "Heightened regulatory or systemic concerns about AI could introduce broader volatility into technology-heavy portfolios.",
+   "importance": 4
+  },
+  {
+   "headline": "Agencies extend comment period for proposed third-party risk management guidance",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm",
+   "source": "Federal Reserve",
+   "time": 1794604500,
+   "tickers": [],
+   "category": "Regulation",
+   "summary": "Agencies extended the comment period for proposed third-party risk management guidance.",
+   "meaning": "Extended comment periods mean companies have more time to review compliance expectations that could impact operations.",
    "importance": 2
   },
   {
-   "headline": "Am I overpaying for health insurance? How to answer the key question this open-enrollment season.",
+   "headline": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
+   "url": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "time": 1794604200,
+   "tickers": [
+    "AMD",
+    "NVDA"
+   ],
+   "category": "AI & Chips",
+   "summary": "AMD and other chip stocks slid as Wall Street rethought the AI trade following Jensen Huang's exit from Nvidia.",
+   "meaning": "Sector trends are interconnected; when a major industry leader stumbles, it can pull down competitors as sentiment changes.",
+   "importance": 4
+  },
+  {
+   "headline": "The trillion-dollar mistake corporate America is making about retirement",
+   "url": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "time": 1794604140,
+   "tickers": [],
+   "category": "Fed & Economy",
+   "summary": "Corporate America is reportedly underpricing the economic impact of Americans aged 50 and older.",
+   "meaning": "Overlooking demographic shifts can cause businesses and markets to miscalculate consumer trends and economic growth potential.",
+   "importance": 2
+  },
+  {
+   "headline": "They train people to avoid 'honeypot' scams—here are the common red flags they spot: 'It feels so good to be wanted'",
+   "url": "https://www.cnbc.com/make-it/2026/11/13/honeypot-scam-red-flags.html",
+   "source": "CNBC",
+   "time": 1794603985,
+   "tickers": [],
+   "category": "Company",
+   "summary": "Corporate security firms are training workers to recognize honeypot scams and social engineering attacks.",
+   "meaning": "Cybersecurity threats target organizations and individuals, emphasizing the need for vigilance against financial fraud.",
+   "importance": 1
+  },
+  {
+   "headline": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
+   "source": "CNBC",
+   "time": 1794603883,
+   "tickers": [
+    "NVDA"
+   ],
+   "category": "AI & Chips",
+   "summary": "Following Jensen Huang's departure from Nvidia, a Republican-led Congress wants him to appear in Washington before Democrats take control.",
+   "meaning": "Political scrutiny on key executives and tech firms can lead to increased regulatory attention or policy changes.",
+   "importance": 3
+  },
+  {
+   "headline": "How to figure out a key question this open-enrollment season: Are you overpaying for health insurance?",
    "url": "https://www.marketwatch.com/story/am-i-overpaying-for-health-insurance-how-to-answer-the-key-question-this-open-enrollment-season-2d00ed55?mod=mw_rss_topstories",
    "source": "MarketWatch",
-   "time": 1794582660,
+   "time": 1794602700,
    "tickers": [],
-   "category": "Markets",
-   "summary": "More people want to understand the fine print on plans this year, financial planners say.",
-   "meaning": "",
-   "importance": 2
+   "category": "Company",
+   "summary": "Open-enrollment season prompts a calculation to help individuals check if they are overpaying for health insurance coverage.",
+   "meaning": "Managing personal healthcare costs effectively can free up more capital for your long-term investment goals.",
+   "importance": 1
   },
   {
-   "headline": "Home sales plummet to lowest level since ‘Great Recession’ as prices hit all-time high",
-   "url": "https://www.marketwatch.com/story/home-sales-plummet-to-lowest-level-since-the-great-recession-as-buyers-flee-the-market-624e6270?mod=mw_rss_topstories",
+   "headline": "Jensen Huang was a ‘China salesman’ for Nvidia. His exit is weighing on Chinese tech stocks.",
+   "url": "https://www.marketwatch.com/story/jensen-huang-was-a-china-salesman-for-nvidia-his-exit-is-weighing-on-chinese-tech-stocks-e46351e4?mod=mw_rss_topstories",
    "source": "MarketWatch",
-   "time": 1794582480,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "Home sales fell in October to a 16-year low as buyers bolted from the housing market in the face of 7% mortgage rates.",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "Apple, Alphabet and Uber survived major founder transitions. Nvidia will be a harder test",
-   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-founder-ceo-transition.html",
-   "source": "CNBC",
-   "time": 1794582190,
-   "tickers": [
-    "AAPL",
-    "NVDA"
-   ],
-   "category": "Markets",
-   "summary": "Like Apple, Nvidia now faces its own transition away from a founder-led company. But experts say Jensen Huang’s central role could make replacing him difficult.",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "The 2027 401(k) limits are here. See how much more you can save next year.",
-   "url": "https://www.marketwatch.com/story/the-2027-401-k-limits-are-here-see-how-much-more-you-can-save-next-year-d525768c?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "time": 1794582180,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "Defined-contribution plans are getting a bump. IRA savers are not.",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "OpenAI launches ChatGPT Wallet, allowing its 'dots' AI agents to make purchases for users",
-   "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
-   "source": "CNBC",
-   "time": 1794582001,
-   "tickers": [
-    "V"
-   ],
-   "category": "Markets",
-   "summary": "OpenAI's ChatGPT Wallet partners with American Express, Mastercard and Visa, and those cardholders keep their existing credit card rewards.",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "Bessent points to Lutnick’s Commerce as he slams Nvidia chip ‘leakage’ to China",
-   "url": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
-   "source": "CNBC",
-   "time": 1794581615,
+   "time": 1794601140,
    "tickers": [
     "NVDA"
    ],
-   "category": "Markets",
-   "summary": "Jensen Huang resigned as Nvidia CEO days after admitting to an affair following scrutiny of his relationship with a woman reportedly deemed a Chinese spy.",
-   "meaning": "",
+   "category": "AI & Chips",
+   "summary": "Former Nvidia CEO Jensen Huang's exit is weighing on Chinese tech stocks due to his previous role as a key advocate for chip sales to China.",
+   "meaning": "Leadership changes at major semiconductor firms can shift international trade dynamics and affect overseas stock valuations.",
+   "importance": 3
+  },
+  {
+   "headline": "Retirees should be big beneficiaries of the midterms: ‘Democrats will hold every gavel that matters for aging and public policy’",
+   "url": "https://www.marketwatch.com/story/retirees-should-be-big-beneficiaries-of-the-midterms-democrats-will-hold-every-gavel-that-matters-for-aging-and-public-policy-71e966f0?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "time": 1794600120,
+   "tickers": [],
+   "category": "Fed & Economy",
+   "summary": "Retirees are expected to benefit from upcoming midterms as Democrats hold key gavels for aging and public policy.",
+   "meaning": "Legislative control over programs like Social Security and Medicare directly affects retirement planning assumptions.",
    "importance": 2
   },
   {
-   "headline": "Trump administration is hiring debt collectors to go after defaulted student-loan borrowers for first time in 6 years",
-   "url": "https://www.marketwatch.com/story/trump-administration-is-hiring-debt-collectors-for-first-time-in-6-years-to-go-after-defaulted-student-loan-borrowers-8bae13ad?mod=mw_rss_topstories",
+   "headline": "My husband inherited $500,000, but he refuses to spend it on our home. Should I be worried?",
+   "url": "https://www.marketwatch.com/story/it-feels-like-hes-quietly-building-a-separate-life-my-husband-inherited-500-000-but-he-refuses-to-spend-it-on-our-home-06535cff?mod=mw_rss_topstories",
    "source": "MarketWatch",
-   "time": 1794580080,
+   "time": 1794600000,
+   "tickers": [],
+   "category": "Company",
+   "summary": "A spouse is worried because her husband refuses to spend his inherited $500,000 on home repairs.",
+   "meaning": "Differing views on managing inheritances can create household friction regarding how to allocate sudden financial windfalls.",
+   "importance": 1
+  },
+  {
+   "headline": "Hassett denies report he's leaving White House: 'Not true'",
+   "url": "https://www.cnbc.com/2026/11/13/kevin-hassett-white-house-nec.html",
+   "source": "CNBC",
+   "time": 1794599957,
+   "tickers": [],
+   "category": "Fed & Economy",
+   "summary": "National Economic Council Director Kevin Hassett denied a report stating he is leaving the White House.",
+   "meaning": "Leadership stability in key economic government positions helps maintain clarity on ongoing policy trajectories.",
+   "importance": 2
+  },
+  {
+   "headline": "Many people ignore these ‘early red flags’ in romance scams, says Harvard-trained psychologist",
+   "url": "https://www.cnbc.com/make-it/2026/11/13/psychologist-many-people-ignore-5-early-red-flags-in-romance-scams.html",
+   "source": "CNBC",
+   "time": 1794599292,
+   "tickers": [],
+   "category": "Company",
+   "summary": "A Harvard-trained psychologist shared advice on how to spot early red flags in romance scams.",
+   "meaning": "Being aware of psychological manipulation tactics helps protect personal assets from targeted fraud.",
+   "importance": 1
+  },
+  {
+   "headline": "Nvidia hasn’t selected search firm for permanent Huang replacement, board tells CNBC",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html",
+   "source": "CNBC",
+   "time": 1794598972,
+   "tickers": [
+    "NVDA"
+   ],
+   "category": "AI & Chips",
+   "summary": "Nvidia's board stated they have not yet selected a search firm for a permanent replacement for Jensen Huang.",
+   "meaning": "Uncertainty around executive leadership succession can prolong volatility for a major stock.",
+   "importance": 3
+  },
+  {
+   "headline": "Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker",
+   "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+   "source": "CNBC",
+   "time": 1794597073,
+   "tickers": [
+    "NVDA"
+   ],
+   "category": "AI & Chips",
+   "summary": "Jensen Huang's resignation has brought renewed scrutiny to Commerce Secretary Howard Lutnick over his family's financial ties to Nvidia.",
+   "meaning": "Political figures tied to major corporations can face ethics questions when major industry events occur.",
+   "importance": 2
+  },
+  {
+   "headline": "Retirees sometimes tap savings for one-off expenses. Here’s what advisors say to consider first",
+   "url": "https://www.cnbc.com/2026/11/13/retirement-401k-ira-withdrawal-taxes.html",
+   "source": "CNBC",
+   "time": 1794596472,
+   "tickers": [],
+   "category": "Fed & Economy",
+   "summary": "Financial advisors note there are trade-offs to consider before retirees tap their 401(k) or IRA accounts for one-off expenses.",
+   "meaning": "Withdrawing early from retirement accounts can severely impact your long-term compounding growth and tax situation.",
+   "importance": 2
+  },
+  {
+   "headline": "Goldman Sachs looks to cash in on Anthropic's IPO, twice. Here's how and who else wants to",
+   "url": "https://www.cnbc.com/investingclub/2026/11/13/goldman-sachs-looks-to-cash-in-on-anthropics-ipo-twice-heres-how-and-who-else-wants-to.html",
+   "source": "CNBC",
+   "time": 1794595445,
+   "tickers": [],
+   "category": "Deals",
+   "summary": "Goldman Sachs aims to co-lead Anthropic's IPO and manage the new wealth created by the deal.",
+   "meaning": "Major investment banks often look to capitalize on high-profile public offerings both through advisory fees and wealth management.",
+   "importance": 3
+  },
+  {
+   "headline": "The common theme driving stocks lower — plus, 3 trades and another we want to make",
+   "url": "https://www.cnbc.com/investingclub/2026/11/13/the-common-theme-driving-stocks-lower-plus-3-trades-and-another-we-want-to-make.html",
+   "source": "CNBC",
+   "time": 1794592623,
    "tickers": [],
    "category": "Markets",
-   "summary": "The Treasury Department proposes to pay debt collectors much less than in the past to help borrowers get out of default.",
-   "meaning": "",
+   "summary": "The Investing Club reviewed common themes driving stocks lower alongside specific portfolio trades.",
+   "meaning": "Market commentators frequently analyze broader downturns to adjust sector exposures and manage risk.",
+   "importance": 2
+  },
+  {
+   "headline": "Women are taking pay cuts and 'white-knuckling it' to manage menopause and work: 'I feel like I'm sitting on the sidelines'",
+   "url": "https://www.cnbc.com/make-it/2026/11/13/menopause-career-setbacks.html",
+   "source": "CNBC",
+   "time": 1794585601,
+   "tickers": [],
+   "category": "Fed & Economy",
+   "summary": "Women and non-binary workers are taking pay cuts and struggling through menopause while trying to manage their careers.",
+   "meaning": "Workplace health challenges can create hidden financial and professional setbacks for individual earners.",
+   "importance": 1
+  },
+  {
+   "headline": "Bessent, Fed's Goolsbee divided on role of energy shock in inflation - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWGl4M3I4cEx4Q1pteUwtd3I3OFBYWWFUU096V1Y3X2oxdl9KOFprODJXTEoxallGdk8tXzNuMzlWSXdjTTBFNjUxUHFwWmdVZTFHeTh0TEVYcWtNSXI2aUJkRFdKVFgtNmpWS01zTlhMS21ndThYQjY2bDhXSFpnV2c0Sl8wSzdBWnJzNmZVR05iUGdxU3BCUnBIYlcteEQtRkNMbDBQRF82QXVESmZSRGNvZG9yaGtfbm5QNHBTUE1jNjA?oc=5",
+   "source": "Reuters",
+   "time": 1794584404,
+   "tickers": [],
+   "category": "Fed & Economy",
+   "summary": "Bessent and Fed's Goolsbee are divided on the role of energy shocks in inflation.",
+   "meaning": "Disagreements among policymakers regarding what drives inflation can complicate expectations for future interest rate decisions.",
+   "importance": 3
+  },
+  {
+   "headline": "We're making 3 trades to adjust our consumer exposure after an analyst downgrade",
+   "url": "https://www.cnbc.com/investingclub/2026/11/13/were-making-3-trades-to-adjust-our-consumer-exposure-after-downgrade.html",
+   "source": "CNBC",
+   "time": 1794581997,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "An investing group is making three trades to protect gains and adjust consumer exposure following an analyst downgrade.",
+   "meaning": "Active portfolio management often involves trimming positions ahead of earnings to lock in gains.",
    "importance": 2
   },
   {
@@ -139,45 +327,10 @@
    "source": "CNBC",
    "time": 1794579727,
    "tickers": [],
-   "category": "Markets",
-   "summary": "The policymaker expressed concern about the latest inflation data, telling CNBC that the central bank likely will need to take action.",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "Microsoft Outlook outage stretches into a second day: What to know",
-   "url": "https://www.marketwatch.com/story/microsoft-stock-slumps-on-outage-that-includes-the-copilot-tool-it-has-been-heavily-promoting-4007dc4f?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "time": 1794579720,
-   "tickers": [
-    "MSFT"
-   ],
-   "category": "Markets",
-   "summary": "Microsoft said there is “no evidence of malicious activity” as it works to restore access to email and other services.",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "Opening trading-card packs has become a $2 billion market",
-   "url": "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "time": 1794579360,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "Pack-ripping apps are changing the way people buy and sell cards. But analysts say their “slot-like payoff” raises risks.",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "I’m 63 and spending $95,000 on a roof deck for my $500,000 home. Am I being extravagant?",
-   "url": "https://www.marketwatch.com/story/im-63-and-want-to-spend-95-000-on-a-roof-deck-for-my-500-000-home-is-that-a-good-investment-f1a59c27?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "time": 1794579300,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "“I have a net worth of $2.3 million and my only debt is a 15-year mortgage.”",
-   "meaning": "",
-   "importance": 2
+   "category": "Fed & Economy",
+   "summary": "Chicago Fed President Goolsbee stated the central bank still has work to do regarding inflation.",
+   "meaning": "Persistent inflation concerns suggest that interest rates may remain elevated or require further central bank intervention.",
+   "importance": 3
   },
   {
    "headline": "Jim Cramer's top 10 things to watch in the stock market Friday",
@@ -186,19 +339,19 @@
    "time": 1794579136,
    "tickers": [],
    "category": "Markets",
-   "summary": "Stock futures picked up some steam this morning.",
-   "meaning": "",
-   "importance": 2
+   "summary": "Jim Cramer shared his top 10 things to watch as stock futures picked up steam on Friday morning.",
+   "meaning": "Daily market previews highlight the specific data points and catalysts traders are watching before the opening bell.",
+   "importance": 1
   },
   {
-   "headline": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years",
-   "url": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html",
-   "source": "CNBC",
-   "time": 1794578572,
+   "headline": "EXCLUSIVE: Iraq turns to trucks to export oil in overland Syrian route revival - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQclRIYjhBLWw5LV85dEh1eWFKUXJ2ZU1xTlpwbmpPSmIzYUZKTzlvNEZvTldxQnE2V1V2WVFNTHJNNVg4SWhFeHM0a0pGSGtic3d0Zk1TVUhXQWwtaFJlZHlkNXFZUnZraUJhUUN3Y2hFMVRzY2ppLUN1SmlYRW9hU2ptaFZiWkRIR3MtdE1FemE0b3M5eXJ6bDBtY2wxc0dwMXJyN0VxLTNGMDlLUUZZ?oc=5",
+   "source": "Reuters",
+   "time": 1794576463,
    "tickers": [],
-   "category": "Markets",
-   "summary": "The producer price index was expected to increase 0.4% in October, according to the Dow Jones consensus.",
-   "meaning": "",
+   "category": "Fed & Economy",
+   "summary": "Iraq is turning to trucks to export oil through a revived overland Syrian route.",
+   "meaning": "Changes in oil logistics can influence energy supply routes and broader commodity market dynamics.",
    "importance": 2
   },
   {
@@ -207,34 +360,10 @@
    "source": "CNBC",
    "time": 1794575735,
    "tickers": [],
-   "category": "Markets",
-   "summary": "The top U.S. commodities regulator in October announced proposed crypto rules to assert its jurisdiction over the asset class.",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "Trump says he wants to ‘get Cuba done’ before leaving office, would consider military force",
-   "url": "https://www.cnbc.com/2026/11/13/trump-cuba-us-military-force-iran.html",
-   "source": "CNBC",
-   "time": 1794575040,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "It comes as the U.S. continues to enforce a comprehensive economic embargo against Cuba.",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "What's ahead for AI financing after Nvidia CEO Jensen Huang departs",
-   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html",
-   "source": "CNBC",
-   "time": 1794574483,
-   "tickers": [
-    "NVDA"
-   ],
-   "category": "Markets",
-   "summary": "Jensen Huang’s resignation puts Nvidia’s AI financing strategy in focus as investors watch credit markets and neocloud exposure.",
-   "meaning": "",
-   "importance": 2
+   "category": "Regulation",
+   "summary": "CFTC Chair Selig stated that the crypto industry is embracing agency rules as hopes for legislation fade.",
+   "meaning": "Regulatory oversight by commodity agencies provides clearer rules for digital assets as congressional legislation stalls.",
+   "importance": 3
   },
   {
    "headline": "IAEA increasingly concerned about Iranian enrichment plant, its report says - Reuters",
@@ -242,10 +371,10 @@
    "source": "Reuters",
    "time": 1794574048,
    "tickers": [],
-   "category": "Markets",
-   "summary": "IAEA increasingly concerned about Iranian enrichment plant, its report says  Reuters",
-   "meaning": "",
-   "importance": 2
+   "category": "Fed & Economy",
+   "summary": "An IAEA report expressed increasing concern regarding an Iranian enrichment plant.",
+   "meaning": "Geopolitical tensions involving nuclear enrichment facilities can introduce sudden risks to global stability and energy markets.",
+   "importance": 3
   },
   {
    "headline": "Belgian ministers at odds over Iran's alleged role in refrigerator cyberattacks - Reuters",
@@ -253,133 +382,10 @@
    "source": "Reuters",
    "time": 1794571694,
    "tickers": [],
-   "category": "Markets",
-   "summary": "Belgian ministers at odds over Iran's alleged role in refrigerator cyberattacks  Reuters",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "World oil market is returning to surplus as Gulf exports recover, IEA says - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcWtzQXhRVUlUbWQ0VVloOTVjekFCcC1XQlNXNWNRcERHNDFEbnBNTTFhZjV3Qjk5bGxCaDhoRFE1Yi1mdGNoR3JCVXY5MmQ0ODVnUWRabHowUDhYSUNKOXV5X0lLQzRBbWNabUFMTzVlMzBNOUUyWTgyeUg1cW5sRjJtUHo3TldPOEY4S19xOGwwYjlkemFibktTVTltVF94WUg5ekdJczcyUlBHOHZ0V3EtdWdjU0JOVkY4?oc=5",
-   "source": "Reuters",
-   "time": 1794569699,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "World oil market is returning to surplus as Gulf exports recover, IEA says  Reuters",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "NHL’s next media deal will test the league’s strength",
-   "url": "https://www.cnbc.com/2026/11/13/nhls-next-media-deal-will-test-the-leagues-strength.html",
-   "source": "CNBC",
-   "time": 1794569684,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "How do the world's biggest media companies judge the value of non-NFL rights? The NHL is giving us our first window into a new era in media values.",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "CNBC's Official NHL Team Valuations 2026: How the 32 franchises stack up",
-   "url": "https://www.cnbc.com/2026/11/13/cnbcs-official-nhl-team-valuations-2026-how-the-32-clubs-stack-up.html",
-   "source": "CNBC",
-   "time": 1794568024,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "The average NHL team is worth $2.71 billion, 23% more than a year ago.",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
-   "url": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
-   "source": "CNBC",
-   "time": 1794567280,
-   "tickers": [
-    "NVDA"
-   ],
-   "category": "Markets",
-   "summary": "Commerce Secretary Lutnick will testify before the Senate Banking Committee following revelations about Jensen Huang's affair with an alleged Chinese spy.",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "Iran says tanker carrying LNG hit mine, suffered explosion in Hormuz - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbWY4UFhVeWZBSkUteDV4dHd0b3cyU3czTkdkU3ZLbU9zZzlhOGhTcDlDcTlmSVlKVUZFZDhwTWdmdG9zQkJHZ05jaXVad0ZpVGdsTHJvZ0VRT3Q4cXRMZFZ5cFpkR0Y5dmo4b3dlQ0F4RUVxZFFGanB4M1cxZmJlSERVQ0dQVDNWbVFVV2pJZ09XNG5DWlV2Zk4xdi1xRm9jUjhzVFl1akd1QQ?oc=5",
-   "source": "Reuters",
-   "time": 1794553200,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "Iran says tanker carrying LNG hit mine, suffered explosion in Hormuz  Reuters",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "Rupee slips as higher oil prices and US yields knock stocks, bonds - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZ2lRcFhDeEM4YTZPLVVWRHNYTnU2XzJhTFJMTUpjT2lyY0JwZ25WaGxCR01JTVpRZTJBVE5SZ0Y1LXdqSzJFRDBWVW15TnEwRE9idm9zeGVGZlpPVndfdGhoQlhmaHlkSFdDZmdXOGQ2N00xMVlKX3JFbkMtYzN5Y2VULUkzNkZmV1VtMnBCSU81eFRkRGFxUG9XRlVqcGNfelRrSHZQNXZQSExsbDhBaVdlcWlfWDhu?oc=5",
-   "source": "Reuters",
-   "time": 1794539520,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "Rupee slips as higher oil prices and US yields knock stocks, bonds  Reuters",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "Oil prices set for second weekly decline as Trump sticks with Iran blockade - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0ZTUUtQbXVySmRXLWtEc2xtZDk5RWkwa29OWlEyQjN3UXVzMkZTYzF3ajVoNkVXZnBnODVRTkN0b1ZwaVk4VE5KOXFqZktYbG1PN1RwdEtwS1ZEb3BBUEkxM2JtUl91NkxCMWpjbmxWV3RScndxMjJUcjh4dEpZM256Nl8tY19iWmp4OExndnRRaXQwdFRpMGRYRDFnNGQ1eEFhNEVrZjZwaW0tamJkLXFYa1I3V1EzbVE?oc=5",
-   "source": "Reuters",
-   "time": 1794538860,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "Oil prices set for second weekly decline as Trump sticks with Iran blockade  Reuters",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "How the Jensen Huang affair changes the outlook for U.S.-China relations",
-   "url": "https://www.cnbc.com/2026/11/13/jensen-huang-nvidia-us-china-relations.html",
-   "source": "CNBC",
-   "time": 1794538595,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "The political climate heading into next week's Trump-Xi summit is drastically different from the last meeting in September.",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "Iran's Guards say they targeted a US early-warning radar in Bahrain - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjhnZVFHWnV4RHpscnFyUjFWOEl5VndNZ0Y4MFdEVlpueUNaeHRPMVdCbjA4Mmktc0tYWnFsZWdZSkd4dFNvTmszUHFWdC15S0pja2ozaTg0R0dOdEY3aDJtenZwREh5dmRvTGVTUkxVUDNjN3huQU1TRTU1bEVBampuYzdsTjJJZ2tBUXQwal85QnRsWDU4OWNvbDVzN0VUR1R0clNkZmpkaXZMaWh5dExSNHRCUQ?oc=5",
-   "source": "Reuters",
-   "time": 1794538260,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "Iran's Guards say they targeted a US early-warning radar in Bahrain  Reuters",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "Dollar near 19-month high on Fed hike bets, yen tests 160 - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdXI2eWRwY1h1QWkxeldEbWhGUmdSYzRrQjZveW9TTm5LekpTdEthSzRRZHI1NlhoQjAwXzdjdVFSU0ItZjA3NFFxTUUxQlNWUzBoRHdtVkhtZ09hVUt2SmNyaFVvRkhOa0VERndHN1EweWdGajFEa050UDNqN1dCTllZamxKS0J1R0FHWXJOU0lweWJDMnV2clZBRVI4YVU4MTFBeg?oc=5",
-   "source": "Reuters",
-   "time": 1794535080,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "Dollar near 19-month high on Fed hike bets, yen tests 160  Reuters",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
-   "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
-   "source": "CNBC",
-   "time": 1794528079,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "Oil prices were mixed on Thursday, after the latest comments from President Donald Trump raised worries that an end to the U.S.-Iran war was not in sight.",
-   "meaning": "",
-   "importance": 2
+   "category": "Regulation",
+   "summary": "Belgian ministers are at odds over Iran's alleged role in refrigerator cyberattacks.",
+   "meaning": "Cybersecurity incidents involving everyday smart devices highlight expanding digital threats across international borders.",
+   "importance": 1
   }
  ]
 }
