@@ -1,5 +1,5 @@
 {
- "updated": 1794526978,
+ "updated": 1794528579,
  "universe": [
   "AAPL",
   "MSFT",
@@ -42,7 +42,7 @@
    "headline": "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
    "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
    "source": "CNBC",
-   "time": 1794526185,
+   "time": 1794528079,
    "tickers": [],
    "category": "Markets",
    "summary": "Oil prices were mixed on Thursday, after the latest comments from President Donald Trump raised worries that an end to the U.S.-Iran war was not in sight.",
@@ -63,34 +63,6 @@
    "importance": 2
   },
   {
-   "headline": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
-   "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
-   "source": "CNBC",
-   "time": 1794523706,
-   "tickers": [
-    "AMZN",
-    "MSFT",
-    "ORCL"
-   ],
-   "category": "Markets",
-   "summary": "Cerebras announced a new deal with Microsoft after partnering with major cloud providers Amazon and Oracle.",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "Alice Huang tied to Nvidia’s biggest Chinese competitor",
-   "url": "https://www.cnbc.com/2026/11/12/alice-huang-jensen-huang-nvidia-huawei.html",
-   "source": "CNBC",
-   "time": 1794523648,
-   "tickers": [
-    "NVDA"
-   ],
-   "category": "Markets",
-   "summary": "The woman with whom Jensen Huang reportedly had a relationship also owned stakes in companies that provided computing power to Huawei, a key Nvidia competitor.",
-   "meaning": "",
-   "importance": 2
-  },
-  {
    "headline": "Opening trading-card packs has become a $2 billion market",
    "url": "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
    "source": "MarketWatch",
@@ -102,19 +74,6 @@
    "importance": 2
   },
   {
-   "headline": "Widespread Microsoft outage takes down Outlook and other 365 services",
-   "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
-   "source": "CNBC",
-   "time": 1794522252,
-   "tickers": [
-    "MSFT"
-   ],
-   "category": "Markets",
-   "summary": "A Microsoft outage on Thursday affected users of services like Outlook, Teams and 365.",
-   "meaning": "",
-   "importance": 2
-  },
-  {
    "headline": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
    "url": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories",
    "source": "MarketWatch",
@@ -122,6 +81,19 @@
    "tickers": [],
    "category": "Markets",
    "summary": "Fed Chair Warsh’s quiet style of communicating interest-rate policy has led to more volatile markets.",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "Without Jensen Huang, Nvidia's organizational structure isn't 'built to last,' management expert says",
+   "url": "https://www.cnbc.com/make-it/2026/11/12/nvidia-jensen-huang-management-structure.html",
+   "source": "CNBC",
+   "time": 1794521168,
+   "tickers": [
+    "NVDA"
+   ],
+   "category": "Markets",
+   "summary": "Nvidia's flat management structure could pose challenges for Huang's successor, according to experts.",
    "meaning": "",
    "importance": 2
   },
@@ -170,6 +142,21 @@
    "importance": 2
   },
   {
+   "headline": "Cerebras surges 13% after beating on quarterly revenue and announcing Microsoft deal",
+   "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+   "source": "CNBC",
+   "time": 1794518613,
+   "tickers": [
+    "AMZN",
+    "MSFT",
+    "ORCL"
+   ],
+   "category": "Markets",
+   "summary": "Cerebras announced a new deal with Microsoft after partnering with major cloud providers Amazon and Oracle.",
+   "meaning": "",
+   "importance": 2
+  },
+  {
    "headline": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
    "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html",
    "source": "CNBC",
@@ -194,6 +181,20 @@
    "importance": 2
   },
   {
+   "headline": "Microsoft outage hits Outlook. AWS and Google users also report issues",
+   "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+   "source": "CNBC",
+   "time": 1794517074,
+   "tickers": [
+    "GOOGL",
+    "MSFT"
+   ],
+   "category": "Markets",
+   "summary": "Amazon Web Services and Google users also reported outages on Thursday",
+   "meaning": "",
+   "importance": 2
+  },
+  {
    "headline": "Trump says ‘we don’t need a deal with Iran’",
    "url": "https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html",
    "source": "CNBC",
@@ -201,6 +202,41 @@
    "tickers": [],
    "category": "Markets",
    "summary": "Trump directed Vice President JD Vance to instead focus his attention on corruption and crime in Democratic cities and states.",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "United Airlines won’t let AI agents book your flight. Expert says you shouldn't let a bot do that for you, anyway",
+   "url": "https://www.cnbc.com/make-it/2026/11/12/ai-agents-human-in-loop.html",
+   "source": "CNBC",
+   "time": 1794515099,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "AI agents can save you time, but an expert says decisions involving your health, wealth and privacy still need human input.",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "Yemen's Houthis say they attacked pumping station on Saudi Arabia's East-West oil pipeline - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOHNyWUhKaHR2QmJXUjJ6S0xNdDZnZmpKRzJQak9SWVc3cmttUGVfbk13NzBZclpqNnp5N1JFc0JYakw2Wl9hV3BYdm1mMnJQR3BKRFI2Zzh3cVRhTFFxejBSVWtTMkt2WTRGRUxFSkVocF83aFlIOU10Vk11d29TRERPcnFVWHRJYktFOUlGU0x4c0Q0UWVtT3JkUE91ZVNPQ09NTnhaMGxJajZxQnkwWTFvTzN4WnNpMTBYalNZOHFZdnUtX1VHeUVR?oc=5",
+   "source": "Reuters",
+   "time": 1794514701,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "Yemen's Houthis say they attacked pumping station on Saudi Arabia's East-West oil pipeline  Reuters",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "Alice Huang tied to Nvidia’s biggest Chinese competitor",
+   "url": "https://www.cnbc.com/2026/11/12/alice-huang-jensen-huang-nvidia-huawei.html",
+   "source": "CNBC",
+   "time": 1794514249,
+   "tickers": [
+    "NVDA"
+   ],
+   "category": "Markets",
+   "summary": "The woman with whom Jensen Huang reportedly had a relationship also owned stakes in companies that provided computing power to Huawei, a key Nvidia competitor.",
    "meaning": "",
    "importance": 2
   },
@@ -218,6 +254,19 @@
    "importance": 2
   },
   {
+   "headline": "Who will replace Jensen Huang? Here's our early thoughts on the search for Nvidia's next CEO",
+   "url": "https://www.cnbc.com/investingclub/2026/11/12/jensen-huang-ceo-replacement-jim-cramer.html",
+   "source": "CNBC",
+   "time": 1794513642,
+   "tickers": [
+    "NVDA"
+   ],
+   "category": "Markets",
+   "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+   "meaning": "",
+   "importance": 2
+  },
+  {
    "headline": "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation",
    "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html",
    "source": "CNBC",
@@ -231,13 +280,13 @@
    "importance": 2
   },
   {
-   "headline": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
-   "url": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html",
+   "headline": "Donald Trump Jr. exits advisory role at Kalshi prediction market",
+   "url": "https://www.cnbc.com/2026/11/12/donald-trump-jr-exits-kalshi-advisory-role.html",
    "source": "CNBC",
-   "time": 1794510325,
+   "time": 1794511178,
    "tickers": [],
    "category": "Markets",
-   "summary": "There will be seven voting meetings next year, with the October session set up as extra time for policy deliberation without a formal vote or post-meeting statement.",
+   "summary": "The president's son will no longer serve as an advisor at Kalshi.",
    "meaning": "",
    "importance": 2
   },
@@ -249,6 +298,39 @@
    "tickers": [],
    "category": "Markets",
    "summary": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check ",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "Trump says US does not need Iran deal, directs Vance to focus on domestic corruption - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTkdBWnZVWXZqcEFwdWFkTmw5XzVHVndjNzBhdW1GZVFfT2d2OFBzVDlLbC1pdmNvZTY5X01iRE01eGktRlh0b0s2bXJSTm9ZS19CZkdnVzR6bmEzOFJlQjNET2NvTl9yVGZjeHg5SkxVcmZ5UHFkLXcxQ1M3N1dRU3R5R05raV9VOVRsUDRFZE9sT1B6NmZ0ZTA4SFB0TlNYTUNhUHdMWVNKV0tDSmd4d19IRERyblE2QkgxSlpzSQ?oc=5",
+   "source": "Reuters",
+   "time": 1794508013,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "Trump says US does not need Iran deal, directs Vance to focus on domestic corruption  Reuters",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "Two Iranian men found guilty in UK of assisting Iranian intelligence - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaWdPVmJKU0hSSFFKaHZqSjhkbmswNjdjN0V5ak1BZHdna1AzWk1YeXlsdHd0WEFxSEppRlpadHY4UTBQTWV1MVliRTVtN005WTdHNTdOWndramJPbXFCYnZQNmJTcldoM3FMbTFmU0RTcGt4TTBETnVqTGFiNDkxNnhYaUlZU2QyeTJPZ2QtR2FPaXFqR3MwamRKRkpON0VFR1NUN0dOaUFYRUxidWJ4M2F3?oc=5",
+   "source": "Reuters",
+   "time": 1794507770,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "Two Iranian men found guilty in UK of assisting Iranian intelligence  Reuters",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
+   "url": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html",
+   "source": "CNBC",
+   "time": 1794507092,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "Fed Chair Kevin Warsh announced the move at his October news conference, though he did not set a date.",
    "meaning": "",
    "importance": 2
   },
@@ -275,6 +357,87 @@
    "importance": 2
   },
   {
+   "headline": "Here's what Colette Kress and Harvey Jones wrote to Nvidia employees",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-kress-jones-employee-emails.html",
+   "source": "CNBC",
+   "time": 1794503251,
+   "tickers": [
+    "NVDA"
+   ],
+   "category": "Markets",
+   "summary": "Interim CEO Colette Kress and board chair Harvey Jones emailed Nvidia employees, expressing gratitude for \"resilience, professionalism and continued dedication",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "Sitting on big gains in Nvidia? Jim Cramer's advice on what to do next",
+   "url": "https://www.cnbc.com/investingclub/2026/11/12/sitting-on-big-gains-in-nvidia-jim-cramers-advice-on-what-to-do-next.html",
+   "source": "CNBC",
+   "time": 1794502792,
+   "tickers": [
+    "NVDA"
+   ],
+   "category": "Markets",
+   "summary": "Cramer has been an Nvidia bull long before the generative AI boom.",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "Four died in military helicopter crash in eastern Turkey, defence ministry says - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZFRDcndTTjFHZDZsUWgwMnZZWXhNdmtEMjFaQTVVMWk4dTVqMEQwXzE0SXZZLXZXQ3d3dThPQjUyVkxiVmJIZjRMOEFSbC1BNmoyWDJjSERIYjIybEZjazVOTzcxYXNSV2VFTWVlTG5IQmgxMnBkeW9WQTFPTUVZVHRYQm13aDNLelVRalVMX3R5NU1GcFRfVFVma1JNMFpSZHViaW5LOTNsbUlrekpndFFNblVSNTFGd0E?oc=5",
+   "source": "Reuters",
+   "time": 1794502469,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "Four died in military helicopter crash in eastern Turkey, defence ministry says  Reuters",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "Oil tanker struck off UAE's Ras Al-Khaimah, all crew reported safe - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeDlHRUduYXpITEh6ZXlxdm9Zc3hiVXlhZXhzbzUySkFvNkMyQ1pFYWlxbnZKUmR4T0tieF9rZHhWYnFzUXI2a0J4M2VOLUZPcGt3ckxrUzNrSFFfeXpXNDJjRzVIS2p6OWI5d1BhMHVzVVY4TktOaWJQYTJpenFZOXpISzBiUDZ5ZG5vVGE2U0U5RnFjQmlaRmNnUDk0YV9DRnl6UVRkOEtGR1RJdUF2VmxNRmVpN1lDeXRINVdYQ0xabGJkMTMwazNR?oc=5",
+   "source": "Reuters",
+   "time": 1794501939,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "Oil tanker struck off UAE's Ras Al-Khaimah, all crew reported safe  Reuters",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "Four tankers struck by explosions in Strait of Hormuz, Iran says - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcDQ2cWxyeTFpazFaX1ZNM2RoS0t2ZVpEa0JpMElTZVFMUElROEF5c20tMlU0dEszWFlEdkhfR2VOb3hEQmo3MjRtdVlSaEhkZnpKXzExbE5QcXItQ3Z6REoyY1Fpak9IUUplYWp6NTQ2UjBiNVk1WDN0MmJjaFRkOHNLdDYxMU9xOWhuMnVaTlNiVXJNTlhLYV9EZEpnd1oxYmF0cG82b2VkMURkYnkzZkZBX0hhWHM?oc=5",
+   "source": "Reuters",
+   "time": 1794500855,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "Four tankers struck by explosions in Strait of Hormuz, Iran says  Reuters",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "Saudi Arabia puts pressure on EU to label Yemen's Houthis a terrorist group - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSnl4RjlVd0VYeWFKTUM1eDh4Y1J4V2RsZXlIYTRDUjZGdzJoeHBJQnZXd0NCYTBXcVhUQjFYZ1JNUnk3SDhVWXBHZWJrbm1EQTREYWJzN2MxU1lkQUg1Y3JyWDV1bU1mN3Fha2VfejBDN3o5ZG5aZWdGMVdZT1NvbDBXM045V01GUHpvWEI5TmFTMTlyTkN6cDZhWmxsTVZxNE5mOW1Wb1lLMG04a0F3RXdRT1o1d0hld1h2Tg?oc=5",
+   "source": "Reuters",
+   "time": 1794499491,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "Saudi Arabia puts pressure on EU to label Yemen's Houthis a terrorist group  Reuters",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "UAE says 14 killed, 30 injured in Fujairah traffic accident - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR2R6ZmJGZHpIRGdEbWw3aDBtU0VaemhmSlljY0UzSmtKNjdaVlhHTHRGU2VYUWI5eWUtYmFUakgyX28taFlOR3RIRUFMNnNodHI1VU9NUjlNV09IM3ZPUXhxcUlNS0p6dFg5MnBJMEdEUnQxNXNHS1Yxa2pnVjdkbmhYM1MwS0NTbkp6S1B1bzRaeDMtaHU1TTVyYm9ZOU13WWRDYVdXLW14c1BocXc?oc=5",
+   "source": "Reuters",
+   "time": 1794499306,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "UAE says 14 killed, 30 injured in Fujairah traffic accident  Reuters",
+   "meaning": "",
+   "importance": 2
+  },
+  {
    "headline": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
    "source": "Federal Reserve",
@@ -286,127 +449,124 @@
    "importance": 2
   },
   {
-   "headline": "China's Ministry of State Security thrust into the spotlight by Nvidia CEO affair",
-   "url": "https://www.cnbc.com/2026/11/12/china-ministry-state-security-nvidia-ceo.html",
+   "headline": "Yankees President Randy Levine pushes college sports bill, discusses MLB labor negotiations",
+   "url": "https://www.cnbc.com/2026/11/12/yankees-randy-levine-discusses-college-sports-bill-mlb-labor-deal.html",
    "source": "CNBC",
-   "time": 1794468528,
+   "time": 1794497671,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "Yankees President Randy Levine discusses the Protect College Sports Act, and the state of MLB's labor negotiations.",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "Mortgage rates were 7% in 1997, too—here’s why buying a home feels more expensive today",
+   "url": "https://www.cnbc.com/make-it/2026/11/12/mortgage-rates-home-affordability-1997.html",
+   "source": "CNBC",
+   "time": 1794495601,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "Even at the same mortgage rate, buying a typical home today eats up a much bigger share of household income than it did 30 years ago.",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "Jensen and Lori Huang's Nvidia fortune is jointly controlled. How that makes things complicated now that he's resigned",
+   "url": "https://www.cnbc.com/2026/11/12/inside-jensen-and-lori-huangs-jointly-controlled-nvidia-fortune.html",
+   "source": "CNBC",
+   "time": 1794492795,
    "tickers": [
     "NVDA"
    ],
    "category": "Markets",
-   "summary": "China's Ministry of State Security is getting attention after news of Nvidia CEO Jensen Huang's affair with an alleged MSS spy.",
+   "summary": "Jensen Huang’s $140 billion stake in Nvidia is largely held by trusts co-owned with his wife, Lori, creating added uncertainty for his financial future.",
    "meaning": "",
    "importance": 2
   },
   {
-   "headline": "Prediction markets tied to clinical trials and drug approvals draw lawmakers' ire",
-   "url": "https://www.cnbc.com/2026/11/11/kalsi-polymarket-prediction-market-senators-hhs-drug-approval.html",
+   "headline": "Jim Cramer's top 10 things to watch in the stock market Thursday",
+   "url": "https://www.cnbc.com/investingclub/2026/11/12/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
    "source": "CNBC",
-   "time": 1794424583,
+   "time": 1794492019,
    "tickers": [],
    "category": "Markets",
-   "summary": "Sens. Angela Alsobrooks and Ron Wyden are asking what steps the Department of Health and Human Services has taken to mitigate risks from the markets.",
+   "summary": "Nvidia CEO Jensen Huang's future at the chipmaker hangs in the balance.",
    "meaning": "",
    "importance": 2
   },
   {
-   "headline": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
-   "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
+   "headline": "Disney's 'Star Wars' is coming to Cosm domes ahead of 50th anniversary as part of multiyear film deal",
+   "url": "https://www.cnbc.com/2026/11/12/star-wars-cosm-dome-screenings.html",
    "source": "CNBC",
-   "time": 1794415742,
+   "time": 1794492001,
+   "tickers": [
+    "DIS"
+   ],
+   "category": "Markets",
+   "summary": "Cosm has secured a new studio partnership with Disney that will bring \"Star Wars: A New Hope\" to its domes as part of a multiyear, multifilm collaboration.",
+   "meaning": "",
+   "importance": 2
+  },
+  {
+   "headline": "Unions helped Democrats win big in 2026. Now they want action",
+   "url": "https://www.cnbc.com/2026/11/12/democrats-unions-midterms-2026.html",
+   "source": "CNBC",
+   "time": 1794488973,
    "tickers": [],
    "category": "Markets",
-   "summary": "The consumer price index rose more than expected in October, raising alarm among Federal Reserve officials.",
+   "summary": "Unions spent millions of dollars and mobilized thousands of members to get out the vote for Democrats in the midterm election. Now they want to see action.",
    "meaning": "",
    "importance": 2
   },
   {
-   "headline": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
-   "url": "https://www.cnbc.com/2026/11/11/alibaba-pr.html",
+   "headline": "Senate and House to launch investigation into Trump WH's approval of Nvidia chip exports to China",
+   "url": "https://finnhub.io/api/news?id=6b0ad9aaf133457258503c327d0c79d496bb53fa8a66b1d0c1ee0b49a29aa7e0",
    "source": "CNBC",
-   "time": 1794383274,
+   "time": 1794485038,
    "tickers": [
     "NVDA"
    ],
    "category": "Markets",
-   "summary": "Alibaba noted it had already filed confidentially on Sept. 11 to list T-Head on the Hong Kong Stock Exchange.",
+   "summary": "Top Democrats from the Senate Finance Commitee and the House Ways and Means Committee have drafted a letter sent for Commerce Secretary Lutnick on the Trump administration's approval of Nvidia chip ex",
    "meaning": "",
    "importance": 2
   },
   {
-   "headline": "U.S. gas prices fall below $4 for the first time since July",
-   "url": "https://www.cnbc.com/2026/11/10/us-gas-prices-below-four-dollars.html",
+   "headline": "Here's what Nvidia interim CEO Colette Kress and board chair Harvey Jones wrote to Nvidia employees",
+   "url": "https://finnhub.io/api/news?id=ca85df7afa32052c46bc184ca516761a0e08b08d4fb3e36596debe3cc3226f8b",
    "source": "CNBC",
-   "time": 1794328149,
-   "tickers": [],
+   "time": 1794484779,
+   "tickers": [
+    "NVDA"
+   ],
    "category": "Markets",
-   "summary": "Americans may finally find some relief at the pump.",
+   "summary": "Interim CEO Colette Kress and board chair Harvey Jones emailed Nvidia employees, expressing gratitude for \"resilience, professionalism and continued dedication",
    "meaning": "",
    "importance": 2
   },
   {
-   "headline": "Polymarket says annualized revenue has topped $1.8 billion",
-   "url": "https://www.cnbc.com/2026/11/10/polymarket-annualized-revenue-us-growth.html",
+   "headline": "Jensen Huang's Nvidia exit casts shadow over Wall Street’s $500 billion AI financing bet",
+   "url": "https://finnhub.io/api/news?id=e1b2c516f99345dba47d2046bc70bd87af8290db8d57fbbacc87c9d84fab48ba",
    "source": "CNBC",
-   "time": 1794315601,
-   "tickers": [],
+   "time": 1794484501,
+   "tickers": [
+    "NVDA"
+   ],
    "category": "Markets",
-   "summary": "Amid growth of its U.S. exchange, the prediction market platform’s current annual run-rate is $1.8 billion.",
+   "summary": "Nvidia's leadership crisis threatens to spill over into the AI financing boom.",
    "meaning": "",
    "importance": 2
   },
   {
-   "headline": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-   "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
-   "source": "Federal Reserve",
-   "time": 1794258000,
-   "tickers": [],
+   "headline": "Fmr. WH Special Advisor for AI on Nvidia: This case shows how important AI chips are",
+   "url": "https://finnhub.io/api/news?id=07821f3b40ef3dd6817ef3ffa04717059b076a374c69f127204a0b64f87b26c1",
+   "source": "CNBC",
+   "time": 1794484073,
+   "tickers": [
+    "NVDA"
+   ],
    "category": "Markets",
-   "summary": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
-   "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
-   "source": "Federal Reserve",
-   "time": 1793894400,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-   "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
-   "source": "Federal Reserve",
-   "time": 1793305800,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "Federal Reserve issues FOMC statement",
-   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-   "source": "Federal Reserve",
-   "time": 1793210400,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "Federal Reserve issues FOMC statement",
-   "meaning": "",
-   "importance": 2
-  },
-  {
-   "headline": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
-   "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
-   "source": "Federal Reserve",
-   "time": 1792162800,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
+   "summary": "Ben Buchanan, former WH Special Advisor for AI, joins 'Squawk on the Street' to discuss Nvidia CEO Jensen Huang's resignation and its impact on America's dominance in AI.",
    "meaning": "",
    "importance": 2
   }
