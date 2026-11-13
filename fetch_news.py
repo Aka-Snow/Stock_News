@@ -7,7 +7,7 @@ from email.utils import parsedate_to_datetime
 FINNHUB_KEY = os.environ.get("FINNHUB_API_KEY", "")
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "")
 MODEL = "gemini-flash-latest"  # if Gemini errors, check the model name in Google AI Studio
-MAX_ITEMS = 45
+MAX_ITEMS = 30
 UA = {"User-Agent": "Mozilla/5.0 (personal stock news project)"}
 
 # Default coverage: ticker -> name used to spot it in headlines. Edit freely.
@@ -39,7 +39,7 @@ items = {}
 
 def get(url, data=None, headers=None):
     req = urllib.request.Request(url, data=data, headers=headers or {})
-    with urllib.request.urlopen(req, timeout=60) as r:
+    with urllib.request.urlopen(req, timeout=240) as r:
         return r.read().decode("utf-8", "replace")
 
 
