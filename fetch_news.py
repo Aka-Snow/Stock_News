@@ -7,6 +7,7 @@ from email.utils import parsedate_to_datetime
 FINNHUB_KEY = os.environ.get("FINNHUB_API_KEY", "")
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "")
 MODEL = "gemini-flash-latest"  # if Gemini errors, check the model name in Google AI Studio
+BACKUP_MODEL = "gemini-flash-lite-latest"  # used if the main model stays busy
 MAX_ITEMS = 30
 UA = {"User-Agent": "Mozilla/5.0 (personal stock news project)"}
 
@@ -37,9 +38,9 @@ CATEGORIES = ["Earnings", "Fed & Economy", "Big Tech", "AI & Chips",
 items = {}
 
 
-def get(url, data=None, headers=None):
+def get(url, data=None, headers=None, timeout=60):
     req = urllib.request.Request(url, data=data, headers=headers or {})
-    with urllib.request.urlopen(req, timeout=240) as r:
+    with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read().decode("utf-8", "replace")
 
 
@@ -93,15 +94,19 @@ def analyze(lst):
     )
     body = {"contents": [{"parts": [{"text": prompt}]}],
             "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2}}
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
-    try:
-        raw = get(url, json.dumps(body).encode(),
-                  {"Content-Type": "application/json", "x-goog-api-key": GEMINI_KEY})
-        text = json.loads(raw)["candidates"][0]["content"]["parts"][0]["text"]
-        return json.loads(text)
-    except Exception as e:
-        print("Gemini failed:", e)
-        return {}
+    for model in [MODEL, BACKUP_MODEL]:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+        for attempt in range(3):
+            try:
+                raw = get(url, json.dumps(body).encode(),
+                          {"Content-Type": "application/json", "x-goog-api-key": GEMINI_KEY},
+                          timeout=240)
+                text = json.loads(raw)["candidates"][0]["content"]["parts"][0]["text"]
+                return json.loads(text)
+            except Exception as e:
+                print("Gemini failed:", model, "attempt", attempt + 1, e)
+                time.sleep(20)
+    return {}
 
 
 def main():
