@@ -38,7 +38,7 @@ CATEGORIES = ["Earnings", "Fed & Economy", "Big Tech", "AI & Chips",
 items = {}
 
 
-def get(url, data=None, headers=None, timeout=60):
+def get(url, data=None, headers=None, timeout=90):
     req = urllib.request.Request(url, data=data, headers=headers or {})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read().decode("utf-8", "replace")
@@ -100,7 +100,7 @@ def analyze(lst):
             try:
                 raw = get(url, json.dumps(body).encode(),
                           {"Content-Type": "application/json", "x-goog-api-key": GEMINI_KEY},
-                          timeout=240)
+                          timeout=90)
                 text = json.loads(raw)["candidates"][0]["content"]["parts"][0]["text"]
                 return json.loads(text)
             except Exception as e:
