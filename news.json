@@ -1,5 +1,5 @@
 {
- "updated": 1794652429,
+ "updated": 1794676628,
  "universe": [
   "AAPL",
   "MSFT",
@@ -37,92 +37,235 @@
   "Company"
  ],
  "digest": [
-  "Nvidia faces intense turmoil following CEO Jensen Huang's resignation amid scandal, leading to political scrutiny and a $573 billion weekly market cap loss.",
-  "A nationwide FAA ground stop temporarily halted U.S. air travel, sparking widespread flight delays and cancellations.",
-  "Global oil dynamics shift as markets anticipate an upcoming crude surplus, even as regional geopolitical tensions persist in the Middle East.",
-  "The U.S. extended a shipping law waiver for 90 days to ease the transport of oil and other critical commodities.",
-  "White House National Economic Council Director Kevin Hassett denied reports that he plans to step down in the coming weeks."
+  "A rare nationwide FAA ground stop and network failure caused disruptions linked to an older L3Harris communication system.",
+  "Nvidia experienced leadership turmoil after CEO Jensen Huang resigned amid a spy scandal, drawing scrutiny to officials like Howard Lutnick.",
+  "Geopolitical developments include reports on potential Iran policies, a mine explosion involving an oil tanker, and upcoming nuclear-arms discussions.",
+  "Wall Street giants like Brookfield and Blackstone are investing in U.S. industrial outdoor storage lots driven by rising rents.",
+  "Berkshire Hathaway shares reached a new record high following a strong fourth-quarter rally."
  ],
  "items": [
   {
-   "headline": "U.S. flights resume after FAA ground stop, but travel disruption continues",
+   "headline": "Ground stop followed updates to older L3Harris communication system: DOT’s Duffy",
    "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
    "source": "CNBC",
-   "time": 1794650683,
+   "time": 1794674771,
    "tickers": [],
-   "category": "Company",
-   "summary": "U.S. flights are beginning to operate again following an FAA ground stop, though travelers continue to face significant delays and cancellations.",
-   "meaning": "Operational disruptions in airlines can temporarily impact airline revenues and broader travel-related sectors. Long-term investors may monitor whether these delays create lasting financial drag on transport companies.",
+   "category": "Fed & Economy",
+   "summary": "Transportation Secretary Sean Duffy stated that the FAA ground stop followed updates to an older L3Harris communication system.",
+   "meaning": "This highlights operational risks in critical infrastructure technology systems that can temporarily disrupt travel sectors.",
    "importance": 3
   },
   {
-   "headline": "Latin Grammy Awards: The fashion, moments, winners and performances - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLUdWNjJsc1BWTC1ycV83cEN2S3d0Z3hoaW9Cc3FmTVN6dkJpUXpZNDdOSVI1MUh2ZjB6WVdmQ0pFN1I5anRJaXhXeUQ3a3dRT1Y0Qm9GU0ladWhHdmxsQjNpZXNZMTc4YmM3YjBRYXJiV25teHBCSG1IdC1hTTV4SlNjampqR0NfZlVSZ3Zja1h5ZE5fMkZZLVdjQlZkc3dKY0RR?oc=5",
-   "source": "Reuters",
-   "time": 1794649545,
+   "headline": "‘I’m sick of flying’: I paid for priority boarding, but the overhead bins were full. Was I duped?",
+   "url": "https://www.marketwatch.com/story/im-sick-of-flying-i-paid-for-priority-boarding-but-the-overhead-bins-were-full-was-i-duped-0badcc80?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "time": 1794672900,
    "tickers": [],
-   "category": "Markets",
-   "summary": "Reuters highlighted the performances, awards, and fashion from the Latin Grammy Awards.",
-   "meaning": "This is purely entertainment news and has no meaningful effect on financial markets or investment portfolios.",
+   "category": "Company",
+   "summary": "A passenger expressed frustration over full overhead bins despite paying for priority boarding.",
+   "meaning": "As a long-term investor, it reminds you of consumer service pain points in the airline industry, though it lacks broad financial data.",
    "importance": 1
   },
   {
-   "headline": "Analysis: Companies love a ‘rockstar’ CEO. Until they depend on one",
-   "url": "https://www.cnbc.com/2026/11/14/nvidia-jensen-huang-ceo-succession-risk.html",
+   "headline": "‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
+   "url": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "time": 1794672240,
+   "tickers": [],
+   "category": "Company",
+   "summary": "An individual shared a personal family anecdote about a car repair payment made to a cousin.",
+   "meaning": "This is a personal family matter with no direct relevance to public markets or your portfolio.",
+   "importance": 1
+  },
+  {
+   "headline": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+   "url": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
    "source": "CNBC",
-   "time": 1794640125,
+   "time": 1794671443,
    "tickers": [
     "NVDA"
    ],
    "category": "AI & Chips",
-   "summary": "Jensen Huang's sudden departure from Nvidia is testing the company's governance and highlighting the risks of relying heavily on a celebrity executive.",
-   "meaning": "Leadership transitions at mega-cap companies can introduce corporate uncertainty and strategic shifts. As a core tech holding for many funds, Nvidia's stability matters for broader portfolio performance.",
+   "summary": "ETF experts note that Nvidia's leadership turmoil and Democratic control of Congress could shift AI demand toward rival chipmakers and Big Tech stocks.",
+   "meaning": "Changes in political leadership and company-specific disruptions can alter sector momentum, potentially spreading capital to Nvidia's competitors.",
    "importance": 4
-  },
-  {
-   "headline": "Ecuador wants to monetize its biodiversity — while still drilling for oil",
-   "url": "https://www.cnbc.com/2026/11/14/ecuador-biodiversity-green-finance-oil.html",
-   "source": "CNBC",
-   "time": 1794636001,
-   "tickers": [],
-   "category": "Fed & Economy",
-   "summary": "Ecuador is seeking ways to fund biodiversity initiatives while continuing to depend heavily on oil drilling.",
-   "meaning": "Resource-dependent emerging economies often face structural budgetary challenges. For a broad investor, this reflects wider trends in resource economics without direct impact on U.S. holdings.",
-   "importance": 1
-  },
-  {
-   "headline": "FAA lifts rare nationwide ground stop on flights; air travel may take days to recover",
-   "url": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "time": 1794624120,
-   "tickers": [],
-   "category": "Company",
-   "summary": "The FAA lifted its nationwide ground stop, though officials warned recovery could take days and stated there was no evidence of a cyberattack.",
-   "meaning": "Airline operations could remain strained alongside rising fuel costs, which may squeeze airline margins. Long-term investors should note how quickly carriers manage operational bottlenecks.",
-   "importance": 3
-  },
-  {
-   "headline": "14 dividend stocks selected for long-term growth",
-   "url": "https://www.marketwatch.com/story/14-dividend-stocks-selected-for-long-term-growth-0a095c0d?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "time": 1794621480,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "An investment analyst identified 14 dividend-paying stocks that trade below their intrinsic value and offer long-term growth potential.",
-   "meaning": "Dividend-paying value stocks are a traditional staple for long-term investors seeking income and stability. However, specific list selections reflect third-party opinions rather than market facts.",
-   "importance": 2
   },
   {
    "headline": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
    "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
    "source": "CNBC",
-   "time": 1794620051,
+   "time": 1794670607,
    "tickers": [
     "NVDA"
    ],
    "category": "AI & Chips",
-   "summary": "Officials say Donald Trump will not address the Nvidia spy issue during his China trip following Jensen Huang's resignation over alleged affairs.",
-   "meaning": "Geopolitical and corporate espionage headlines around key chipmakers can trigger volatility in the tech sector. Knowing policy stances helps clarify whether broader diplomatic trade actions might follow.",
+   "summary": "Nvidia CEO Jensen Huang resigned following reports of multiple affairs, including one with a suspected Chinese spy named Alice Huang.",
+   "meaning": "Executive leadership changes at major tech companies can create uncertainty for investors holding the stock.",
+   "importance": 4
+  },
+  {
+   "headline": "‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?",
+   "url": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "time": 1794670200,
+   "tickers": [],
+   "category": "Fed & Economy",
+   "summary": "A demographic run on Social Security is already underway.",
+   "meaning": "Long-term investors should monitor structural government entitlement pressures when planning personal retirement horizons.",
+   "importance": 2
+  },
+  {
+   "headline": "My older brother, who has no children, cut our only sister out of his will. I’ll get everything. Do I tell her?",
+   "url": "https://www.marketwatch.com/story/she-has-a-history-of-financial-mismanagement-my-brother-cut-my-sister-out-of-his-will-im-getting-everything-do-i-tell-her-3e537851?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "time": 1794669300,
+   "tickers": [],
+   "category": "Company",
+   "summary": "An individual is conflicted about whether to inform their sister that she was cut out of their brother's will.",
+   "meaning": "This is a personal estate planning issue and contains no market or investment data.",
+   "importance": 1
+  },
+  {
+   "headline": "Rising rents draw Wall Street money to industrial outdoor storage lot investments across the U.S.",
+   "url": "https://www.cnbc.com/2026/11/14/real-estate-rental-income-industrial-storage-market.html",
+   "source": "CNBC",
+   "time": 1794669297,
+   "tickers": [],
+   "category": "Deals",
+   "summary": "Wall Street giants Brookfield and Blackstone are investing in U.S. industrial outdoor storage lots amid rising rents.",
+   "meaning": "Institutional interest in niche real estate sectors demonstrates where large alternative asset managers are seeking growth.",
+   "importance": 3
+  },
+  {
+   "headline": "How Rockstar's 'GTA VI' release could reshape gaming, streaming and even paid time off",
+   "url": "https://www.cnbc.com/2026/11/14/gta-6-grand-theft-auto-launch.html",
+   "source": "CNBC",
+   "time": 1794668062,
+   "tickers": [],
+   "category": "Company",
+   "summary": "The upcoming November launch of Rockstar's 'Grand Theft Auto VI' is expected to have broad economic impacts across gaming, streaming, and tourism.",
+   "meaning": "Major entertainment releases can heavily influence the financial quarters of media and gaming parent companies.",
+   "importance": 3
+  },
+  {
+   "headline": "U.S. air travel could take days to recover after FAA’s lifting of rare nationwide ground stop",
+   "url": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "time": 1794666420,
+   "tickers": [],
+   "category": "Fed & Economy",
+   "summary": "U.S. air travel faces recovery delays after a nationwide ground stop, exacerbated by high jet-fuel costs and rebooking demands.",
+   "meaning": "Fuel costs and logistical disruptions can weigh on airline operational efficiency and financial performance.",
+   "importance": 3
+  },
+  {
+   "headline": "Juice your growth and save on taxes in this workplace investment account",
+   "url": "https://www.cnbc.com/2026/11/14/hsa-investing-tax-benefits.html",
+   "source": "CNBC",
+   "time": 1794665297,
+   "tickers": [],
+   "category": "Fed & Economy",
+   "summary": "Employers are increasingly offering high-deductible medical plans with health savings accounts for 2027 enrollment.",
+   "meaning": "These accounts provide tax-advantaged vehicles that can form part of an individual's broader wealth-building and health-planning strategy.",
+   "importance": 2
+  },
+  {
+   "headline": "Berkshire breaks out to record high with fourth-quarter rally reaching 19%",
+   "url": "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html",
+   "source": "CNBC",
+   "time": 1794664959,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "Berkshire Hathaway shares hit consecutive record high closes, capping off a 19% fourth-quarter rally.",
+   "meaning": "Strong momentum in a major conglomerate like Berkshire reflects positive sentiment for diversified value-oriented investing.",
+   "importance": 4
+  },
+  {
+   "headline": "What’s the most tax-efficient way to donate to charity?",
+   "url": "https://www.marketwatch.com/story/whats-the-most-tax-efficient-way-to-donate-to-charity-3f5864bb?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "time": 1794664800,
+   "tickers": [],
+   "category": "Fed & Economy",
+   "summary": "An overview discusses finding the most tax-efficient methods to make charitable donations.",
+   "meaning": "Tax optimization strategies are useful tools for long-term retail investors looking to maximize the impact of their personal finances.",
+   "importance": 2
+  },
+  {
+   "headline": "Washington can start delivering on affordability by rejecting Trump’s tariffs",
+   "url": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "time": 1794663000,
+   "tickers": [],
+   "category": "Fed & Economy",
+   "summary": "A commentary argues that Washington can address affordability by rejecting proposed tariffs.",
+   "meaning": "Tariffs can impact consumer costs and corporate supply chains, making trade policy an important factor for market health.",
+   "importance": 3
+  },
+  {
+   "headline": "Retailers are turning to entertainment to win shoppers’ attention",
+   "url": "https://www.cnbc.com/2026/11/14/retailers-invest-entertainment.html",
+   "source": "CNBC",
+   "time": 1794661201,
+   "tickers": [],
+   "category": "Company",
+   "summary": "Retailers are increasingly investing in entertainment studios to capture consumer attention.",
+   "meaning": "Shifting marketing strategies toward entertainment show how consumer brands are adapting to capture retail engagement.",
+   "importance": 2
+  },
+  {
+   "headline": "These 6 battered AI stocks could bounce back big, an analyst says",
+   "url": "https://www.marketwatch.com/story/these-6-battered-ai-stocks-could-bounce-back-big-an-analyst-says-e9f29c24?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "time": 1794661200,
+   "tickers": [],
+   "category": "AI & Chips",
+   "summary": "Bernstein analysts suggest that postelection panic over data centers created a tech selloff, leaving six battered AI stocks potentially poised to bounce back.",
+   "meaning": "Market selloffs driven by sentiment shifts can occasionally create value opportunities in sectors experiencing temporary panic.",
+   "importance": 3
+  },
+  {
+   "headline": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
+   "url": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
+   "source": "CNBC",
+   "time": 1794657601,
+   "tickers": [],
+   "category": "Company",
+   "summary": "The Eric Trump-backed robot startup Foundation Future Industries missed payroll after its CEO borrowed $4.6 million from the company to buy a home.",
+   "meaning": "Startup investments carry high governance and liquidity risks, as evidenced by internal financial mismanagement.",
+   "importance": 2
+  },
+  {
+   "headline": "Meet the seven co-founders of Anthropic",
+   "url": "https://www.cnbc.com/2026/11/14/meet-the-seven-co-founders-of-anthropic.html",
+   "source": "CNBC",
+   "time": 1794657601,
+   "tickers": [],
+   "category": "AI & Chips",
+   "summary": "The seven co-founders of Anthropic, established in 2021, are poised to become multi-billionaires.",
+   "meaning": "Private artificial intelligence firms continue to generate massive private valuations that eventually draw public market interest.",
+   "importance": 3
+  },
+  {
+   "headline": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR2NiU2RGMHprbUFIMnNuTGJheHdpTzhuZFRCSWVGcl9HZF9raUd2VXQxNHE1WldRVzNaZWx6YnlRZFpueGZlb05DMElhZ3FEOVdLakpQWkNLaGktQWh6THRxT3V0aGVPaXI0dW9LVm9DeTJRekF1enJaamZ5bEd2SFZtSVNtTFd5VEp0WFl6U2VWX3BCRkYzbnB1c25QRnU2M3FBbDJBMHRTVWU5T0hyZG5sWFRPWUFIYVhuT1BMWTBkUVdNbDlF?oc=5",
+   "source": "Reuters",
+   "time": 1794654250,
+   "tickers": [],
+   "category": "Fed & Economy",
+   "summary": "Sources indicate President Trump may hold off on Iran attacks barring new provocations.",
+   "meaning": "Geopolitical tensions in the Middle East can trigger volatility in global energy markets and stock indices.",
+   "importance": 3
+  },
+  {
+   "headline": "Iran's navy says oil tanker on fire after hitting mine in Hormuz - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZWt1cHFualJEVktnTTVvd21uVnljc0FqR2dRaWpaRnYwZ3luZ2t1dUlJNVUtLTVlWHJFOS1ocDBlaVZsTFNZdjRMeldFVFE1Q0Jqem9FbU9fMmp1YTBUTUhqTmYzR3FJN1Z1Y1dHY2d0Yjlzb2lBR0JvNllyT3pScjI2SEpkbkhiYzZSWW9Tb3dwemdWaVVmMjBPbXZqd0hOZzdpRDVSZlVlbzBnV1BjMQ?oc=5",
+   "source": "Reuters",
+   "time": 1794652290,
+   "tickers": [],
+   "category": "Fed & Economy",
+   "summary": "Iran's navy reported an oil tanker on fire after hitting a mine in the Strait of Hormuz.",
+   "meaning": "Disruptions in critical shipping lanes like Hormuz can directly impact global oil supplies and energy prices.",
    "importance": 3
   },
   {
@@ -132,9 +275,20 @@
    "time": 1794619131,
    "tickers": [],
    "category": "Company",
-   "summary": "SpaceX conducted a test flight of its Starship rocket, aiming to catch both the Super Heavy booster and the upper stage.",
-   "meaning": "Commercial space progress can signal the maturation of the aerospace sector, but private company tests rarely move broad public market portfolios directly.",
+   "summary": "SpaceX launched Starship in a key test flight attempting to catch both rocket stages at its Texas site.",
+   "meaning": "Aerospace innovation and testing milestones highlight advancements in private space infrastructure development.",
    "importance": 2
+  },
+  {
+   "headline": "Rubio assails international court in speech to conservative legal group - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNblc1UEZaUHNzR0QzV051c0Nid3k2WWI3Y1RFNm00LW4wTm83X0Y5MlFRU29fZ0RvYnJFVURiMV96VS1HWmZnV1BkUW16MHJYdXdRbjJSOTJERzh5NXhiRGxjNUkwRDVwNjUxdHF3cXRKN21GNUVELWx2VHpMeHpUYjdjZWY3SFZ6QWs0MWh4cXFnUk1aMFMtT1NIMEl0VTJfcGFOalFvUG41ck5wczB3?oc=5",
+   "source": "Reuters",
+   "time": 1794618360,
+   "tickers": [],
+   "category": "Regulation",
+   "summary": "Marco Rubio criticized an international court during a speech to a conservative legal group.",
+   "meaning": "Political rhetoric regarding international bodies rarely has an immediate, direct impact on retail stock portfolios.",
+   "importance": 1
   },
   {
    "headline": "Trump to raise nuclear-arms cuts with Putin, Xi on Thursday, White House says - Reuters",
@@ -142,22 +296,9 @@
    "source": "Reuters",
    "time": 1794615720,
    "tickers": [],
-   "category": "Markets",
-   "summary": "Donald Trump plans to discuss cutting nuclear arms with the leaders of Russia and China, according to the White House.",
-   "meaning": "High-level geopolitical dialogues can influence global risk sentiment, but early-stage talks rarely have an immediate, direct impact on diversified retail investments.",
-   "importance": 2
-  },
-  {
-   "headline": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
-   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
-   "source": "CNBC",
-   "time": 1794614076,
-   "tickers": [
-    "NVDA"
-   ],
-   "category": "Regulation",
-   "summary": "Congressional leaders are pushing to have former Nvidia CEO Jensen Huang appear before lawmakers in Washington before control shifts in January.",
-   "meaning": "Regulatory and congressional inquiries into prominent tech executives can increase headline risk and regulatory overhang for the sector.",
+   "category": "Fed & Economy",
+   "summary": "The White House announced President Trump will raise nuclear-arms cuts with Putin and Xi.",
+   "meaning": "High-level international diplomatic talks can influence broad geopolitical stability and macroeconomic sentiment.",
    "importance": 3
   },
   {
@@ -168,32 +309,10 @@
    "tickers": [
     "NVDA"
    ],
-   "category": "Regulation",
-   "summary": "Commerce Secretary Howard Lutnick is facing questions over his family's business ties to Nvidia amid Jensen Huang's resignation.",
-   "meaning": "Scrutiny on the Commerce Department could potentially affect regulatory oversight or export policies related to the semiconductor sector.",
-   "importance": 3
-  },
-  {
-   "headline": "‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?",
-   "url": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "time": 1794611520,
-   "tickers": [],
-   "category": "Fed & Economy",
-   "summary": "An article discusses demographic pressures and structural concerns facing the long-term solvency of the Social Security program.",
-   "meaning": "Shifts in public retirement safety nets emphasize the importance of personal retirement savings and disciplined long-term investing to cover future living costs.",
-   "importance": 2
-  },
-  {
-   "headline": "4 expert tips for signing up for Medicare",
-   "url": "https://www.marketwatch.com/story/what-really-happens-during-medicare-counseling-6a4f618e?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "time": 1794609900,
-   "tickers": [],
-   "category": "Fed & Economy",
-   "summary": "A feature offers practical enrollment tips for navigating Medicare based on a counselor's experiences.",
-   "meaning": "Managing healthcare costs is a vital part of retirement planning, though this guidance does not impact asset valuations or market trends.",
-   "importance": 1
+   "category": "AI & Chips",
+   "summary": "Jensen Huang's resignation as Nvidia CEO has brought scrutiny to Commerce Secretary Howard Lutnick due to his family's financial ties to the chipmaker.",
+   "meaning": "Political connections and corporate scandals involving key industry players can introduce regulatory risks for major tech stocks.",
+   "importance": 4
   },
   {
    "headline": "US Air Force responds to suspected drone activity over UK airbase - Reuters",
@@ -201,23 +320,10 @@
    "source": "Reuters",
    "time": 1794609282,
    "tickers": [],
-   "category": "Markets",
-   "summary": "The U.S. Air Force addressed suspected drone activity detected over an airbase in the United Kingdom.",
-   "meaning": "Isolated military incidents overseas generally do not impact standard diversified stock and bond portfolios.",
-   "importance": 1
-  },
-  {
-   "headline": "Nvidia’s stock is on a losing streak not seen in 14 years. What comes next?",
-   "url": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "time": 1794608460,
-   "tickers": [
-    "NVDA"
-   ],
-   "category": "AI & Chips",
-   "summary": "Nvidia lost $573 billion in market value this week, marking its sixth straight week of share price declines.",
-   "meaning": "Because Nvidia carries significant weighting in major U.S. indices, large drops directly affect the broader market and diversified index funds held by long-term investors.",
-   "importance": 5
+   "category": "Fed & Economy",
+   "summary": "The U.S. Air Force responded to suspected drone activity over a UK airbase.",
+   "meaning": "Security incidents involving military bases serve as general geopolitical news without immediate portfolio implications.",
+   "importance": 2
   },
   {
    "headline": "Hackers stole $6.3 billion from Binance—2 habits that take 'a few seconds' can help you avoid similar traps",
@@ -225,32 +331,10 @@
    "source": "CNBC",
    "time": 1794607615,
    "tickers": [],
-   "category": "Markets",
-   "summary": "Following a $6.3 billion digital theft from Binance, researchers shared basic security habits to help users avoid online scams.",
-   "meaning": "While focused on crypto security, it serves as a reminder to safeguard personal brokerage and financial accounts from digital fraud.",
+   "category": "Company",
+   "summary": "Following a $6.3 billion hacker theft from Binance, researchers recommend two quick habits to avoid online traps.",
+   "meaning": "Cybersecurity awareness is critical for retail investors protecting personal brokerage and crypto accounts.",
    "importance": 2
-  },
-  {
-   "headline": "Global oil supplies are suddenly flowing. Why a crude glut won’t mean cheaper diesel.",
-   "url": "https://www.marketwatch.com/story/global-oil-supplies-are-suddenly-flowing-why-a-crude-glut-wont-mean-cheaper-diesel-a5fa80c8?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "time": 1794607440,
-   "tickers": [],
-   "category": "Fed & Economy",
-   "summary": "Global markets are set to experience an oil surplus for the first time since February, though this crude glut may not lower diesel prices.",
-   "meaning": "Energy supplies play a major role in overall inflation and operating costs for businesses across the economy, influencing how long-term investments perform.",
-   "importance": 4
-  },
-  {
-   "headline": "‘He calls my plans a fantasy’: My husband says we can’t afford a $200,000-a-year retirement. Is he being cheap?",
-   "url": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "time": 1794607200,
-   "tickers": [],
-   "category": "Fed & Economy",
-   "summary": "A personal finance piece details a couple debating whether their $2 million in savings can support a $200,000 annual retirement budget.",
-   "meaning": "This scenario highlights the importance of realistic withdrawal rates and asset longevity when planning a long-term retirement portfolio.",
-   "importance": 1
   },
   {
    "headline": "US extends shipping law waiver 90 days, to allow freer movement of oil, commodities - Reuters",
@@ -258,10 +342,10 @@
    "source": "Reuters",
    "time": 1794606402,
    "tickers": [],
-   "category": "Regulation",
-   "summary": "The U.S. government extended a shipping law waiver for 90 days to facilitate the transport of oil and other bulk commodities.",
-   "meaning": "Easing maritime shipping rules can support commodity transport efficiency, potentially moderating supply bottlenecks and transport costs.",
-   "importance": 3
+   "category": "Fed & Economy",
+   "summary": "The U.S. extended a shipping law waiver for 90 days to allow freer movement of oil and commodities.",
+   "meaning": "Temporary shipping waivers can help ease logistics bottlenecks and stabilize commodity supply chains.",
+   "importance": 2
   },
   {
    "headline": "US to resume flights after air traffic network failure sparks chaos - Reuters",
@@ -269,10 +353,10 @@
    "source": "Reuters",
    "time": 1794605880,
    "tickers": [],
-   "category": "Company",
-   "summary": "U.S. flight operations are restarting after widespread network failures in the air traffic system caused nationwide travel disruption.",
-   "meaning": "Infrastructure breakdowns can inflict short-term costs on the travel industry, but they rarely alter the multiannual prospects of diversified portfolios.",
-   "importance": 2
+   "category": "Fed & Economy",
+   "summary": "U.S. flights are set to resume after an air traffic network failure caused widespread chaos.",
+   "meaning": "Resolution of domestic transit bottlenecks helps restore normal operations for transport and travel equities.",
+   "importance": 3
   },
   {
    "headline": "US Congress Democrats plot 'must-have' victories in 2027 - Reuters",
@@ -280,21 +364,10 @@
    "source": "Reuters",
    "time": 1794605755,
    "tickers": [],
-   "category": "Regulation",
-   "summary": "Congressional Democrats are laying out political strategies aimed at winning key legislative races in 2027.",
-   "meaning": "Long-term legislative planning reflects future political cycles, but distant election strategies do not affect current market fundamentals.",
-   "importance": 1
-  },
-  {
-   "headline": "‘She has a history of financial mismanagement’: My brother cut our sister out of his will. I’ll get everything. Do I tell her?",
-   "url": "https://www.marketwatch.com/story/she-has-a-history-of-financial-mismanagement-my-brother-cut-my-sister-out-of-his-will-im-getting-everything-do-i-tell-her-3e537851?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "time": 1794605520,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "An advice column explores family conflict after a brother excluded his sister from his will, leaving everything to one sibling.",
-   "meaning": "Estate planning disputes are common in personal finance, but the article contains no relevant market data or economic insights.",
-   "importance": 1
+   "category": "Fed & Economy",
+   "summary": "U.S. Congress Democrats are plotting 'must-have' legislative victories for 2027.",
+   "meaning": "Upcoming legislative agendas signal where future policy debates and fiscal spending priorities may focus.",
+   "importance": 2
   },
   {
    "headline": "Agencies extend comment period for proposed third-party risk management guidance",
@@ -303,87 +376,8 @@
    "time": 1794604500,
    "tickers": [],
    "category": "Regulation",
-   "summary": "Regulatory agencies have lengthened the public comment window regarding proposed guidance on managing third-party risks.",
-   "meaning": "Regulatory guidelines on vendor management can affect operational compliance costs for institutions, though this extension represents routine administrative process.",
-   "importance": 2
-  },
-  {
-   "headline": "Iran's IRGC says two tankers hit sea mines in Hormuz - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWVUydG1mRVVtRzVScWR6N19NejF5VXVuUDlqaGxSSHdJN1hmYlBtZHRJMDNWbUJVSUMyRTBRM252dzFjSmtZOHlLYmg4Y2pqLXVrSndiS3dVLWVBa0tESWJtZW05MUprVkpXTE5sQXV0aXJRR1dQQ3FmWHk0SHpoSmQzRUZmRFZCaXdjLURicWxtRk1tSnZ1dEM2UTI1b1RmTzdwRw?oc=5",
-   "source": "Reuters",
-   "time": 1794604495,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "Iran's military forces reported that two oil tankers struck sea mines while traveling in the Strait of Hormuz.",
-   "meaning": "Disruptions along critical marine energy corridors can trigger sudden spikes in oil prices and regional security premiums.",
-   "importance": 3
-  },
-  {
-   "headline": "They train people to avoid 'honeypot' scams—here are the common red flags they spot: 'It feels so good to be wanted'",
-   "url": "https://www.cnbc.com/make-it/2026/11/13/honeypot-scam-red-flags.html",
-   "source": "CNBC",
-   "time": 1794603985,
-   "tickers": [],
-   "category": "Company",
-   "summary": "Corporate security specialists are actively training employees to identify and avoid social engineering attacks and honeypot traps.",
-   "meaning": "Cybersecurity risks are an ongoing operational expense for corporations, underscoring the need for strong internal corporate defenses.",
-   "importance": 1
-  },
-  {
-   "headline": "Yemen's Houthis say they fired missiles at Saudi forces in Jazan - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPM1hhZ2pySkp3SHdfNllHQ2VsLUFteHIxRlFGVVR3QXFIbXJZX01HQkZ5Ml96SjBMSkJkOHh6TjNIakZkR3k5ME1WY0RyYTNBQkxvaF9qYTVtNm5GVEFqckVEalRReVdXUFJKZVhlSXEzcnotRFMyVVBMZllhdmJxUFBwRjByVExHbGhnR3luTDVqTlRxOG5TTjFVbmdBRmM?oc=5",
-   "source": "Reuters",
-   "time": 1794603259,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "Yemen's Houthi movement claimed it launched missile attacks targeting Saudi military personnel in Jazan.",
-   "meaning": "Regional Middle Eastern conflicts pose ongoing risks to regional stability and shipping, which can periodically create energy price volatility.",
-   "importance": 2
-  },
-  {
-   "headline": "Hassett denies report he's leaving White House: 'Not true'",
-   "url": "https://www.cnbc.com/2026/11/13/kevin-hassett-white-house-nec.html",
-   "source": "CNBC",
-   "time": 1794599957,
-   "tickers": [],
-   "category": "Fed & Economy",
-   "summary": "National Economic Council Director Kevin Hassett disputed claims that he will soon resign from his role in the White House.",
-   "meaning": "Leadership consistency within executive economic councils provides clarity on the administration's broader tax, trade, and economic policies.",
-   "importance": 2
-  },
-  {
-   "headline": "Many people ignore these ‘early red flags’ in romance scams, says Harvard-trained psychologist",
-   "url": "https://www.cnbc.com/make-it/2026/11/13/psychologist-many-people-ignore-5-early-red-flags-in-romance-scams.html",
-   "source": "CNBC",
-   "time": 1794599292,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "A psychologist outlined common psychological warning signs that individuals often miss when targeted by romance scams.",
-   "meaning": "This focuses entirely on interpersonal fraud prevention and holds no direct relevance to equity or bond markets.",
-   "importance": 1
-  },
-  {
-   "headline": "Nvidia hasn’t selected search firm for permanent Huang replacement, board tells CNBC",
-   "url": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html",
-   "source": "CNBC",
-   "time": 1794598972,
-   "tickers": [
-    "NVDA"
-   ],
-   "category": "AI & Chips",
-   "summary": "Nvidia's board of directors stated that it has not yet hired an executive search firm to find a permanent replacement for Jensen Huang.",
-   "meaning": "An unresolved search for permanent leadership prolongs uncertainty over strategic direction for one of the world's most influential tech companies.",
-   "importance": 4
-  },
-  {
-   "headline": "Turkey, Qatar sign mutual defence agreement, pledge unified stance against attack - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTGE3d2YwNy1ONlliXzNCVDNiZU01WlB3YUdPMEZwOHJpNS1UWEtvZ3hhM1hWOGN2REsxbEw1SzNERlk3eTVfUTdlOEFJYVAwNXVjT25jczJDRE9iTE5DYjlxNnQ3UlJRVDlRdU1UeHhNZ1NUWnBVU2w2TjZLWTg5emhUZ2RVVXowVWZuMnBiTlhtWlhxUDkxODkzNVlfeGlGbVlYV0todlRQc1JZSXIyVXpsVU1WRDFFU2QxTA?oc=5",
-   "source": "Reuters",
-   "time": 1794596317,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "Turkey and Qatar signed a mutual defense treaty committing both nations to a collective response if either is attacked.",
-   "meaning": "New regional defense pacts alter geopolitical ties in the Middle East, though direct implications for U.S. retail investors remain minimal.",
+   "summary": "Agencies extended the comment period for proposed third-party risk management guidance.",
+   "meaning": "Regulatory compliance updates affect how financial institutions and corporations manage operational risks.",
    "importance": 2
   }
  ]
