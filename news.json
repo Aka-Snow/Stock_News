@@ -1,5 +1,5 @@
 {
- "updated": 1794676628,
+ "updated": 1794678555,
  "universe": [
   "AAPL",
   "MSFT",
@@ -37,22 +37,46 @@
   "Company"
  ],
  "digest": [
-  "A rare nationwide FAA ground stop and network failure caused disruptions linked to an older L3Harris communication system.",
-  "Nvidia experienced leadership turmoil after CEO Jensen Huang resigned amid a spy scandal, drawing scrutiny to officials like Howard Lutnick.",
-  "Geopolitical developments include reports on potential Iran policies, a mine explosion involving an oil tanker, and upcoming nuclear-arms discussions.",
-  "Wall Street giants like Brookfield and Blackstone are investing in U.S. industrial outdoor storage lots driven by rising rents.",
-  "Berkshire Hathaway shares reached a new record high following a strong fourth-quarter rally."
+  "Nvidia experiences major leadership changes and investor scrutiny involving Jensen Huang and political ties.",
+  "Air travel across the U.S. faces disruptions following an FAA ground stop linked to L3Harris communication systems.",
+  "Wall Street capital flows into real estate assets like industrial outdoor storage lots driven by rising rents.",
+  "Geopolitical tensions and policy updates involve discussions on Iran, tariffs, nuclear arms, and international courts.",
+  "Markets see notable milestones such as Berkshire Hathaway reaching record highs alongside evolving trends in aviation and gaming."
  ],
  "items": [
+  {
+   "headline": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+   "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+   "source": "CNBC",
+   "time": 1794678366,
+   "tickers": [
+    "NVDA"
+   ],
+   "category": "Company",
+   "summary": "Two major investors owning billions in Nvidia stock are urging the board to thoughtfully search for a new leader following Jensen Huang's resignation.",
+   "meaning": "Leadership changes at major technology companies can alter long-term business strategy, which matters if you hold the stock.",
+   "importance": 4
+  },
+  {
+   "headline": "Budget airlines are going upscale with first-class seats and faster wifi",
+   "url": "https://www.marketwatch.com/story/budget-airlines-are-going-upscale-with-first-class-seats-and-faster-wifi-999868ab?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "time": 1794678180,
+   "tickers": [],
+   "category": "Company",
+   "summary": "Budget airlines like Frontier and JetBlue are shifting focus toward upscale features such as first-class seating and faster Wi-Fi.",
+   "meaning": "This business model shift could change how these companies compete and generate revenue in the airline industry.",
+   "importance": 2
+  },
   {
    "headline": "Ground stop followed updates to older L3Harris communication system: DOT’s Duffy",
    "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
    "source": "CNBC",
    "time": 1794674771,
    "tickers": [],
-   "category": "Fed & Economy",
-   "summary": "Transportation Secretary Sean Duffy stated that the FAA ground stop followed updates to an older L3Harris communication system.",
-   "meaning": "This highlights operational risks in critical infrastructure technology systems that can temporarily disrupt travel sectors.",
+   "category": "Company",
+   "summary": "Transportation Secretary Sean Duffy stated that the FAA ground stop followed updates to an older communication system managed by L3Harris Technologies.",
+   "meaning": "Technical issues tied to critical contractors can impact public operations and contractor oversight.",
    "importance": 3
   },
   {
@@ -61,9 +85,9 @@
    "source": "MarketWatch",
    "time": 1794672900,
    "tickers": [],
-   "category": "Company",
-   "summary": "A passenger expressed frustration over full overhead bins despite paying for priority boarding.",
-   "meaning": "As a long-term investor, it reminds you of consumer service pain points in the airline industry, though it lacks broad financial data.",
+   "category": "Markets",
+   "summary": "A passenger questions the value of paying for priority boarding when overhead bin space was still full.",
+   "meaning": "This is a personal consumer experience piece and does not directly affect your investment portfolio.",
    "importance": 1
   },
   {
@@ -72,9 +96,9 @@
    "source": "MarketWatch",
    "time": 1794672240,
    "tickers": [],
-   "category": "Company",
-   "summary": "An individual shared a personal family anecdote about a car repair payment made to a cousin.",
-   "meaning": "This is a personal family matter with no direct relevance to public markets or your portfolio.",
+   "category": "Markets",
+   "summary": "An individual shares a personal family anecdote about helping an elderly relative pay for a car repair.",
+   "meaning": "This is a personal advice column topic and contains no relevant market data.",
    "importance": 1
   },
   {
@@ -86,21 +110,8 @@
     "NVDA"
    ],
    "category": "AI & Chips",
-   "summary": "ETF experts note that Nvidia's leadership turmoil and Democratic control of Congress could shift AI demand toward rival chipmakers and Big Tech stocks.",
-   "meaning": "Changes in political leadership and company-specific disruptions can alter sector momentum, potentially spreading capital to Nvidia's competitors.",
-   "importance": 4
-  },
-  {
-   "headline": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
-   "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
-   "source": "CNBC",
-   "time": 1794670607,
-   "tickers": [
-    "NVDA"
-   ],
-   "category": "AI & Chips",
-   "summary": "Nvidia CEO Jensen Huang resigned following reports of multiple affairs, including one with a suspected Chinese spy named Alice Huang.",
-   "meaning": "Executive leadership changes at major tech companies can create uncertainty for investors holding the stock.",
+   "summary": "ETF experts note that Nvidia's leadership shifts and Democratic control of Congress could redirect AI demand toward rival chipmakers and Big Tech.",
+   "meaning": "Shifts in political control and sector leadership can create new opportunities or risks across different technology stocks.",
    "importance": 4
   },
   {
@@ -110,9 +121,9 @@
    "time": 1794670200,
    "tickers": [],
    "category": "Fed & Economy",
-   "summary": "A demographic run on Social Security is already underway.",
-   "meaning": "Long-term investors should monitor structural government entitlement pressures when planning personal retirement horizons.",
-   "importance": 2
+   "summary": "Demographic trends are creating a funding run on Social Security.",
+   "meaning": "Long-term structural pressures on public entitlement programs are important context for retirement planning.",
+   "importance": 3
   },
   {
    "headline": "My older brother, who has no children, cut our only sister out of his will. I’ll get everything. Do I tell her?",
@@ -120,9 +131,9 @@
    "source": "MarketWatch",
    "time": 1794669300,
    "tickers": [],
-   "category": "Company",
-   "summary": "An individual is conflicted about whether to inform their sister that she was cut out of their brother's will.",
-   "meaning": "This is a personal estate planning issue and contains no market or investment data.",
+   "category": "Markets",
+   "summary": "A reader grapples with an estate planning dilemma regarding a sibling being cut out of a will.",
+   "meaning": "This is a personal family matter with no broader market implications.",
    "importance": 1
   },
   {
@@ -132,8 +143,8 @@
    "time": 1794669297,
    "tickers": [],
    "category": "Deals",
-   "summary": "Wall Street giants Brookfield and Blackstone are investing in U.S. industrial outdoor storage lots amid rising rents.",
-   "meaning": "Institutional interest in niche real estate sectors demonstrates where large alternative asset managers are seeking growth.",
+   "summary": "Wall Street giants like Brookfield and Blackstone are investing in industrial outdoor storage lots across the U.S. amid rising rents.",
+   "meaning": "Institutional interest in niche real estate sectors highlights where large firms are seeking yield.",
    "importance": 3
   },
   {
@@ -143,9 +154,9 @@
    "time": 1794668062,
    "tickers": [],
    "category": "Company",
-   "summary": "The upcoming November launch of Rockstar's 'Grand Theft Auto VI' is expected to have broad economic impacts across gaming, streaming, and tourism.",
-   "meaning": "Major entertainment releases can heavily influence the financial quarters of media and gaming parent companies.",
-   "importance": 3
+   "summary": "The upcoming November release of Rockstar's 'GTA VI' is expected to have broad impacts across streaming, media, and consumer habits.",
+   "meaning": "Massive entertainment launches can significantly impact the financial results of parent companies and related media sectors.",
+   "importance": 2
   },
   {
    "headline": "U.S. air travel could take days to recover after FAA’s lifting of rare nationwide ground stop",
@@ -154,8 +165,8 @@
    "time": 1794666420,
    "tickers": [],
    "category": "Fed & Economy",
-   "summary": "U.S. air travel faces recovery delays after a nationwide ground stop, exacerbated by high jet-fuel costs and rebooking demands.",
-   "meaning": "Fuel costs and logistical disruptions can weigh on airline operational efficiency and financial performance.",
+   "summary": "U.S. air travel faces multi-day recovery challenges following a rare nationwide ground stop, exacerbated by high jet-fuel costs.",
+   "meaning": "Severe travel disruptions can temporarily weigh on airline and tourism-related revenues.",
    "importance": 3
   },
   {
@@ -165,8 +176,8 @@
    "time": 1794665297,
    "tickers": [],
    "category": "Fed & Economy",
-   "summary": "Employers are increasingly offering high-deductible medical plans with health savings accounts for 2027 enrollment.",
-   "meaning": "These accounts provide tax-advantaged vehicles that can form part of an individual's broader wealth-building and health-planning strategy.",
+   "summary": "Employers are increasingly offering health savings accounts paired with high-deductible medical plans for the upcoming enrollment season.",
+   "meaning": "Understanding workplace benefit options helps you maximize tax-advantaged savings vehicles.",
    "importance": 2
   },
   {
@@ -175,10 +186,10 @@
    "source": "CNBC",
    "time": 1794664959,
    "tickers": [],
-   "category": "Markets",
-   "summary": "Berkshire Hathaway shares hit consecutive record high closes, capping off a 19% fourth-quarter rally.",
-   "meaning": "Strong momentum in a major conglomerate like Berkshire reflects positive sentiment for diversified value-oriented investing.",
-   "importance": 4
+   "category": "Company",
+   "summary": "Berkshire Hathaway shares closed at record highs following a strong fourth-quarter rally.",
+   "meaning": "Tracking large benchmark holding companies provides insight into broader market sentiment for value investing.",
+   "importance": 3
   },
   {
    "headline": "What’s the most tax-efficient way to donate to charity?",
@@ -188,8 +199,8 @@
    "tickers": [],
    "category": "Fed & Economy",
    "summary": "An overview discusses finding the most tax-efficient methods to make charitable donations.",
-   "meaning": "Tax optimization strategies are useful tools for long-term retail investors looking to maximize the impact of their personal finances.",
-   "importance": 2
+   "meaning": "Tax strategies around giving can help optimize your personal financial plan.",
+   "importance": 1
   },
   {
    "headline": "Washington can start delivering on affordability by rejecting Trump’s tariffs",
@@ -198,8 +209,8 @@
    "time": 1794663000,
    "tickers": [],
    "category": "Fed & Economy",
-   "summary": "A commentary argues that Washington can address affordability by rejecting proposed tariffs.",
-   "meaning": "Tariffs can impact consumer costs and corporate supply chains, making trade policy an important factor for market health.",
+   "summary": "An opinion piece argues that Washington can improve affordability by rejecting Trump's proposed tariffs.",
+   "meaning": "Tariffs can influence inflation and corporate supply chain costs, which affect the broader economy.",
    "importance": 3
   },
   {
@@ -210,19 +221,8 @@
    "tickers": [],
    "category": "Company",
    "summary": "Retailers are increasingly investing in entertainment studios to capture consumer attention.",
-   "meaning": "Shifting marketing strategies toward entertainment show how consumer brands are adapting to capture retail engagement.",
+   "meaning": "Marketing shifts indicate how consumer brands are trying to drive engagement in a competitive landscape.",
    "importance": 2
-  },
-  {
-   "headline": "These 6 battered AI stocks could bounce back big, an analyst says",
-   "url": "https://www.marketwatch.com/story/these-6-battered-ai-stocks-could-bounce-back-big-an-analyst-says-e9f29c24?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "time": 1794661200,
-   "tickers": [],
-   "category": "AI & Chips",
-   "summary": "Bernstein analysts suggest that postelection panic over data centers created a tech selloff, leaving six battered AI stocks potentially poised to bounce back.",
-   "meaning": "Market selloffs driven by sentiment shifts can occasionally create value opportunities in sectors experiencing temporary panic.",
-   "importance": 3
   },
   {
    "headline": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
@@ -231,8 +231,8 @@
    "time": 1794657601,
    "tickers": [],
    "category": "Company",
-   "summary": "The Eric Trump-backed robot startup Foundation Future Industries missed payroll after its CEO borrowed $4.6 million from the company to buy a home.",
-   "meaning": "Startup investments carry high governance and liquidity risks, as evidenced by internal financial mismanagement.",
+   "summary": "Robot startup Foundation Future Industries has missed payroll after its founder borrowed millions from the company to buy a home.",
+   "meaning": "Governance issues at private startups highlight the risks associated with closely held venture investments.",
    "importance": 2
   },
   {
@@ -242,9 +242,9 @@
    "time": 1794657601,
    "tickers": [],
    "category": "AI & Chips",
-   "summary": "The seven co-founders of Anthropic, established in 2021, are poised to become multi-billionaires.",
-   "meaning": "Private artificial intelligence firms continue to generate massive private valuations that eventually draw public market interest.",
-   "importance": 3
+   "summary": "The seven co-founders of Anthropic, consisting of researchers, a journalist, a policymaker, and an engineer, are poised to become multi-billionaires.",
+   "meaning": "Highlights the massive wealth creation within the private artificial intelligence sector.",
+   "importance": 2
   },
   {
    "headline": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say - Reuters",
@@ -253,8 +253,8 @@
    "time": 1794654250,
    "tickers": [],
    "category": "Fed & Economy",
-   "summary": "Sources indicate President Trump may hold off on Iran attacks barring new provocations.",
-   "meaning": "Geopolitical tensions in the Middle East can trigger volatility in global energy markets and stock indices.",
+   "summary": "Sources indicate Donald Trump may hold off on attacks against Iran barring new provocations.",
+   "meaning": "Geopolitical stability or conflict heavily influences oil prices and overall market volatility.",
    "importance": 3
   },
   {
@@ -264,8 +264,8 @@
    "time": 1794652290,
    "tickers": [],
    "category": "Fed & Economy",
-   "summary": "Iran's navy reported an oil tanker on fire after hitting a mine in the Strait of Hormuz.",
-   "meaning": "Disruptions in critical shipping lanes like Hormuz can directly impact global oil supplies and energy prices.",
+   "summary": "Iran's navy reported that an oil tanker caught fire after hitting a mine in the Strait of Hormuz.",
+   "meaning": "Incidents in key shipping lanes like Hormuz can disrupt global energy supplies and spike oil prices.",
    "importance": 3
   },
   {
@@ -275,8 +275,8 @@
    "time": 1794619131,
    "tickers": [],
    "category": "Company",
-   "summary": "SpaceX launched Starship in a key test flight attempting to catch both rocket stages at its Texas site.",
-   "meaning": "Aerospace innovation and testing milestones highlight advancements in private space infrastructure development.",
+   "summary": "SpaceX launched Starship in a key test flight attempting to catch both the booster and spacecraft at its Texas site.",
+   "meaning": "Private space infrastructure progress can eventually impact aerospace and defense contracting landscapes.",
    "importance": 2
   },
   {
@@ -285,10 +285,10 @@
    "source": "Reuters",
    "time": 1794618360,
    "tickers": [],
-   "category": "Regulation",
-   "summary": "Marco Rubio criticized an international court during a speech to a conservative legal group.",
-   "meaning": "Political rhetoric regarding international bodies rarely has an immediate, direct impact on retail stock portfolios.",
-   "importance": 1
+   "category": "Fed & Economy",
+   "summary": "Marco Rubio criticized an international court during a speech delivered to a conservative legal group.",
+   "meaning": "Diplomatic and legal stances by U.S. officials set the tone for international relations and foreign policy.",
+   "importance": 2
   },
   {
    "headline": "Trump to raise nuclear-arms cuts with Putin, Xi on Thursday, White House says - Reuters",
@@ -297,8 +297,8 @@
    "time": 1794615720,
    "tickers": [],
    "category": "Fed & Economy",
-   "summary": "The White House announced President Trump will raise nuclear-arms cuts with Putin and Xi.",
-   "meaning": "High-level international diplomatic talks can influence broad geopolitical stability and macroeconomic sentiment.",
+   "summary": "The White House announced that Donald Trump plans to discuss nuclear-arms cuts with Putin and Xi.",
+   "meaning": "Global superpower negotiations are foundational for long-term geopolitical stability and defense spending trends.",
    "importance": 3
   },
   {
@@ -309,9 +309,9 @@
    "tickers": [
     "NVDA"
    ],
-   "category": "AI & Chips",
-   "summary": "Jensen Huang's resignation as Nvidia CEO has brought scrutiny to Commerce Secretary Howard Lutnick due to his family's financial ties to the chipmaker.",
-   "meaning": "Political connections and corporate scandals involving key industry players can introduce regulatory risks for major tech stocks.",
+   "category": "Company",
+   "summary": "Jensen Huang's resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick regarding his family's financial ties to the chipmaker.",
+   "meaning": "Regulatory and political scrutiny involving key government officials and major tech firms can introduce policy uncertainty.",
    "importance": 4
   },
   {
@@ -321,8 +321,8 @@
    "time": 1794609282,
    "tickers": [],
    "category": "Fed & Economy",
-   "summary": "The U.S. Air Force responded to suspected drone activity over a UK airbase.",
-   "meaning": "Security incidents involving military bases serve as general geopolitical news without immediate portfolio implications.",
+   "summary": "The U.S. Air Force responded to suspected drone activity over a military airbase in the UK.",
+   "meaning": "Security incidents involving military installations can impact defense posture and international security discussions.",
    "importance": 2
   },
   {
@@ -331,9 +331,9 @@
    "source": "CNBC",
    "time": 1794607615,
    "tickers": [],
-   "category": "Company",
-   "summary": "Following a $6.3 billion hacker theft from Binance, researchers recommend two quick habits to avoid online traps.",
-   "meaning": "Cybersecurity awareness is critical for retail investors protecting personal brokerage and crypto accounts.",
+   "category": "Markets",
+   "summary": "Researchers suggest that adopting a couple of quick security habits can help internet users avoid online traps after hackers stole funds from Binance.",
+   "meaning": "Digital security awareness is crucial for protecting personal brokerage and crypto accounts from theft.",
    "importance": 2
   },
   {
@@ -343,8 +343,8 @@
    "time": 1794606402,
    "tickers": [],
    "category": "Fed & Economy",
-   "summary": "The U.S. extended a shipping law waiver for 90 days to allow freer movement of oil and commodities.",
-   "meaning": "Temporary shipping waivers can help ease logistics bottlenecks and stabilize commodity supply chains.",
+   "summary": "The U.S. extended a shipping law waiver for 90 days to allow the freer movement of oil and commodities.",
+   "meaning": "Temporary shipping waivers can ease supply chain constraints and impact commodity transport costs.",
    "importance": 2
   },
   {
@@ -354,8 +354,8 @@
    "time": 1794605880,
    "tickers": [],
    "category": "Fed & Economy",
-   "summary": "U.S. flights are set to resume after an air traffic network failure caused widespread chaos.",
-   "meaning": "Resolution of domestic transit bottlenecks helps restore normal operations for transport and travel equities.",
+   "summary": "The U.S. is set to resume flights following an air traffic network failure that caused widespread chaos.",
+   "meaning": "Sudden transportation infrastructure failures can cause temporary operational hurdles for travel-dependent sectors.",
    "importance": 3
   },
   {
@@ -365,9 +365,9 @@
    "time": 1794605755,
    "tickers": [],
    "category": "Fed & Economy",
-   "summary": "U.S. Congress Democrats are plotting 'must-have' legislative victories for 2027.",
-   "meaning": "Upcoming legislative agendas signal where future policy debates and fiscal spending priorities may focus.",
-   "importance": 2
+   "summary": "U.S. Congressional Democrats are planning their legislative priorities and 'must-have' victories for 2027.",
+   "meaning": "Anticipating legislative goals helps long-term investors gauge potential regulatory changes in healthcare, taxes, and energy.",
+   "importance": 3
   },
   {
    "headline": "Agencies extend comment period for proposed third-party risk management guidance",
@@ -376,8 +376,8 @@
    "time": 1794604500,
    "tickers": [],
    "category": "Regulation",
-   "summary": "Agencies extended the comment period for proposed third-party risk management guidance.",
-   "meaning": "Regulatory compliance updates affect how financial institutions and corporations manage operational risks.",
+   "summary": "Agencies have extended the comment period for proposed third-party risk management guidance.",
+   "meaning": "Regulatory updates on risk management affect compliance costs and operational procedures for financial institutions.",
    "importance": 2
   }
  ]
