@@ -1,5 +1,5 @@
 {
- "updated": 1794763195,
+ "updated": 1794773875,
  "universe": [
   "AAPL",
   "MSFT",
@@ -37,13 +37,73 @@
   "Company"
  ],
  "digest": [
-  "Nvidia faces intense scrutiny, leadership turbulence, and calls for a shakeup heading into a major earnings call.",
-  "The AI trade and broader tech sector look toward upcoming IPOs like Anthropic amid market uncertainty.",
-  "Geopolitical tensions and military conflicts escalate in the Middle East, impacting shipping and regional stability.",
-  "US politics and regulatory shifts under a changing Congress continue to influence industries ranging from EVs to Social Security.",
-  "Retail investors are navigating personal finance topics, including retirement planning, real estate trends, and workplace benefits."
+  "Nvidia faces profound uncertainty following the resignation of CEO Jensen Huang and ongoing scrutiny over chip diversion.",
+  "Anthropic prepares for a major IPO that could provide a key catalyst for the broader artificial intelligence sector.",
+  "Geopolitical tensions escalate in the Middle East, with reported strikes, tanker fires, and retreating forces rattling Gulf bourses.",
+  "US equity indexes posted solid weekly gains despite tech-sector volatility and leadership turmoil.",
+  "EV makers and other industries weigh shifting regulatory environments following recent political changes."
  ],
  "items": [
+  {
+   "headline": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker",
+   "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+   "source": "CNBC",
+   "time": 1794772701,
+   "tickers": [
+    "NVDA"
+   ],
+   "category": "AI & Chips",
+   "summary": "Commerce Secretary Howard Lutnick faces questions regarding his family's financial ties to Nvidia following Jensen Huang's resignation.",
+   "meaning": "Regulatory scrutiny and leadership changes at key semiconductor firms can create volatility that ripples through your broader tech holdings.",
+   "importance": 4,
+   "action": "Watch",
+   "action_ticker": "NVDA",
+   "reason": "Jensen Huang's resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker."
+  },
+  {
+   "headline": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdTFBcWR1YzJhai1UdGgzMHpvdm40VExxeXFqM0NtbU9YVmNSNXpNeDlXTGllRXFtczhIUzVsaFFWdVV5TGxESWdneGlXbER1Qlg2b2VhQ2lqMmxVaEd4U01nZmNXcFY2bmNhSTdIN0VycE84MWJDRXdZOGxMRGo0U1k1UjhiamFNQ1JIQmp1MUdxNlZGRm1UanBvaENxR3V2N25NdFVOaWpXX1E?oc=5",
+   "source": "Reuters",
+   "time": 1794769159,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "Anti-Houthi forces retreated in Yemen while Iran struck Bahrain.",
+   "meaning": "Geopolitical conflicts in key energy regions can introduce sudden volatility into global markets and commodity prices.",
+   "importance": 3,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
+  },
+  {
+   "headline": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
+   "url": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
+   "source": "CNBC",
+   "time": 1794766218,
+   "tickers": [
+    "NVDA"
+   ],
+   "category": "AI & Chips",
+   "summary": "Bessent called for an outside CEO and a dramatic shakeup at Nvidia while criticizing Lutnick's department over suspected chip diversions.",
+   "meaning": "Public disputes and leadership calls at a dominant chipmaker can directly impact market confidence in the AI trade.",
+   "importance": 4,
+   "action": "Watch",
+   "action_ticker": "NVDA",
+   "reason": "Bessent has criticized Howard Lutnick’s department over suspected chip diversion to China while defending President Donald Trump’s handling of the matter."
+  },
+  {
+   "headline": "Yemen's Houthis say they launched ballistic missiles towards Riyadh airport, financial centre - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ2NSdXVjeDlTU0lLeTAtMGs5RmdHaW0wTVhVbzUwempOYUdlNVB3NXprMGZqYksyVjhLUU1OV250QlczemJOT2tXcVFIZEJYb0dwblVCblExbnFmZkVyeGZnZ0NJY3Z3a3NTcmxUQ21tR0ZsQVdhTTNRNWJaZW5pOEk4RDNEMXN3aExOaEE0QVNzaXV3UTM3ZjlNa2hDenRtajR2aGVGT3RQR0NOSnY1VHQ3czdCSkJWSUgxaFFYNThEUlBBMVpn?oc=5",
+   "source": "Reuters",
+   "time": 1794765773,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "Yemen's Houthis stated they launched ballistic missiles toward Riyadh's airport and financial center.",
+   "meaning": "Attacks targeting financial centers and major infrastructure can rattle regional markets and affect investor sentiment.",
+   "importance": 3,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
+  },
   {
    "headline": "Trump breaks silence about FAA nationwide ground stop, blames Biden administration",
    "url": "https://www.cnbc.com/2026/11/15/trump-breaks-silence-on-faa-nationwide-ground-stop-blames-biden-.html",
@@ -51,33 +111,12 @@
    "time": 1794761800,
    "tickers": [],
    "category": "Fed & Economy",
-   "summary": "Trump blamed the Biden administration for the FAA’s aging system after a nationwide ground stop disrupted air travel and urged Congress to approve more funding.",
-   "meaning": "Infrastructure disruptions can cause logistical headaches, but the text does not specify direct impacts on long-term portfolio holdings.",
-   "importance": 2
-  },
-  {
-   "headline": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
-   "url": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
-   "source": "CNBC",
-   "time": 1794761351,
-   "tickers": [
-    "NVDA"
-   ],
-   "category": "AI & Chips",
-   "summary": "Bessent called for a dramatic shakeup at Nvidia and an outside CEO while criticizing Howard Lutnick's department over suspected chip diversion to China.",
-   "meaning": "Leadership and regulatory scrutiny at major chipmakers can create volatility for key holdings in the tech sector.",
-   "importance": 4
-  },
-  {
-   "headline": "‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?",
-   "url": "https://www.marketwatch.com/story/we-had-the-worst-fight-weve-ever-had-i-want-my-husband-to-retire-at-65-but-i-dont-want-to-lose-his-280-000-salary-48511469?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "time": 1794758400,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "A couple debates retirement timing while reviewing their combined $2.6 million in retirement accounts and $450,000 brokerage account.",
-   "meaning": "Personal finance dilemmas highlight the importance of balancing retirement income needs with long-term asset allocation.",
-   "importance": 1
+   "summary": "Trump blamed the Biden administration for the FAA's aging system after a nationwide ground stop disrupted air travel.",
+   "meaning": "Infrastructure disruptions and related funding debates can occasionally highlight broader economic or administrative bottlenecks.",
+   "importance": 2,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
   },
   {
    "headline": "3 big things we're watching in the stock market in the week ahead",
@@ -86,9 +125,12 @@
    "time": 1794756380,
    "tickers": [],
    "category": "AI & Chips",
-   "summary": "Nvidia and Anthropic are set to share the spotlight in a pivotal week for the AI trade.",
-   "meaning": "Concentrated attention on major AI players can drive broader sentiment shifts across technology stocks.",
-   "importance": 4
+   "summary": "Nvidia and Anthropic are set to share the spotlight during a pivotal week for the AI trade.",
+   "meaning": "Concentrated developments in major artificial intelligence players can dictate short-term momentum for technology-heavy portfolios.",
+   "importance": 4,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
   },
   {
    "headline": "China’s hottest stocks these days have one thing in common: names that sound like sheep",
@@ -97,20 +139,12 @@
    "time": 1794756120,
    "tickers": [],
    "category": "Markets",
-   "summary": "Chinese stocks with names sounding like sheep have soared ahead of the Year of the Sheep despite little underlying business justification.",
-   "meaning": "Speculative market behavior in specific regions reminds long-term investors to focus on fundamentals rather than short-term naming trends.",
-   "importance": 2
-  },
-  {
-   "headline": "‘I’m sick of flying’: I paid for priority boarding, but the overhead bins were full. Was I duped?",
-   "url": "https://www.marketwatch.com/story/im-sick-of-flying-i-paid-for-priority-boarding-but-the-overhead-bins-were-full-was-i-duped-0badcc80?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "time": 1794754800,
-   "tickers": [],
-   "category": "Company",
-   "summary": "A frustrated air passenger complains about full overhead bins despite paying for priority boarding.",
-   "meaning": "This is an individual consumer grievance with no clear broader market implications mentioned.",
-   "importance": 1
+   "summary": "Chinese stocks with names sounding like sheep have soared ahead of the Year of the Sheep despite little relation to business fundamentals.",
+   "meaning": "Speculative retail trends driven by naming coincidences serve as a reminder of sentiment-driven market anomalies.",
+   "importance": 2,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
   },
   {
    "headline": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
@@ -120,10 +154,13 @@
    "tickers": [
     "NVDA"
    ],
-   "category": "Earnings",
-   "summary": "Jensen Huang’s sudden departure has made Nvidia's upcoming earnings call the most important in company history.",
-   "meaning": "Earnings reports from dominant tech companies heavily influence market momentum and investor sentiment.",
-   "importance": 5
+   "category": "AI & Chips",
+   "summary": "Nvidia prepares for a highly anticipated earnings call following Jensen Huang's sudden departure.",
+   "meaning": "Earnings calls for market-leading tech companies heavily influence sector valuations and broader index performance.",
+   "importance": 4,
+   "action": "Watch",
+   "action_ticker": "NVDA",
+   "reason": "Jensen Huang’s sudden departure has made Tuesday’s earnings call the most important in the company’s history."
   },
   {
    "headline": "Social Security and the blue wave: What could happen to payroll taxes and senior tax breaks",
@@ -132,20 +169,12 @@
    "time": 1794753001,
    "tickers": [],
    "category": "Fed & Economy",
-   "summary": "Democrats advocated taxing high earners to support Social Security, while a senior deduction is set to expire in two years.",
-   "meaning": "Changes to tax policy and social programs can affect overall financial planning and consumer tax burdens.",
-   "importance": 3
-  },
-  {
-   "headline": "‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?",
-   "url": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "time": 1794751200,
-   "tickers": [],
-   "category": "Fed & Economy",
-   "summary": "Demographic trends are creating a funding run on Social Security as public concerns persist.",
-   "meaning": "Long-term investors must consider potential shifts in government safety nets when planning their personal retirement timelines.",
-   "importance": 2
+   "summary": "Democrats advocated for taxing high earners to support Social Security, while a senior deduction is slated to expire in two years.",
+   "meaning": "Potential changes to payroll taxes and deductions could affect household cash flows and fiscal policy considerations.",
+   "importance": 3,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
   },
   {
    "headline": "Will the Anthropic IPO create a disturbance in the broader U.S. equity market, like SpaceX did?",
@@ -153,21 +182,27 @@
    "source": "MarketWatch",
    "time": 1794751200,
    "tickers": [],
-   "category": "Deals",
-   "summary": "Questions arise over whether the Anthropic IPO will disrupt the broader US equity market similarly to SpaceX's offering.",
-   "meaning": "Large initial public offerings can alter liquidity and sentiment within major tech and equity sectors.",
-   "importance": 3
+   "category": "Markets",
+   "summary": "Market participants question whether Anthropic's upcoming IPO will impact the broader U.S. equity market similarly to past major offerings.",
+   "meaning": "Large initial public offerings from prominent tech startups can shift liquidity and sentiment across the wider equity market.",
+   "importance": 3,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
   },
   {
-   "headline": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?",
-   "url": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "time": 1794749400,
+   "headline": "Gulf bourses slide as Hormuz tensions and houthi strikes rattle traders - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ1U5SnRYV0N6dE01QU1sOFNRWHR0WndCRG05bDl3UEhURE1jR01ZZ2p4dmFpb1llajB6QzdpRmp3WUZYSkhRRmhHT0tKY2hfWjN1b0U3UzJuUkZ3N3ZpWlU1Sk1pOWJvZ3cxcVVRVmhycW9ON2R1Um5nR3ZSQUtzTHE5aHlMb28wM2xyMzQtdnZHNUFfMWR4ZVZwN2pfc2RmcTRMTEtfY0NHbEh0dUo4N0g5UHNGTGJ3c1E?oc=5",
+   "source": "Reuters",
+   "time": 1794749503,
    "tickers": [],
    "category": "Markets",
-   "summary": "A personal dilemma involves a widow considering whether to leave her late partner's home to stepkids or cut off contact.",
-   "meaning": "Estate management is a personal matter that does not impact broader market investments.",
-   "importance": 1
+   "summary": "Gulf bourses declined as Strait of Hormuz tensions and Houthi strikes rattled traders.",
+   "meaning": "Regional Middle East tensions can cause immediate pullbacks in international markets and affect global risk appetite.",
+   "importance": 3,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
   },
   {
    "headline": "The U.S. is turning more socialist under Trump 2.0, one analyst says. What could change with a Democratic-run Congress?",
@@ -176,9 +211,12 @@
    "time": 1794749400,
    "tickers": [],
    "category": "Fed & Economy",
-   "summary": "An analyst notes that the US is turning more socialist under Trump 2.0, raising questions about potential changes with a Democratic-run Congress.",
-   "meaning": "Macroeconomic policy shifts can alter the regulatory landscape for various business sectors.",
-   "importance": 3
+   "summary": "An analyst noted potential changes in U.S. economic state control under different congressional setups.",
+   "meaning": "Shifts in government oversight and economic policy can alter the operating environment for various market sectors.",
+   "importance": 2,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
   },
   {
    "headline": "Yemeni government force retreats from strait in major setback in war against Houthis - Reuters",
@@ -186,10 +224,13 @@
    "source": "Reuters",
    "time": 1794749098,
    "tickers": [],
-   "category": "Fed & Economy",
-   "summary": "Yemeni government forces retreated from a strategic strait in a major setback against the Houthis.",
-   "meaning": "Geopolitical instability in shipping chokepoints can introduce broader supply chain and economic risks.",
-   "importance": 3
+   "category": "Markets",
+   "summary": "Yemeni government forces retreated from a strategic strait in a setback against the Houthis.",
+   "meaning": "Instability in crucial maritime shipping lanes can pose risks to global supply chains and energy transport.",
+   "importance": 3,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
   },
   {
    "headline": "Rivian, Lucid, Scout CEOs aren’t counting on Democrats to restore EV federal support after midterm wins",
@@ -198,9 +239,12 @@
    "time": 1794747602,
    "tickers": [],
    "category": "Regulation",
-   "summary": "Electric vehicle CEOs like Rivian, Lucid, and Scout are not counting on Democrats to restore federal support after midterm wins following past policy flip-flops.",
-   "meaning": "Shifting regulatory and government support can impact the growth trajectory of the green energy sector.",
-   "importance": 3
+   "summary": "EV executives stated they are not counting on Democrats to restore federal support after midterm outcomes.",
+   "meaning": "Uncertain regulatory and subsidy backing can create cyclical headwinds for capital-intensive clean energy and automotive businesses.",
+   "importance": 3,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
   },
   {
    "headline": "'We slept here.' Flight delays linger as airlines scramble to recover from ground stop",
@@ -208,10 +252,13 @@
    "source": "CNBC",
    "time": 1794747088,
    "tickers": [],
-   "category": "Company",
-   "summary": "Flight delays and disruptions lingered for two days after a four-hour nationwide FAA ground stop.",
-   "meaning": "Widespread transit disruptions can temporarily impact airline operations, though long-term investors generally look past short-term logistical hiccups.",
-   "importance": 2
+   "category": "Fed & Economy",
+   "summary": "Flight disruptions lingered following a nationwide FAA ground stop that lasted over four hours.",
+   "meaning": "Widespread transport groundings can cause temporary operational friction for the travel and airline industries.",
+   "importance": 2,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
   },
   {
    "headline": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
@@ -220,31 +267,12 @@
    "time": 1794744001,
    "tickers": [],
    "category": "AI & Chips",
-   "summary": "Anthropic's IPO arrives as the embattled AI trade desperately seeks positive momentum.",
-   "meaning": "Successful public offerings in the AI space can restore investor confidence in high-growth technology themes.",
-   "importance": 4
-  },
-  {
-   "headline": "Battle for young male voters intensifies after US midterm rebuke of Republicans - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUXZuc1Exa0s2dzJKQ3U1bkdxd01NelRtemI0SnpSVHZNQ2Z1bGM3MlpLQ29pZ1ZRNHJLWS1OQTM5bFJySnBKUUNLSXlNeDNvUlJ2Um00ZVZFaU13bW5rSTFwWHJINlJFSkd4UHNPUVk2Y1A0dWQ4cE5VeU5tRjVtZHlXZEt2c1VPeU9tNEl4N2RZWjRCRmpPMm92NjU0VVhiLTZTQXQ4cFY2YnZld3d0OFVwRnFxRkpP?oc=5",
-   "source": "Reuters",
-   "time": 1794741975,
-   "tickers": [],
-   "category": "Fed & Economy",
-   "summary": "The political battle for young male voters intensifies following the US midterm rebuke of Republicans.",
-   "meaning": "Political shifts can influence upcoming legislative priorities and regulatory outcomes.",
-   "importance": 2
-  },
-  {
-   "headline": "Jordan sentences three men to death over deadly church attack - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSW5qZzl5QmYwRkpOaUNfQlVXU1FOdEhVX0RUWEtsYjU5a3ZfWEJGS3R4MjVRYlVha3ZrcWpnQVV1SHQ0c09qY0V2U2RscnZUNjlaVjUwYW1GN2pfMjNHNE1LemRjUEZTSGlQY3JhcUNFTjhOYlNDZkVQTzFVbHZ1elgzX01md3BoRG0tam4zVEFha2tnUjU5TlllRmtrb09PMHFQVFZmNXNWSm9wTVRPYUFn?oc=5",
-   "source": "Reuters",
-   "time": 1794739903,
-   "tickers": [],
-   "category": "Markets",
-   "summary": "Jordan sentenced three men to death over a deadly church attack.",
-   "meaning": "Regional legal events carry localized impacts rather than direct effects on US market portfolios.",
-   "importance": 1
+   "summary": "Anthropic's IPO arrives as the AI trade seeks a much-needed positive catalyst.",
+   "meaning": "High-profile public offerings in artificial intelligence can sway investor confidence across the entire tech ecosystem.",
+   "importance": 4,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
   },
   {
    "headline": "Bahrain intercepts Iranian aerial attacks as Tehran says it attacked US base - Reuters",
@@ -253,9 +281,12 @@
    "time": 1794716700,
    "tickers": [],
    "category": "Markets",
-   "summary": "Bahrain intercepted Iranian aerial attacks while Tehran reported targeting a US base.",
-   "meaning": "Escalating Middle East conflicts can introduce volatility to global markets and energy prices.",
-   "importance": 4
+   "summary": "Bahrain intercepted Iranian aerial attacks while Tehran reported targeting a U.S. base.",
+   "meaning": "Direct military escalations involving state actors can increase safe-haven flows and market volatility.",
+   "importance": 4,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
   },
   {
    "headline": "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province - Reuters",
@@ -264,9 +295,12 @@
    "time": 1794711480,
    "tickers": [],
    "category": "Markets",
-   "summary": "A Saudi-led coalition intercepted missiles targeting Riyadh and drones in the Eastern Province.",
-   "meaning": "Attacks on energy-rich regions can heighten uncertainty for global commodities and equities.",
-   "importance": 3
+   "summary": "A Saudi-led coalition intercepted missiles directed toward Riyadh and drones in the Eastern Province.",
+   "meaning": "Attacks on oil-producing regions heighten geopolitical risk premiums in global energy markets.",
+   "importance": 3,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
   },
   {
    "headline": "Iran's navy says three tankers on fire after hitting mines in Hormuz - Reuters",
@@ -275,9 +309,12 @@
    "time": 1794696859,
    "tickers": [],
    "category": "Markets",
-   "summary": "Iran's navy reported that three tankers caught fire after hitting mines in the Strait of Hormuz.",
-   "meaning": "Disruptions in critical oil transit lanes can directly impact global energy supplies and market volatility.",
-   "importance": 4
+   "summary": "Iran's navy reported three tankers on fire after hitting mines in the Strait of Hormuz.",
+   "meaning": "Damage to commercial tankers in vital energy transit choke points can directly threaten global oil supplies.",
+   "importance": 4,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
   },
   {
    "headline": "Senior Hamas commander killed in Israeli strike in Gaza - Reuters",
@@ -287,8 +324,11 @@
    "tickers": [],
    "category": "Markets",
    "summary": "A senior Hamas commander was killed in an Israeli strike in Gaza.",
-   "meaning": "Ongoing military conflicts in the Middle East contribute to general geopolitical risk premiums in the market.",
-   "importance": 3
+   "meaning": "Ongoing military conflicts in the Middle East maintain a baseline level of geopolitical risk for global asset classes.",
+   "importance": 3,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
   },
   {
    "headline": "SpaceX, in a historic first, catches upper stage of its Starship rocket",
@@ -297,9 +337,12 @@
    "time": 1794691591,
    "tickers": [],
    "category": "Company",
-   "summary": "SpaceX successfully caught the upper stage of its Starship rocket for the first time during Test Flight 15.",
-   "meaning": "Aerospace advancements showcase technological progress, though privately held SpaceX shares are not traded publicly.",
-   "importance": 2
+   "summary": "SpaceX successfully caught the upper stage of its Starship rocket in a historic first.",
+   "meaning": "Milestones in private aerospace innovation highlight technological advancements in specialized heavy-industry sectors.",
+   "importance": 2,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
   },
   {
    "headline": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
@@ -310,9 +353,28 @@
     "NVDA"
    ],
    "category": "AI & Chips",
-   "summary": "Despite leadership turbulence at Nvidia rattling the AI trade, the S&P 500 and Nasdaq posted weekly gains.",
-   "meaning": "Broader market indexes can remain resilient even when high-profile individual stocks experience significant drama.",
-   "importance": 3
+   "summary": "Nvidia's leadership crisis rattled the AI trade while the S&P 500 and Nasdaq still posted solid weekly gains.",
+   "meaning": "Broader market indexes can remain resilient even when individual high-profile sector leaders experience severe internal turbulence.",
+   "importance": 4,
+   "action": "Watch",
+   "action_ticker": "NVDA",
+   "reason": "Nvidia's leadership crisis rattles the AI trade while the S&P 500 secured a weekly gain of 2.5% and the tech-heavy Nasdaq added 2.3%."
+  },
+  {
+   "headline": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+   "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+   "source": "CNBC",
+   "time": 1794678366,
+   "tickers": [
+    "NVDA"
+   ],
+   "category": "AI & Chips",
+   "summary": "Two major Nvidia investors are urging the company's board to consider the potential return of Jensen Huang.",
+   "meaning": "Investor activism following executive departures can shape corporate governance and strategic direction at critical market leaders.",
+   "importance": 3,
+   "action": "Watch",
+   "action_ticker": "NVDA",
+   "reason": "Two Nvidia investors with about $2.13 billion of stock disclosed as of June 30 are calling for a deliberate leadership search after Huang’s resignation."
   },
   {
    "headline": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
@@ -323,9 +385,12 @@
     "NVDA"
    ],
    "category": "AI & Chips",
-   "summary": "ETF experts note that Nvidia's turmoil and a Democratic Congress could shift AI demand toward other Big Tech stocks and rival chipmakers.",
-   "meaning": "Sector rotation trends can create new opportunities or risks within diversified technology portfolios.",
-   "importance": 4
+   "summary": "ETF experts note that Nvidia's turmoil and Democratic congressional control could shift AI demand to rival chipmakers and Big Tech stocks.",
+   "meaning": "Sector leadership changes often cause capital to rotate among competing equities within the same technological theme.",
+   "importance": 4,
+   "action": "Watch",
+   "action_ticker": "NVDA",
+   "reason": "ETF experts say Nvidia’s leadership turmoil and Democratic control of Congress could shift AI demand to the benefit of other Big Tech stocks, rival chipmakers."
   },
   {
    "headline": "Rising rents draw Wall Street money to industrial outdoor storage lot investments across the U.S.",
@@ -333,21 +398,27 @@
    "source": "CNBC",
    "time": 1794669297,
    "tickers": [],
-   "category": "Deals",
-   "summary": "Rising rents are drawing Wall Street giants like Brookfield and Blackstone to industrial outdoor storage lot investments across the US.",
-   "meaning": "Institutional interest in niche real estate asset classes highlights alternative avenues for commercial property growth.",
-   "importance": 2
+   "category": "Markets",
+   "summary": "Rising rents are drawing institutional money from firms like Brookfield and Blackstone into industrial outdoor storage lots.",
+   "meaning": "Niche real estate asset classes gaining institutional backing can offer alternative income streams for commercial property investors.",
+   "importance": 2,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
   },
   {
-   "headline": "Juice your growth and save on taxes in this workplace investment account",
-   "url": "https://www.cnbc.com/2026/11/14/hsa-investing-tax-benefits.html",
+   "headline": "How Rockstar's 'GTA VI' release could reshape gaming, streaming and even paid time off",
+   "url": "https://www.cnbc.com/2026/11/14/gta-6-grand-theft-auto-launch.html",
    "source": "CNBC",
-   "time": 1794665297,
+   "time": 1794668062,
    "tickers": [],
-   "category": "Fed & Economy",
-   "summary": "High-deductible medical benefit plans paired with health savings accounts are seeing broad enrollment options for 2027.",
-   "meaning": "Workplace investment accounts provide tax-advantaged ways for individuals to save for medical expenses and long-term goals.",
-   "importance": 2
+   "category": "Company",
+   "summary": "Rockstar's upcoming launch of 'GTA VI' on November 19 carries huge expectations that could impact gaming, streaming, and entertainment ecosystems.",
+   "meaning": "Major product releases from dominant entertainment companies can significantly affect their quarterly revenues and related ecosystem stocks.",
+   "importance": 2,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
   },
   {
    "headline": "Retailers are turning to entertainment to win shoppers’ attention",
@@ -355,21 +426,13 @@
    "source": "CNBC",
    "time": 1794661201,
    "tickers": [],
-   "category": "Company",
+   "category": "Markets",
    "summary": "Retailers are increasingly investing in entertainment studios to capture consumer attention.",
-   "meaning": "Corporate spending on alternative marketing strategies can influence operating expenses and consumer engagement for retail firms.",
-   "importance": 2
-  },
-  {
-   "headline": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
-   "url": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
-   "source": "CNBC",
-   "time": 1794657601,
-   "tickers": [],
-   "category": "Company",
-   "summary": "An Eric Trump-backed robot soldier startup missed payroll and ran low on cash after the founder borrowed $4.6 million to buy a home.",
-   "meaning": "Internal financial mismanagement in private startups underscores the risks inherent in early-stage venture investments.",
-   "importance": 2
+   "meaning": "Shifting marketing strategies toward entertainment show how traditional consumer companies are adapting to maintain engagement.",
+   "importance": 2,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
   },
   {
    "headline": "Meet the seven co-founders of Anthropic",
@@ -378,9 +441,26 @@
    "time": 1794657601,
    "tickers": [],
    "category": "AI & Chips",
-   "summary": "Anthropic's seven co-founders are poised to become multi-billionaires following the company's founding in 2021.",
-   "meaning": "The creation of immense private wealth in AI labs highlights the massive capital flows into the artificial intelligence sector.",
-   "importance": 3
+   "summary": "Anthropic's seven co-founders are poised to become multi-billionaires as the AI lab reaches major milestones.",
+   "meaning": "The immense wealth creation in private AI startups underscores the high capital valuations placed on foundational artificial intelligence developers.",
+   "importance": 3,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
+  },
+  {
+   "headline": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR2NiU2RGMHprbUFIMnNuTGJheHdpTzhuZFRCSWVGcl9HZF9raUd2VXQxNHE1WldRVzNaZWx6YnlRZFpueGZlb05DMElhZ3FEOVdLakpQWkNLaGktQWh6THRxT3V0aGVPaXI0dW9LVm9DeTJRekF1enJaamZ5bEd2SFZtSVNtTFd5VEp0WFl6U2VWX3BCRkYzbnB1c25QRnU2M3FBbDJBMHRTVWU5T0hyZG5sWFRPWUFIYVhuT1BMWTBkUVdNbDlF?oc=5",
+   "source": "Reuters",
+   "time": 1794654250,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "Trump told advisers he may hold off on Iran attacks barring new provocations.",
+   "meaning": "Signals of restraint from political leaders regarding military conflicts can help soothe nervous financial markets.",
+   "importance": 3,
+   "action": "",
+   "action_ticker": "",
+   "reason": ""
   }
  ]
 }
