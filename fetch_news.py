@@ -1,4 +1,5 @@
-"""Fetches trusted market news, asks Gemini to categorize/explain it, writes news.json."""
+"""Fetches trusted market news, asks Gemini to filter/categorize/explain it, writes news.json.
+Also refreshes tickers.json (company-name list for search) once a week."""
 import json, os, re, time, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -6,10 +7,12 @@ from email.utils import parsedate_to_datetime
 
 FINNHUB_KEY = os.environ.get("FINNHUB_API_KEY", "")
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "")
-MODEL = "gemini-flash-latest"  # if Gemini errors, check the model name in Google AI Studio
-BACKUP_MODEL = "gemini-flash-lite-latest"  # used if the main model stays busy
-MAX_ITEMS = 30
+MODEL = "gemini-flash-lite-latest"       # main model (fast, light)
+BACKUP_MODEL = "gemini-flash-latest"     # used if the main model stays busy
+MAX_CANDIDATES = 40   # articles sent to Gemini
+MAX_ITEMS = 30        # articles kept after the stocks-only filter
 UA = {"User-Agent": "Mozilla/5.0 (personal stock news project)"}
+SEC_URL = "https://www.sec.gov/files/company_tickers_exchange.json"
 
 # Default coverage: ticker -> name used to spot it in headlines. Edit freely.
 TICKERS = {
@@ -34,11 +37,17 @@ RSS_FEEDS = [
 
 CATEGORIES = ["Earnings", "Fed & Economy", "Big Tech", "AI & Chips",
               "Regulation", "Deals", "Markets", "Company"]
+ACTIONS = ["Buy", "Hold", "Sell", "Watch"]
+
+# Used only if Gemini is down: keeps items that look market-related.
+FINANCE_WORDS = ["stock", "shares", "market", "fed ", "federal reserve", "rate", "inflation",
+                 "earnings", "s&p", "nasdaq", "dow", "oil", "treasury", "econom", "tariff",
+                 "bank", "ipo", "merger", "acquisition", "chip", "revenue", "profit", "wall street"]
 
 items = {}
 
 
-def get(url, data=None, headers=None, timeout=90):
+def get(url, data=None, headers=None, timeout=60):
     req = urllib.request.Request(url, data=data, headers=headers or {})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read().decode("utf-8", "replace")
@@ -74,22 +83,38 @@ def add(headline, url, source, ts, text, tickers):
                   "time": int(ts), "raw": (text or "").strip(), "tickers": sorted(set(tickers))}
 
 
+def looks_financial(x):
+    if x["tickers"]:
+        return True
+    text = (x["headline"] + " " + x["raw"]).lower()
+    return any(w in text for w in FINANCE_WORDS)
+
+
 def analyze(lst):
-    """Ask Gemini for categories, plain-English meaning and a digest. Returns {} on failure."""
+    """Ask Gemini to filter, categorize, explain and suggest. Returns {} on failure."""
     if not GEMINI_KEY or not lst:
         return {}
     payload = [{"id": i, "headline": x["headline"], "text": x["raw"][:300], "tickers": x["tickers"]}
                for i, x in enumerate(lst)]
     prompt = (
-        "You explain market news to a beginner US retail investor with a mixed, mostly long-term style. "
-        "Use ONLY the headline and text supplied. Never invent facts, numbers or causes. "
-        "If something is unclear, say so. Do not give buy/sell advice or price predictions.\n"
-        f"Categories (pick exactly one per item): {CATEGORIES}.\n"
-        "For each item write: summary (one sentence, your own words), "
-        "meaning (1-2 plain sentences on why it might matter to this investor), "
-        "importance (1 low to 5 high).\n"
-        "Also write digest: 5 short bullets covering the biggest themes across all items.\n"
-        'Return JSON only: {"digest":[...],"items":[{"id":0,"category":"","summary":"","meaning":"","importance":3}]}\n'
+        "You are a careful markets explainer for a beginner US retail investor with a mixed, "
+        "mostly long-term style. Use ONLY the headline and text supplied. Never invent facts, "
+        "numbers or causes. If something is unclear, say so.\n"
+        "relevant: true only if the item is news about a specific public company or stock, a market "
+        "sector or index, commodities or currencies that move markets, central banks, the economy, or "
+        "policy that affects markets. false for personal-finance questions or anecdotes, retirement or "
+        "budgeting advice, lifestyle, real-estate tips, opinion pieces about someone's personal "
+        "situation, and anything not mainly about markets.\n"
+        f"For relevant items also give: category (exactly one of {CATEGORIES}), summary (one sentence, "
+        "your own words), meaning (1-2 plain sentences on why it might matter to this investor), "
+        "importance (1 low to 5 high), and a cautious suggestion: action = Buy, Hold, Sell or Watch, "
+        "only when the item is about ONE specific listed company, with its ticker and a reason "
+        "(one sentence using only facts in the text). Prefer Watch or Hold when the evidence is thin. "
+        'For general market or economy news use action "None" with empty ticker and reason. '
+        "Never promise returns or predict prices.\n"
+        "digest: 5 short bullets covering the biggest themes among the relevant items.\n"
+        'Return JSON only: {"digest":[...],"items":[{"id":0,"relevant":true,"category":"","summary":"",'
+        '"meaning":"","importance":3,"action":"None","ticker":"","reason":""}]}\n'
         "ITEMS:\n" + json.dumps(payload)
     )
     body = {"contents": [{"parts": [{"text": prompt}]}],
@@ -100,13 +125,105 @@ def analyze(lst):
             try:
                 raw = get(url, json.dumps(body).encode(),
                           {"Content-Type": "application/json", "x-goog-api-key": GEMINI_KEY},
-                          timeout=90)
+                          timeout=120)
                 text = json.loads(raw)["candidates"][0]["content"]["parts"][0]["text"]
                 return json.loads(text)
             except Exception as e:
                 print("Gemini failed:", model, "attempt", attempt + 1, e)
                 time.sleep(20)
     return {}
+
+
+def build_items(lst, result):
+    """Merge Gemini's answers into the articles, dropping anything not about markets."""
+    by_id = {}
+    for x in result.get("items", []):
+        try:
+            by_id[int(x["id"])] = x
+        except Exception:
+            pass
+    ai_ok = bool(by_id)
+    out = []
+    for i, x in enumerate(lst):
+        ai = by_id.get(i)
+        if ai is not None and ai.get("relevant") is False:
+            continue
+        if ai is None and not looks_financial(x):
+            continue
+        ai = ai or {}
+        cat = ai.get("category") if ai.get("category") in CATEGORIES else "Markets"
+        act = ai.get("action") if ai.get("action") in ACTIONS else ""
+        try:
+            imp = int(ai.get("importance", 2))
+        except Exception:
+            imp = 2
+        out.append({
+            "headline": x["headline"], "url": x["url"], "source": x["source"], "time": x["time"],
+            "tickers": x["tickers"], "category": cat,
+            "summary": ai.get("summary") or x["raw"][:200],
+            "meaning": ai.get("meaning", "") if ai_ok else "",
+            "importance": min(5, max(1, imp)),
+            "action": act,
+            "action_ticker": (str(ai.get("ticker") or "").upper()[:6]) if act else "",
+            "reason": (ai.get("reason") or "") if act else "",
+        })
+        if len(out) >= MAX_ITEMS:
+            break
+    return out
+
+
+def clean_name(n):
+    n = re.sub(r"\s*/[A-Za-z]{2,}/?\s*$", "", (n or "").strip()).strip(" ,")
+    return n.title() if n.isupper() else n
+
+
+def parse_sec(j):
+    """Turn the SEC company list into [[TICKER, Name], ...] for NYSE and Nasdaq."""
+    rows = []
+    if isinstance(j, dict) and "fields" in j and "data" in j:
+        f = j["fields"]
+        ti, ni = f.index("ticker"), f.index("name")
+        ei = f.index("exchange") if "exchange" in f else None
+        for r in j["data"]:
+            ex = (r[ei] or "") if ei is not None else ""
+            if ei is not None and ex.lower() not in ("nasdaq", "nyse"):
+                continue
+            rows.append((r[ti], r[ni]))
+    elif isinstance(j, dict):
+        for v in j.values():
+            if isinstance(v, dict) and "ticker" in v:
+                rows.append((v["ticker"], v.get("title", "")))
+    seen, out = set(), []
+    for t, n in rows:
+        t = (t or "").upper().replace("-", ".")
+        if not re.fullmatch(r"[A-Z][A-Z.]{0,5}", t) or t in seen:
+            continue
+        seen.add(t)
+        out.append([t, clean_name(n)])
+    return out
+
+
+def refresh_tickers():
+    """Save the company-name list (for the My stocks search) once a week."""
+    try:
+        with open("tickers.json", encoding="utf-8") as f:
+            old = json.load(f)
+        if old.get("data") and time.time() - old.get("fetched", 0) < 7 * 86400:
+            return
+    except Exception:
+        pass
+    owner = os.environ.get("GITHUB_REPOSITORY_OWNER", "stocknews")
+    headers = {"User-Agent": f"StockNewsPersonal {owner}@users.noreply.github.com"}
+    try:
+        data = parse_sec(json.loads(get(SEC_URL, headers=headers)))
+        if len(data) < 500:
+            raise ValueError(f"only {len(data)} companies found")
+        with open("tickers.json", "w", encoding="utf-8") as f:
+            json.dump({"fetched": int(time.time()), "data": data}, f, ensure_ascii=False,
+                      separators=(",", ":"))
+        print("Saved", len(data), "companies to tickers.json")
+    except Exception as e:
+        print("Company list failed:", e)
 
 
 def main():
@@ -136,7 +253,7 @@ def main():
     for name, url in RSS_FEEDS:
         try:
             root = ET.fromstring(get(url, headers=UA))
-            for it in list(root.iter("item"))[:8]:
+            for it in list(root.iter("item"))[:10]:
                 title = it.findtext("title") or ""
                 desc = re.sub(r"<[^>]+>", "", it.findtext("description") or "")
                 pub = it.findtext("pubDate")
@@ -145,27 +262,18 @@ def main():
         except Exception as e:
             print("Feed failed:", name, e)
 
-    lst = sorted(items.values(), key=lambda x: x["time"], reverse=True)[:MAX_ITEMS]
+    lst = sorted(items.values(), key=lambda x: x["time"], reverse=True)[:MAX_CANDIDATES]
     result = analyze(lst)
-    by_id = {int(x["id"]): x for x in result.get("items", []) if "id" in x}
-
-    out_items = []
-    for i, x in enumerate(lst):
-        ai = by_id.get(i, {})
-        cat = ai.get("category") if ai.get("category") in CATEGORIES else "Markets"
-        out_items.append({
-            "headline": x["headline"], "url": x["url"], "source": x["source"], "time": x["time"],
-            "tickers": x["tickers"], "category": cat,
-            "summary": ai.get("summary") or x["raw"][:200],
-            "meaning": ai.get("meaning", ""),
-            "importance": ai.get("importance", 2),
-        })
+    out_items = build_items(lst, result)
 
     out = {"updated": int(time.time()), "universe": list(TICKERS), "categories": CATEGORIES,
            "digest": result.get("digest", []), "items": out_items}
     with open("news.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
-    print("Wrote", len(out_items), "items")
+    print("Wrote", len(out_items), "items from", len(lst), "candidates")
+
+    refresh_tickers()
 
 
-main()
+if __name__ == "__main__":
+    main()
