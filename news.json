@@ -1,5 +1,5 @@
 {
- "updated": 1794708078,
+ "updated": 1794717662,
  "universe": [
   "AAPL",
   "MSFT",
@@ -37,13 +37,35 @@
   "Company"
  ],
  "digest": [
-  "SpaceX successfully caught the upper stage of its Starship rocket, marking a milestone in reusable rocketry.",
-  "Nvidia faced leadership turmoil following Jensen Huang's resignation, rattling the broader AI trade and drawing scrutiny.",
-  "Geopolitical tensions and Middle East conflicts impacted oil tanker supplies, shipping laws, and international relations.",
-  "Berkshire Hathaway shares reached record highs after a strong fourth-quarter rally.",
-  "Personal finance and retirement advice columns addressed real estate investments, inheritances, and estate planning."
+  "Geopolitical tensions involving Iran, Saudi Arabia, and international missile or drone events made news across multiple reports.",
+  "Nvidia experienced leadership and political scrutiny following Jensen Huang's resignation and board-level discussions.",
+  "SpaceX marked a milestone by catching its Starship rocket to achieve rapid reusability.",
+  "Wall Street real estate investments expanded into industrial outdoor storage lots due to rising rents.",
+  "Personal finance and market indices continued to see typical weekly performance updates and commentary."
  ],
  "items": [
+  {
+   "headline": "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOemlqVE1TdmREQ0t3TjczWnBWVGZ3TkxTc0ZPVC1fZFlrUDJCZC1KV0liZGdUTHBXZEZpWG9SNkJJSlBYSjVPbE1aUnNtWHl2eE1FbzlURGRwckdIT3R2NG9rVm1oX1V0VEZoWmYxM1dSbmhNc1BidnFLX19YRVU3Q2tzR1F5Vk1QX3dDNXVCeXZ6bmVES0lZNTBlR3E0Z1hJcXFyYXpMam80TGRWbURod1NsUXBwZldjdHFVejFwaWtmVmo3ZWYzYW5QMzk?oc=5",
+   "source": "Reuters",
+   "time": 1794711480,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "A Saudi-led coalition intercepted missiles headed toward Riyadh and drones in the Eastern Province.",
+   "meaning": "Geopolitical conflicts in oil-rich regions can introduce volatility into broader financial markets.",
+   "importance": 3
+  },
+  {
+   "headline": "Nationwide ground stop followed contractor upgrade to L3Harris telecommunication system: DOT’s Duffy",
+   "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
+   "source": "CNBC",
+   "time": 1794711239,
+   "tickers": [],
+   "category": "Fed & Economy",
+   "summary": "A nationwide FAA ground stop followed updates to an older L3Harris telecommunication system.",
+   "meaning": "Infrastructure or technology failures can cause temporary operational disruptions for transportation networks.",
+   "importance": 2
+  },
   {
    "headline": "SpaceX successfully catches Starship rocket in huge milestone for the space industry",
    "url": "https://www.marketwatch.com/story/spacex-successfully-catches-starship-rocket-in-huge-milestone-for-the-space-industry-f42c136c?mod=mw_rss_topstories",
@@ -51,31 +73,9 @@
    "time": 1794702780,
    "tickers": [],
    "category": "Company",
-   "summary": "SpaceX successfully caught the upper stage of its Starship rocket, moving closer to rapid reusability.",
-   "meaning": "This technical achievement highlights progress in aerospace innovation, though direct impacts on a long-term retail portfolio are unclear from the text.",
-   "importance": 2
-  },
-  {
-   "headline": "Israeli military says it struck senior armed Hamas commander - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUhZd1pxN2d0N3pmR2RCbjhCQk9teURKLThfYzR0bC1rVWJpVGUwNkpJelBNeVNLY3hxS1B0c0p2bTk5VmhCeFVGUWpHSFVNdHFKZjcydUdYNDEyMThuQ3hTRmFNSTQ0Z05ZSWRSd1A3QnM3eTRjWkNJbkN2Z2E5M1FQaUdrdUtaYzVNcWtVMC1LOU1yUkpoUk82d0ZQejM5cDR3YXVqcE5xMlJkTVU2dGduMDdsUWp2UG5ERFZUZw?oc=5",
-   "source": "Reuters",
-   "time": 1794698991,
-   "tickers": [],
-   "category": "Fed & Economy",
-   "summary": "The Israeli military reported striking a senior armed Hamas commander.",
-   "meaning": "Geopolitical events can create broader market volatility, but the specific impact on your long-term portfolio is unclear.",
-   "importance": 2
-  },
-  {
-   "headline": "Nationwide ground stop followed contractor upgrade to L3Harris telecommunication system: DOT’s Duffy",
-   "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
-   "source": "CNBC",
-   "time": 1794698481,
-   "tickers": [],
-   "category": "Company",
-   "summary": "A nationwide FAA ground stop followed updates to an older communication system managed by L3Harris Technologies.",
-   "meaning": "Operational issues involving major contractors can draw regulatory or public scrutiny, which may affect contractor relations and performance.",
-   "importance": 2
+   "summary": "SpaceX successfully caught its Starship rocket in a milestone for the space industry.",
+   "meaning": "This development brings the company closer to achieving rapid rocket reusability.",
+   "importance": 3
   },
   {
    "headline": "Iran's navy says three tankers on fire after hitting mines in Hormuz - Reuters",
@@ -84,8 +84,19 @@
    "time": 1794696859,
    "tickers": [],
    "category": "Markets",
-   "summary": "Iran's navy stated that three tankers caught fire after hitting mines in Hormuz.",
-   "meaning": "Incidents in key shipping lanes can influence global commodity and energy markets, potentially affecting energy costs.",
+   "summary": "Iran's navy reported that three tankers caught fire after hitting mines in Hormuz.",
+   "meaning": "Disruptions in vital shipping lanes can impact global supply chains and energy markets.",
+   "importance": 3
+  },
+  {
+   "headline": "Hamas says senior armed commander killed in Israeli strike - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUhZd1pxN2d0N3pmR2RCbjhCQk9teURKLThfYzR0bC1rVWJpVGUwNkpJelBNeVNLY3hxS1B0c0p2bTk5VmhCeFVGUWpHSFVNdHFKZjcydUdYNDEyMThuQ3hTRmFNSTQ0Z05ZSWRSd1A3QnM3eTRjWkNJbkN2Z2E5M1FQaUdrdUtaYzVNcWtVMC1LOU1yUkpoUk82d0ZQejM5cDR3YXVqcE5xMlJkTVU2dGduMDdsUWp2UG5ERFZUZw?oc=5",
+   "source": "Reuters",
+   "time": 1794695460,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "Hamas stated that a senior armed commander was killed in an Israeli strike.",
+   "meaning": "Middle East conflicts remain fluid and can create broad uncertainty in global financial markets.",
    "importance": 3
   },
   {
@@ -95,8 +106,8 @@
    "time": 1794691860,
    "tickers": [],
    "category": "Markets",
-   "summary": "A personal finance query discussed spending $95,000 on a roof deck for a $500,000 home.",
-   "meaning": "Personal finance scenarios offer perspective on budgeting and asset allocation, though they do not directly alter market conditions.",
+   "summary": "A personal finance query discussed whether spending $95,000 on a roof deck for a $500,000 home is a good investment.",
+   "meaning": "Personal budgeting choices regarding home improvements vary depending on individual net worth.",
    "importance": 1
   },
   {
@@ -106,9 +117,9 @@
    "time": 1794691591,
    "tickers": [],
    "category": "Company",
-   "summary": "SpaceX executed a historic test flight by attempting to catch both the booster and upper stage of its Starship rocket.",
-   "meaning": "Advancements in private space technology showcase industry growth, though how it translates to public market returns is unspecified.",
-   "importance": 2
+   "summary": "SpaceX attempted to catch both the booster and upper stage of its Starship rocket in Test Flight 15.",
+   "meaning": "Technical advancements in aerospace can reshape the long-term economics of space transport.",
+   "importance": 3
   },
   {
    "headline": "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?",
@@ -117,8 +128,8 @@
    "time": 1794690000,
    "tickers": [],
    "category": "Markets",
-   "summary": "An individual asked for advice regarding a postnuptial agreement after inheriting $1.4 million.",
-   "meaning": "Inheritance and estate planning highlight individual wealth management strategies rather than macro market shifts.",
+   "summary": "An individual inherited $1.4 million and asked about requesting a postnuptial agreement from her husband.",
+   "meaning": "Inheritances often prompt legal and estate planning discussions within families.",
    "importance": 1
   },
   {
@@ -128,8 +139,8 @@
    "time": 1794686400,
    "tickers": [],
    "category": "Markets",
-   "summary": "An advice column addressed a family concern over an elderly mother giving money to a cousin for car repairs.",
-   "meaning": "This touches on personal family finance and elder care rather than public market trends.",
+   "summary": "An individual expressed concern after an elderly mother gave a cousin $800 for car repairs.",
+   "meaning": "Family financial assistance is a personal matter that does not directly impact the broader stock market.",
    "importance": 1
   },
   {
@@ -139,8 +150,8 @@
    "time": 1794684600,
    "tickers": [],
    "category": "Markets",
-   "summary": "A traveler expressed frustration over full overhead bins despite paying for priority boarding.",
-   "meaning": "Consumer travel grievances reflect customer service issues rather than corporate financial performance.",
+   "summary": "A frustrated airline passenger complained about full overhead bins despite paying for priority boarding.",
+   "meaning": "Consumer service experiences in the travel industry highlight everyday customer complaints rather than market trends.",
    "importance": 1
   },
   {
@@ -152,8 +163,8 @@
     "NVDA"
    ],
    "category": "AI & Chips",
-   "summary": "Nvidia experienced a leadership crisis that rattled the AI trade, while the S&P 500 and Nasdaq still posted weekly gains.",
-   "meaning": "Because Nvidia is a major driver of the AI sector, leadership changes can create short-term turbulence for tech-heavy portfolios.",
+   "summary": "Nvidia's leadership crisis rattled the AI trade while the S&P 500 and Nasdaq still posted weekly gains.",
+   "meaning": "Turmoil at a major market bellwether can cause sector volatility even while broader indices rise.",
    "importance": 4
   },
   {
@@ -163,8 +174,8 @@
    "time": 1794681000,
    "tickers": [],
    "category": "Markets",
-   "summary": "An advice seeker asked whether a widow should leave her late partner's home to stepkids or cut off contact.",
-   "meaning": "Estate and family decisions are personal matters that do not impact broader market investments.",
+   "summary": "A widow considered whether to leave her late partner's home to her stepkids or cut off contact.",
+   "meaning": "Estate and family distribution decisions are personal legal issues rather than public market drivers.",
    "importance": 1
   },
   {
@@ -174,8 +185,8 @@
    "time": 1794679200,
    "tickers": [],
    "category": "Markets",
-   "summary": "A couple debated the affordability of a $200,000-a-year retirement given their existing savings and home value.",
-   "meaning": "Retirement planning metrics provide personal benchmarks, but do not influence broader stock market behavior.",
+   "summary": "A couple debated whether a $200,000-a-year retirement plan was affordable given their $2 million in retirement accounts.",
+   "meaning": "Retirement planning calculations depend heavily on personal savings and expected lifestyle costs.",
    "importance": 1
   },
   {
@@ -185,8 +196,8 @@
    "time": 1794678600,
    "tickers": [],
    "category": "Fed & Economy",
-   "summary": "Senator Bernie Sanders proposed eliminating the taxable maximum to keep Social Security solvent.",
-   "meaning": "Tax policy proposals targeting high earners can influence future tax planning and wealth distribution discussions.",
+   "summary": "Bernie Sanders proposed eliminating the taxable maximum to keep Social Security solvent.",
+   "meaning": "Legislative proposals regarding tax policy and social programs can influence future fiscal planning for high earners.",
    "importance": 2
   },
   {
@@ -198,8 +209,8 @@
     "NVDA"
    ],
    "category": "AI & Chips",
-   "summary": "Two major Nvidia investors urged the board to consider the potential return of Jensen Huang after his resignation.",
-   "meaning": "Investor pressure regarding C-suite leadership at a dominant chipmaker can influence corporate strategy and stock sentiment.",
+   "summary": "Two major Nvidia investors urged the board to consider the potential return of Jensen Huang following his resignation.",
+   "meaning": "Investor pressure regarding executive leadership can heavily impact corporate strategy and stability.",
    "importance": 4
   },
   {
@@ -211,9 +222,9 @@
     "NVDA"
    ],
    "category": "AI & Chips",
-   "summary": "ETF experts noted that Nvidia's turmoil and a Democratic Congress could shift AI demand toward rival chipmakers and Big Tech.",
-   "meaning": "Sector shifts can create opportunities or risks within tech-focused ETFs and alternative semiconductor stocks.",
-   "importance": 4
+   "summary": "ETF experts noted that Nvidia's turmoil and a Democratic Congress could shift AI demand to other Big Tech stocks and rival chipmakers.",
+   "meaning": "Changes in leadership and politics can cause capital to rotate among different companies within the same sector.",
+   "importance": 3
   },
   {
    "headline": "Rising rents draw Wall Street money to industrial outdoor storage lot investments across the U.S.",
@@ -222,8 +233,8 @@
    "time": 1794669297,
    "tickers": [],
    "category": "Deals",
-   "summary": "Rising rents are drawing Wall Street giants like Brookfield and Blackstone into industrial outdoor storage lot investments.",
-   "meaning": "Institutional interest in niche real estate sectors highlights where large capital is seeking yield outside traditional markets.",
+   "summary": "Rising rents drew Wall Street firms like Brookfield and Blackstone to industrial outdoor storage lot real estate investments.",
+   "meaning": "Institutional real estate investors continuously seek out niche property sectors with strong rental demand.",
    "importance": 2
   },
   {
@@ -233,9 +244,9 @@
    "time": 1794668062,
    "tickers": [],
    "category": "Company",
-   "summary": "Rockstar's upcoming release of 'GTA VI' on November 19 is expected to impact gaming, streaming, and associated industries.",
-   "meaning": "Major entertainment product launches can significantly affect the quarterly performance of parent companies and related media sectors.",
-   "importance": 3
+   "summary": "Rockstar's 'GTA VI' release is expected to impact gaming, streaming, paid time off, and other industries.",
+   "meaning": "Major entertainment releases can create secondary economic ripples across consumer spending and media platforms.",
+   "importance": 2
   },
   {
    "headline": "Juice your growth and save on taxes in this workplace investment account",
@@ -244,8 +255,8 @@
    "time": 1794665297,
    "tickers": [],
    "category": "Fed & Economy",
-   "summary": "Employers are increasingly offering high-deductible health plans with health savings accounts during enrollment season.",
-   "meaning": "Understanding workplace benefits helps optimize personal tax savings and medical expense budgeting.",
+   "summary": "High-deductible health savings accounts are being offered by employers during enrollment season for 2027.",
+   "meaning": "Workplace benefits provide tax-advantaged ways for individuals to save for medical expenses.",
    "importance": 2
   },
   {
@@ -255,8 +266,8 @@
    "time": 1794664959,
    "tickers": [],
    "category": "Company",
-   "summary": "Berkshire Hathaway shares reached record highs, finishing a strong week with a 19% fourth-quarter rally.",
-   "meaning": "Strong momentum in a major conglomerate like Berkshire reflects steady investor confidence in its underlying businesses.",
+   "summary": "Berkshire Hathaway shares reached record highs following a fourth-quarter rally.",
+   "meaning": "Strong momentum in large holding companies reflects investor confidence in their underlying asset portfolios.",
    "importance": 3
   },
   {
@@ -266,8 +277,8 @@
    "time": 1794661201,
    "tickers": [],
    "category": "Company",
-   "summary": "Retailers are increasingly investing in entertainment studios to capture consumer attention.",
-   "meaning": "Shifting marketing strategies toward entertainment show how consumer brands are adapting to compete for engagement.",
+   "summary": "Retailers are increasingly building out entertainment studios to capture shopper attention.",
+   "meaning": "Companies are adapting marketing and retail strategies to compete for consumer engagement.",
    "importance": 2
   },
   {
@@ -277,8 +288,8 @@
    "time": 1794657601,
    "tickers": [],
    "category": "Company",
-   "summary": "An Eric Trump-backed robot soldier startup missed payroll after the founder borrowed $4.6 million from the company to buy a home.",
-   "meaning": "Corporate governance issues and cash shortages in private startups highlight the risks inherent in early-stage venture investments.",
+   "summary": "An Eric Trump-backed robot startup missed payroll after the founder borrowed $4.6 million from the company to buy a home.",
+   "meaning": "Internal financial management issues can threaten the survival of early-stage private startup companies.",
    "importance": 2
   },
   {
@@ -287,9 +298,9 @@
    "source": "CNBC",
    "time": 1794657601,
    "tickers": [],
-   "category": "Company",
+   "category": "AI & Chips",
    "summary": "Anthropic's seven co-founders are poised to become multi-billionaires following the company's growth since 2021.",
-   "meaning": "Private AI company valuations illustrate the massive capital appreciation occurring in the private sector.",
+   "meaning": "Early-stage startup success can generate immense wealth for its original founders and backers.",
    "importance": 2
   },
   {
@@ -298,9 +309,9 @@
    "source": "Reuters",
    "time": 1794654250,
    "tickers": [],
-   "category": "Fed & Economy",
-   "summary": "Sources indicated Trump told advisers he may hold off on Iran attacks barring new provocations.",
-   "meaning": "Geopolitical restraint can ease immediate fears of escalation, which helps stabilize energy and equity markets.",
+   "category": "Markets",
+   "summary": "Sources indicated that Trump may hold off on Iran attacks barring new provocations.",
+   "meaning": "Geopolitical restraint can help prevent sudden spikes in market anxiety related to military escalations.",
    "importance": 3
   },
   {
@@ -310,9 +321,20 @@
    "time": 1794618360,
    "tickers": [],
    "category": "Regulation",
-   "summary": "Rubio criticized an international court during a speech to a conservative legal group.",
-   "meaning": "Political rhetoric regarding international bodies impacts diplomatic relations, though direct effects on retail portfolios are indirect.",
+   "summary": "Marco Rubio criticized an international court during a speech to a conservative legal group.",
+   "meaning": "Political commentary on international bodies highlights ongoing diplomatic policy stances.",
    "importance": 1
+  },
+  {
+   "headline": "US denies Iran's claim that it attacked early-warning radar in Bahrain - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjhnZVFHWnV4RHpscnFyUjFWOEl5VndNZ0Y4MFdEVlpueUNaeHRPMVdCbjA4Mmktc0tYWnFsZWdZSkd4dFNvTmszUHFWdC15S0pja2ozaTg0R0dOdEY3aDJtenZwREh5dmRvTGVTUkxVUDNjN3huQU1TRTU1bEVBampuYzdsTjJJZ2tBUXQwal85QnRsWDU4OWNvbDVzN0VUR1R0clNkZmpkaXZMaWh5dExSNHRCUQ?oc=5",
+   "source": "Reuters",
+   "time": 1794617042,
+   "tickers": [],
+   "category": "Markets",
+   "summary": "The US denied Iran's claim that it attacked an early-warning radar station in Bahrain.",
+   "meaning": "Conflicting claims in international disputes add uncertainty to regional security assessments.",
+   "importance": 2
   },
   {
    "headline": "Trump to raise nuclear-arms cuts with Putin, Xi on Thursday, White House says - Reuters",
@@ -320,9 +342,9 @@
    "source": "Reuters",
    "time": 1794615720,
    "tickers": [],
-   "category": "Fed & Economy",
+   "category": "Markets",
    "summary": "The White House announced that Trump will raise nuclear-arms cuts with Putin and Xi.",
-   "meaning": "High-level international diplomatic talks can signal shifts in global stability and defense spending priorities.",
+   "meaning": "High-level diplomatic talks between major global powers can influence international relations.",
    "importance": 2
   },
   {
@@ -334,8 +356,8 @@
     "NVDA"
    ],
    "category": "Regulation",
-   "summary": "Commerce Secretary Howard Lutnick faced questions over financial ties between his sons' firm and Nvidia following Jensen Huang's resignation.",
-   "meaning": "Government officials facing scrutiny over industry ties can introduce regulatory uncertainty for affected technology sectors.",
+   "summary": "Jensen Huang's resignation brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to Nvidia.",
+   "meaning": "Government officials can face public questions when their family investments intersect with volatile market sectors.",
    "importance": 3
   },
   {
@@ -345,8 +367,8 @@
    "time": 1794609756,
    "tickers": [],
    "category": "Markets",
-   "summary": "Oil prices headed for a second consecutive weekly drop due to signs of a growing supply surplus.",
-   "meaning": "Lower oil prices can reduce input costs for consumers and transportation, but may pressure energy sector earnings.",
+   "summary": "Oil prices headed for their second straight weekly drop amid signs of a growing supply surplus.",
+   "meaning": "Supply and demand imbalances directly drive price trends in the global energy market.",
    "importance": 3
   },
   {
@@ -355,31 +377,9 @@
    "source": "Reuters",
    "time": 1794609282,
    "tickers": [],
-   "category": "Fed & Economy",
+   "category": "Markets",
    "summary": "The US Air Force responded to suspected drone activity over a UK airbase.",
-   "meaning": "Security incidents involving military bases highlight ongoing defense readiness, but rarely dictate long-term market trends.",
-   "importance": 2
-  },
-  {
-   "headline": "Hackers stole $6.3 billion from Binance—2 habits that take 'a few seconds' can help you avoid similar traps",
-   "url": "https://www.cnbc.com/make-it/2026/11/13/binance-hack-2-online-habits-that-can-help-you-avoid-scams-.html",
-   "source": "CNBC",
-   "time": 1794607615,
-   "tickers": [],
-   "category": "Company",
-   "summary": "Researchers shared two quick habits to help users avoid online traps after hackers stole $6.3 billion from Binance.",
-   "meaning": "Cybersecurity awareness is vital for retail investors managing online brokerage and crypto accounts.",
-   "importance": 2
-  },
-  {
-   "headline": "US extends shipping law waiver 90 days, to allow freer movement of oil, commodities - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ2lneWN6TzV1ZXctMUFVUlJSbVVDUG1vOWNYM1d2Z25QV1ZlSHdjSFVmblhtX1UzNEQySEYwdjZNZGw3VnZPc00yOTEtSWFsY25CRTRhaGZJM2tFamQ3cDl6YTEwbmJLQ1VmdHo2Y2hjVThnNjdiQTNfai1xTDhFcmFITF9WblV6Rlk1M0FnbDRFWXJjdXA5R19ERUZ2WjdyZmg4bUxPQ2RZcmhaUzZxRjIwQk5jTWw1cUwxVw?oc=5",
-   "source": "Reuters",
-   "time": 1794606402,
-   "tickers": [],
-   "category": "Regulation",
-   "summary": "The US extended a shipping law waiver for 90 days to allow freer movement of oil and commodities.",
-   "meaning": "Regulatory waivers on shipping can temporarily ease supply chain bottlenecks and affect commodity logistics.",
+   "meaning": "Unidentified drone sightings near military installations reflect ongoing security vigilance abroad.",
    "importance": 2
   }
  ]
