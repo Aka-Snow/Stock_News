@@ -1,13 +1,22 @@
 name: Update news
 on:
   schedule:
-    - cron: "17 * * * *"
+    # every 10 minutes while US markets are open (times are UTC)
+    - cron: "*/10 13-21 * * 1-5"
+    # hourly overnight on weekdays
+    - cron: "17 0-12,22,23 * * 1-5"
+    # hourly on weekends
+    - cron: "17 * * * 0,6"
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: update-news
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -24,4 +33,5 @@ jobs:
           git config user.email "news-bot@users.noreply.github.com"
           git add -A
           git commit -m "Update news" || exit 0
+          git pull --rebase -q || true
           git push
